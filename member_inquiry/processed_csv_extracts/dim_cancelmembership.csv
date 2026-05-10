@@ -1,0 +1,8 @@
+session_id,confirmations,reason_asked,reason
+SESSION-CANCEL1234,confirm_plan_update: Great! I’ve updated your membership to the month-to-month plan effective immediately.,,
+SESSION-EXP123456,"confirm_issue: I see the charges here. It looks like the cancellation didn’t go through. || confirm_followup: Yes, it’s already been sent to your email address on file.",,
+SESSION-MEMCAN777,"confirm_cancellation: Alright, I’ve processed the cancellation as of today.",yes,I haven’t been using the benefits and need to cut costs.
+SESSION-MEMCAN789,confirm_cancellation_processed: Your Premium membership has been cancelled. You will receive an email confirmation shortly.,yes,"I’m not using the benefits enough, and it’s a bit pricey for me right now."
+SESSION-MEMCANCEL789,confirm_cancellation_process: Alright. Your membership cancellation is processed. Would you like to know about our refund policy?,yes,I haven’t been using the benefits and it’s too expensive for me right now.
+SESSION-MEMCXL789,"confirm_cancellation_complete: Your cancellation is complete. You’ll get an email confirmation shortly. || confirm_cancellation_process: Okay, I’m processing your cancellation now. Your membership will remain active until the end of your billing cycle.",yes,I’m not using the benefits enough and the price is too high for me right now.
+SESSION-REACT5673,confirm_account_status: I see your membership was canceled in March. Is that correct? || confirm_plan_activation: Absolutely. I’ll activate your Flex plan now and email your welcome packet.,yes,"Yeah, I had to pause for financial reasons."

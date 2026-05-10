@@ -1,0 +1,101 @@
+session_id,conversion_turn,emotion_evolution,intent,conversation_text
+SESSION-BILL8932,1,concerned,billing_dispute,"Hi, I noticed an extra charge on my last bill that I don’t recognize."
+SESSION-BILL8932,2,frustrated,dispute_charge,"No, I made the payment on time. I have the confirmation email here."
+SESSION-BILL8932,3,calmed,express_gratitude,"Okay, thank you for your help."
+SESSION-CANCEL1023,1,determined,cancel_membership,"Hello, I’d like to cancel my membership and want to know if I’m eligible for a refund."
+SESSION-CANCEL1023,2,hopeful,ask_refund_process,Great! What’s the process to get the refund?
+SESSION-CANCEL1023,3,concerned,ask_service_termination,Thank you. Will I lose access immediately after cancellation?
+SESSION-CANCEL1023,4,grateful,express_gratitude,"Okay, I appreciate your help."
+SESSION-CANCEL1234,1,concerned,request_membership_cancellation,"Hi, I want to cancel my membership. Can you tell me if there are any penalties?"
+SESSION-CANCEL1234,2,interested,request_plan_details,That sounds better. How does the month-to-month plan work?
+SESSION-CANCEL1234,3,decisive,confirm_plan_switch,"Okay, I want to switch to the month-to-month plan instead."
+SESSION-CANCEL1234,4,happy,express_gratitude,Thanks for your help!
+SESSION-DEPADD9054,1,intentional,add_dependent,"Hi, I’m trying to add my daughter to my account now that she’s turned 13."
+SESSION-DEPADD9054,2,cooperative,ask_documentation_requirements,Perfect. What do you need from me to add her?
+SESSION-DEPADD9054,3,helpful,provide_dependent_info,"Got it. Her name is Maya Jenkins, born July 12, 2012."
+SESSION-DEPADD9054,4,compliant,confirm_action,"Okay, I’ll upload that tonight."
+SESSION-DEPADD9054,5,grateful,express_gratitude,Will do. Thanks so much!
+SESSION-EXP123456,1,frustration,cancel_subscription,"Hi, I’ve been trying to cancel my subscription but I keep getting charged."
+SESSION-EXP123456,2,annoyed,escalate,"Exactly, I’ve emailed twice but didn’t hear back."
+SESSION-EXP123456,3,relief,gratitude,"Thanks, I appreciate you taking care of this."
+SESSION-EXP123456,4,inquisitive,request_followup,That’s great. Do I get a confirmation email?
+SESSION-MEM554433,1,confused,benefits_confusion,"Hi, I just got an email saying I qualify for free shipping, but it didn’t apply at checkout."
+SESSION-MEM554433,2,helpful,provide_account_info,"Sure, I’m a Gold member. My ID is MBR-890112."
+SESSION-MEM554433,3,relieved,acknowledge_info,"Oh no, it was just under. That explains it, thanks."
+SESSION-MEM554433,4,satisfied,confirm_resolution,Great. That clears it up.
+SESSION-MEM998877,1,neutral,membership_expiry_inquiry,"Hi, I’m trying to check when my membership expires."
+SESSION-MEM998877,2,curious,upgrade_request,Can I renew it in advance or upgrade to Gold?
+SESSION-MEM998877,3,interested,pricing_inquiry,That sounds good. What’s the cost difference?
+SESSION-MEM998877,4,decisive,confirm_action,"Alright, go ahead and upgrade it please."
+SESSION-MEMBEN339,1,curious,benefit_eligibility_inquiry,"Hi, I saw a promotion for members on electronics. Does my purchase qualify?"
+SESSION-MEMBEN339,2,neutral,provide_order_details,"It’s order 982213, purchased on October 10th."
+SESSION-MEMBEN339,3,interested,request_benefit_details,Awesome. What’s the benefit exactly?
+SESSION-MEMBEN339,4,satisfied,confirm_resolution,Perfect. That’s all I needed to know.
+SESSION-MEMCAN777,1,firm,cancel_membership,"Hi, I’d like to cancel my Platinum membership effective immediately."
+SESSION-MEMCAN777,2,resigned,explain_cancellation_reason,I haven’t been using the benefits and need to cut costs.
+SESSION-MEMCAN777,3,decisive,reaffirm_cancellation,No thanks. I really just want to cancel.
+SESSION-MEMCAN777,4,relieved,express_gratitude,Thanks. Appreciate it.
+SESSION-MEMCAN789,1,frustrated,membership_cancellation_request,"Hello, I’d like to cancel my Premium membership."
+SESSION-MEMCAN789,2,resigned,provide_cancellation_reason,"I’m not using the benefits enough, and it’s a bit pricey for me right now."
+SESSION-MEMCAN789,3,decisive,confirm_cancellation,"Yes, please proceed with the cancellation."
+SESSION-MEMCAN789,4,neutral,express_gratitude,Thanks for your help.
+SESSION-MEMCANCEL789,1,dissatisfied,membership_cancellation_request,"Hello, I’d like to cancel my Premium membership."
+SESSION-MEMCANCEL789,2,disappointed,provide_cancellation_reason,I haven’t been using the benefits and it’s too expensive for me right now.
+SESSION-MEMCANCEL789,3,firm,confirm_cancellation,"No, I just want to cancel."
+SESSION-MEMCANCEL789,4,inquiring,request_refund_info,"Yes, please."
+SESSION-MEMCANCEL789,5,neutral,end_conversation,Thanks for the information. Goodbye.
+SESSION-MEMCXL789,1,frustrated,cancel_membership_request,"Hi, I want to cancel my Premium membership. Can you help me with that?"
+SESSION-MEMCXL789,2,polite,express_gratitude,Thanks for your help today.
+SESSION-MEMCXL789,3,disappointed,explain_cancellation_reason,I’m not using the benefits enough and the price is too high for me right now.
+SESSION-MEMCXL789,4,firm,confirm_cancellation,"No, thanks. I still want to cancel."
+SESSION-MEMCXL789,5,concerned,refund_inquiry,Will I get any refund for the remaining period?
+SESSION-MEMCXL789,6,resigned,final_cancellation_confirmation,"Thanks, I’ll keep that in mind. Please go ahead with the cancellation."
+SESSION-MEMINFO123,1,curious,membership_benefits_inquiry,"Hello, I want to know more about the benefits included in my Standard membership."
+SESSION-MEMINFO123,2,inquiring,renewal_date_inquiry,Thanks! When does my membership renew?
+SESSION-MEMINFO123,3,inquiring,billing_update_inquiry,Can I update my billing information over the phone?
+SESSION-MEMINFO123,4,grateful,express_gratitude,"Okay, thanks for letting me know."
+SESSION-MEMINFO123,5,happy,end_conversation,"No, that’s all. Have a great day!"
+SESSION-MEMINFO333,1,curious,benefits_inquiry,"Hey, I just had a question about what benefits come with my membership."
+SESSION-MEMINFO333,2,curious,billing_cycle_inquiry,"Okay, cool. And how often does it renew? I didn’t see that part."
+SESSION-MEMINFO333,3,concerned,auto_renewal_inquiry,And does it charge automatically?
+SESSION-MEMINFO333,4,satisfied,express_gratitude,"Alright, that’s helpful. Thanks!"
+SESSION-MEMINFO333,5,polite,end_conversation,"Nope, that’s it. Have a good one."
+SESSION-MEMLOGIN415,1,frustrated,login_issue_report,"Hi, I’m having trouble logging into my account on your website."
+SESSION-MEMLOGIN415,2,neutral,provide_identity_info,"Sure, my name is Derek Lin, and the email is derek.lin@gmail.com."
+SESSION-MEMLOGIN415,3,confused,report_login_error,"Yes, it says my password is incorrect, but I’m sure it’s right."
+SESSION-MEMLOGIN415,4,relieved,acknowledge_reset_email,Got it. I’ll click it and set a new password.
+SESSION-MEMLOGIN415,5,grateful,end_interaction,"No, that’s okay. I’ll try now and call back if it still doesn’t work. Thanks a lot!"
+SESSION-MEMREN101,1,neutral,membership_renewal_inquiry,"Hi, can you tell me when my membership will renew?"
+SESSION-MEMREN101,2,inquiring,auto_renewal_status_inquiry,Is my membership set to auto-renew? I want to disable that if possible.
+SESSION-MEMREN101,3,decisive,request_auto_renewal_disable,Please go ahead and disable auto-renewal for me.
+SESSION-MEMREN101,4,happy,express_gratitude,Thanks a lot!
+SESSION-MEMSTAT212,1,unsure,membership_status_inquiry,"Hi, I’m not sure if my membership is still active. Can you check?"
+SESSION-MEMSTAT212,2,cooperative,provide_verification_info,"Yes, it’s Emily Watkins, ZIP code 02118."
+SESSION-MEMSTAT212,3,neutral,request_address_update,"Okay, I’m not renewing for now, but can I update my mailing address?"
+SESSION-MEMSTAT212,4,neutral,provide_new_address,"It's 224 Huntington Ave, Apt 5B, Boston, Massachusetts, 02115."
+SESSION-MEMSTAT212,5,grateful,end_interaction,"Nope, that’s all. Thanks!"
+SESSION-MEMUPG365,1,interested,membership_upgrade_request,"Hi, I want to upgrade my Basic membership to Premium. Can you tell me about the benefits?"
+SESSION-MEMUPG365,2,inquiring,upgrade_pricing_inquiry,Sounds good. How much will the upgrade cost?
+SESSION-MEMUPG365,3,decisive,confirm_upgrade,"Okay, please go ahead with the upgrade."
+SESSION-MEMUPG365,4,happy,express_gratitude,Thanks for your help!
+SESSION-MEMUPG456,1,hopeful,membership_upgrade_request,"Hi, I want to upgrade my Basic membership to Premium."
+SESSION-MEMUPG456,2,inquiring,request_upgrade_cost,"Yes, please tell me the price."
+SESSION-MEMUPG456,3,decisive,accept_upgrade_assistance,Please help me upgrade right now.
+SESSION-MEMUPG456,4,happy,express_gratitude,Thank you so much!
+SESSION-PAYMENT8732,1,frustrated,report_payment_failure,"Hi, I tried to pay my membership fee today but the transaction failed. Can you help me fix this?"
+SESSION-PAYMENT8732,2,relieved,provide_new_payment_info,"Yes, please update it to my new card ending in 1234."
+SESSION-PAYMENT8732,3,happy,express_gratitude,"Awesome, thank you for your help!"
+SESSION-REACT5673,1,hopeful,request_membership_reactivation,"Hi, I used to be a member and I’m thinking of coming back. Can I reactivate my account?"
+SESSION-REACT5673,2,candid,explain_cancellation_reason,"Yeah, I had to pause for financial reasons."
+SESSION-REACT5673,3,interested,request_plan_change,That sounds good. Can I switch to the Flex plan?
+SESSION-REACT5673,4,relieved,express_gratitude,Thanks for making this so easy.
+SESSION-UPGRADE5410,1,curious,request_membership_upgrade,"Hi, I’m interested in upgrading my membership to Premium. Can you tell me about the benefits?"
+SESSION-UPGRADE5410,2,interested,ask_pricing,That sounds good. What is the price difference compared to my current plan?
+SESSION-UPGRADE5410,3,expectant,ask_upgrade_timing,"Okay, how soon will the upgrade take effect?"
+SESSION-UPGRADE5410,4,decisive,confirm_upgrade,"Great, please proceed with the upgrade."
+SESSION-UPGRADE5410,5,happy,express_gratitude,"No, that’s all. Thanks a lot!"
+SESSION-UPGRADEINFO387,1,curious,inquire_plan_details,"Hey there, I was looking at the website and wanted to ask about the Premium membership plan."
+SESSION-UPGRADEINFO387,2,inquisitive,ask_about_specific_feature,Does it cover international shipping too?
+SESSION-UPGRADEINFO387,3,hesitant,express_hesitation_to_upgrade,"That sounds good, but I’m still within my annual Basic plan."
+SESSION-UPGRADEINFO387,4,thoughtful,request_followup_info,"Okay, I’ll need to think it over. Can you email me the full feature list?"
+SESSION-UPGRADEINFO387,5,grateful,express_gratitude,"Great, thanks for the help."

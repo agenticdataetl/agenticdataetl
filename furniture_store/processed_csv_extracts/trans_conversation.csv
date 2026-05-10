@@ -1,0 +1,440 @@
+session_id,conversation_content,speaker,intent,conversation_turn,v_as_of_date
+SESSION-BEDROOM-112,"Hi, I want to furnish my bedroom with a bed, two nightstands, and a dresser. Can you show me options for materials and colors?",customer,browse_bedroom_furniture,1,2025-05-05
+SESSION-BEDROOM-112,Of course! I can show two options for each category. Should we start with beds?,agent,set_expectations,2,2025-05-05
+SESSION-BEDROOM-112,"Yes, please.",customer,confirm_flow,3,2025-05-05
+SESSION-BEDROOM-112,"Bed Option A: ComfortWood Queen Bed, $499. Material: solid wood, color: walnut. Pros: sturdy, classic style. Cons: heavier to move. Link: https://furni.example.com/comfortwood-bed",agent,recommend_product,4,2025-05-05
+SESSION-BEDROOM-112,"Bed Option B: LinenSoft Upholstered Bed, $549. Material: fabric upholstered, color: light grey. Pros: soft, stylish. Cons: fabric requires careful cleaning. Link: https://furni.example.com/linensoft-bed",agent,recommend_product,5,2025-05-05
+SESSION-BEDROOM-112,I’ll take the LinenSoft Bed in grey.,customer,finalize_selection,6,2025-05-05
+SESSION-BEDROOM-112,"Great choice! Next, two nightstands.",agent,request_next_category,7,2025-05-05
+SESSION-BEDROOM-112,"Nightstand Option A: Oak Drawer Nightstand, $129. Color: walnut. Pros: classic, sturdy. Cons: heavier than composite. Link: https://furni.example.com/oak-nightstand",agent,recommend_product,8,2025-05-05
+SESSION-BEDROOM-112,"Nightstand Option B: White Modern Nightstand, $139. Color: white. Pros: light, easy to style. Cons: smaller drawer space. Link: https://furni.example.com/white-nightstand",agent,recommend_product,9,2025-05-05
+SESSION-BEDROOM-112,I’ll take two White Modern Nightstands.,customer,finalize_selection,10,2025-05-05
+SESSION-BEDROOM-112,"Excellent! Lastly, a dresser.",agent,request_next_category,11,2025-05-05
+SESSION-BEDROOM-112,"Dresser Option A: Modern Oak Dresser, $299. Color: walnut. Pros: ample storage, classic style. Cons: heavier. Link: https://furni.example.com/modern-oak-dresser",agent,recommend_product,12,2025-05-05
+SESSION-BEDROOM-112,"Dresser Option B: White Minimalist Dresser, $319. Color: white. Pros: modern, light appearance. Cons: smaller drawer depth. Link: https://furni.example.com/white-dresser",agent,recommend_product,13,2025-05-05
+SESSION-BEDROOM-112,I’ll take the White Minimalist Dresser.,customer,finalize_selection,14,2025-05-05
+SESSION-BEDROOM-112,"All done! Your LinenSoft Bed in grey, two White Modern Nightstands, and White Minimalist Dresser have been added to your cart. Your bedroom setup is ready.",agent,add_to_cart_confirmation,15,2025-05-05
+SESSION-BEDROOM-305,"Hi, I want to furnish my bedroom with a bed, nightstands, dresser, a rug, and bedside lamps. I’d like to see options for materials, colors, and sizes.",customer,browse_bedroom_furniture,1,2025-06-10
+SESSION-BEDROOM-305,Sure! I can show two options for each category. Should we start with beds?,agent,set_expectations,2,2025-06-10
+SESSION-BEDROOM-305,"Yes, beds first.",customer,confirm_flow,3,2025-06-10
+SESSION-BEDROOM-305,"Bed Option A: LuxeWood Queen Bed, $599. Material: solid wood, color: espresso. Pros: sturdy, timeless design. Cons: heavier than MDF beds. Link: https://furni.example.com/luxewood-bed",agent,recommend_product,4,2025-06-10
+SESSION-BEDROOM-305,"Bed Option B: CozyUpholstered Bed, $649. Material: fabric upholstered, color: light grey. Pros: soft, stylish. Cons: requires careful cleaning. Link: https://furni.example.com/cozy-upholstered-bed",agent,recommend_product,5,2025-06-10
+SESSION-BEDROOM-305,I’ll go with the CozyUpholstered Bed in grey.,customer,finalize_selection,6,2025-06-10
+SESSION-BEDROOM-305,"Great! Next, nightstands.",agent,request_next_category,7,2025-06-10
+SESSION-BEDROOM-305,"Nightstand Option A: White Modern Nightstand, $139. Pros: light, easy to style. Cons: smaller drawers. Link: https://furni.example.com/white-nightstand",agent,recommend_product,8,2025-06-10
+SESSION-BEDROOM-305,"Nightstand Option B: Oak Drawer Nightstand, $129. Pros: sturdy, classic. Cons: heavier. Link: https://furni.example.com/oak-nightstand",agent,recommend_product,9,2025-06-10
+SESSION-BEDROOM-305,I’ll take two White Modern Nightstands.,customer,finalize_selection,10,2025-06-10
+SESSION-BEDROOM-305,"Excellent! Now, dresser options.",agent,request_next_category,11,2025-06-10
+SESSION-BEDROOM-305,"Dresser Option A: White Minimalist Dresser, $319. Pros: modern, light appearance. Cons: smaller drawer depth. Link: https://furni.example.com/white-dresser",agent,recommend_product,12,2025-06-10
+SESSION-BEDROOM-305,"Dresser Option B: Oak 6-Drawer Dresser, $349. Pros: sturdy, more storage. Cons: heavier. Link: https://furni.example.com/oak-dresser",agent,recommend_product,13,2025-06-10
+SESSION-BEDROOM-305,I’ll take the White Minimalist Dresser.,customer,finalize_selection,14,2025-06-10
+SESSION-BEDROOM-305,"Great! Now, a rug to complement your bedroom.",agent,request_next_category,15,2025-06-10
+SESSION-BEDROOM-305,"Rug Option A: Plush Grey Area Rug, $199. Size: 8'x10'. Pros: soft, neutral color. Cons: requires regular vacuuming. Link: https://furni.example.com/grey-rug",agent,recommend_product,16,2025-06-10
+SESSION-BEDROOM-305,"Rug Option B: Beige Patterned Rug, $179. Size: 8'x10'. Pros: stylish pattern, hides stains well. Cons: thinner pile. Link: https://furni.example.com/beige-rug",agent,recommend_product,17,2025-06-10
+SESSION-BEDROOM-305,I’ll take the Plush Grey Rug.,customer,finalize_selection,18,2025-06-10
+SESSION-BEDROOM-305,"Finally, bedside lamps.",agent,request_next_category,19,2025-06-10
+SESSION-BEDROOM-305,"Lamp Option A: Modern White Table Lamp, $49 each. Pros: simple, bright. Cons: smaller shade. Link: https://furni.example.com/white-lamp",agent,recommend_product,20,2025-06-10
+SESSION-BEDROOM-305,"Lamp Option B: Brass Finish Table Lamp, $59 each. Pros: elegant, warm lighting. Cons: heavier base. Link: https://furni.example.com/brass-lamp",agent,recommend_product,21,2025-06-10
+SESSION-BEDROOM-305,I’ll take two Modern White Table Lamps.,customer,finalize_selection,22,2025-06-10
+SESSION-BEDROOM-305,"All set! Your CozyUpholstered Bed in grey, two White Modern Nightstands, White Minimalist Dresser, Plush Grey Area Rug, and two Modern White Table Lamps have been added to your cart. Your bedroom is now fully styled.",agent,add_to_cart_confirmation,23,2025-06-10
+SESSION-BEDROOM-499,"Hi, I want to furnish my bedroom. I need a bed, two nightstands, a dresser, and a floor lamp. I’d like to compare styles, materials, and sizes before deciding.",customer,browse_multiple_furniture,1,2025-12-31
+SESSION-BEDROOM-499,"Of course! I can show you two beds, two nightstands, one dresser, and one floor lamp, highlighting materials, colors, and dimensions. Shall we start with the beds?",agent,set_expectations,2,2025-12-31
+SESSION-BEDROOM-499,"Yes, let's start with beds.",customer,confirm_flow,3,2025-12-31
+SESSION-BEDROOM-499,"Bed Option A: Serenity King Bed, $1,299. Material: solid wood frame, upholstered headboard. Color: dark walnut. Size: King. Pros: sturdy, elegant design. Cons: heavier to move. Link: https://furni.example.com/serenity-king-bed",agent,recommend_product,4,2025-12-31
+SESSION-BEDROOM-499,"Bed Option B: CloudComfort Queen Bed, $999. Material: metal frame with fabric upholstery. Color: light grey. Size: Queen. Pros: lightweight, modern look. Cons: fabric can stain. Link: https://furni.example.com/cloudcomfort-queen-bed",agent,recommend_product,5,2025-12-31
+SESSION-BEDROOM-499,I like the CloudComfort Queen Bed. Can I get the headboard in dark grey and with storage drawers underneath?,customer,inquire_customization,6,2025-12-31
+SESSION-BEDROOM-499,Absolutely! CloudComfort Queen Bed can be customized to a dark grey headboard with two storage drawers. This adds $150. Link: https://furni.example.com/cloudcomfort-bed-custom,agent,recommend_customization,7,2025-12-31
+SESSION-BEDROOM-499,Great! Now the nightstands.,customer,request_next_category,8,2025-12-31
+SESSION-BEDROOM-499,"Nightstand Option A: MapleTwo Drawer, $199 each. Material: solid maple. Color: natural maple. Pros: sturdy, classic design. Cons: heavier. Link: https://furni.example.com/maple-two-drawer",agent,recommend_product,9,2025-12-31
+SESSION-BEDROOM-499,"Nightstand Option B: ModernGlass Nightstand, $229 each. Material: glass top, steel frame. Color: black. Pros: sleek, easy to clean. Cons: fragile. Link: https://furni.example.com/modernglass-nightstand",agent,recommend_product,10,2025-12-31
+SESSION-BEDROOM-499,"I’ll take two MapleTwo Drawer nightstands, but can I get them in walnut to match the bed?",customer,inquire_quantity_and_color_customization,11,2025-12-31
+SESSION-BEDROOM-499,No problem! Two MapleTwo Drawer nightstands in walnut can be ordered. This adds $40 per nightstand. Link: https://furni.example.com/maple-two-drawer-custom,agent,recommend_customization,12,2025-12-31
+SESSION-BEDROOM-499,"Next, the dresser.",customer,request_next_category,13,2025-12-31
+SESSION-BEDROOM-499,"Dresser Option: Oak 6-Drawer Dresser, $499. Material: solid oak. Color: dark walnut. Size: 60"" x 18"" x 36"". Pros: spacious, sturdy. Cons: heavy. Link: https://furni.example.com/oak-6drawer-dresser",agent,recommend_product,14,2025-12-31
+SESSION-BEDROOM-499,"That works. Finally, the floor lamp.",customer,request_next_category,15,2025-12-31
+SESSION-BEDROOM-499,"Floor Lamp Option: ArcModern LED Lamp, $129. Material: steel frame. Color: matte black. Pros: adjustable, modern design. Cons: requires assembly. Link: https://furni.example.com/arcmodern-lamp",agent,recommend_product,16,2025-12-31
+SESSION-BEDROOM-499,Perfect! Add everything to my cart.,customer,finalize_selection,17,2025-12-31
+SESSION-BEDROOM-499,"All set! Your customized CloudComfort bed with storage, two walnut MapleTwo Drawer nightstands, Oak dresser, and ArcModern LED floor lamp have been added to your cart. Your bedroom is fully styled.",agent,add_to_cart_confirmation,18,2025-12-31
+SESSION-BEDROOM-512,"Hi, I want to furnish my bedroom. I need a bed, two nightstands, a dresser, an area rug, and a floor lamp. I’d like to see options for materials, colors, and sizes.",customer,browse_multiple_furniture,1,2025-12-31
+SESSION-BEDROOM-512,"Great! I can show you two beds, two nightstand sets, two dressers, two rugs, and one floor lamp. Should we start with beds?",agent,set_expectations,2,2025-12-31
+SESSION-BEDROOM-512,"Yes, beds first.",customer,confirm_flow,3,2025-12-31
+SESSION-BEDROOM-512,"Bed Option A: Serenity Queen Bed, $899. Material: solid wood frame, upholstered headboard. Color: light grey. Size: Queen. Pros: sturdy, soft headboard. Cons: heavier to move. Link: https://furni.example.com/serenity-queen-bed",agent,recommend_product,4,2025-12-31
+SESSION-BEDROOM-512,"Bed Option B: Luna King Platform Bed, $1,099. Material: engineered wood and fabric. Color: charcoal. Size: King. Pros: modern design, platform style. Cons: fabric can collect dust. Link: https://furni.example.com/luna-king-bed",agent,recommend_product,5,2025-12-31
+SESSION-BEDROOM-512,I like the Luna King bed. Can it be made in a dark navy fabric instead?,customer,inquire_customization,6,2025-12-31
+SESSION-BEDROOM-512,Yes! Luna King can be customized to dark navy for an additional $75. Link: https://furni.example.com/luna-king-bed-custom,agent,recommend_customization,7,2025-12-31
+SESSION-BEDROOM-512,Great! Now nightstands.,customer,request_next_category,8,2025-12-31
+SESSION-BEDROOM-512,"Nightstand Option A: Maple Duo Nightstands, $249 each. Color: natural maple. Pros: spacious drawers. Cons: lighter wood can show scratches. Link: https://furni.example.com/maple-duo-nightstands",agent,recommend_product,9,2025-12-31
+SESSION-BEDROOM-512,"Nightstand Option B: Onyx Modern Nightstands, $279 each. Color: black matte. Pros: sleek design, soft-close drawers. Cons: smaller drawer capacity. Link: https://furni.example.com/onyx-nightstands",agent,recommend_product,10,2025-12-31
+SESSION-BEDROOM-512,I’ll take two Onyx Nightstands. Can they have silver handles instead of black?,customer,inquire_customization,11,2025-12-31
+SESSION-BEDROOM-512,Yes! We can switch the handles to silver for $15 extra per nightstand. Link: https://furni.example.com/onyx-nightstands-custom,agent,recommend_customization,12,2025-12-31
+SESSION-BEDROOM-512,Perfect. Show me dressers next.,customer,request_next_category,13,2025-12-31
+SESSION-BEDROOM-512,"Dresser Option A: Rustic Oak Dresser, $499. Material: solid oak. Color: natural. Pros: large storage, sturdy. Cons: heavy. Link: https://furni.example.com/rustic-oak-dresser",agent,recommend_product,14,2025-12-31
+SESSION-BEDROOM-512,"Dresser Option B: Modern White Dresser, $529. Material: engineered wood. Color: glossy white. Pros: clean modern look, soft-close drawers. Cons: less natural texture. Link: https://furni.example.com/modern-white-dresser",agent,recommend_product,15,2025-12-31
+SESSION-BEDROOM-512,I’ll choose the Rustic Oak Dresser. Now rugs.,customer,request_next_category,16,2025-12-31
+SESSION-BEDROOM-512,"Rug Option A: CozyWool 8x10, $249. Material: wool. Color: cream with subtle patterns. Pros: soft, durable. Cons: needs occasional cleaning. Link: https://furni.example.com/cozywool-rug",agent,recommend_product,17,2025-12-31
+SESSION-BEDROOM-512,"Rug Option B: ModernShag 9x12, $299. Material: synthetic microfiber. Color: light grey. Pros: plush, easy maintenance. Cons: less natural feel. Link: https://furni.example.com/modernshag-rug",agent,recommend_product,18,2025-12-31
+SESSION-BEDROOM-512,"I’ll take the ModernShag 9x12. Finally, floor lamp.",customer,request_next_category,19,2025-12-31
+SESSION-BEDROOM-512,"Floor Lamp Option: Luna Arc Lamp, $129. Material: metal. Color: brushed nickel. Pros: modern arc design, adjustable light. Cons: requires space behind furniture. Link: https://furni.example.com/luna-arc-lamp",agent,recommend_product,20,2025-12-31
+SESSION-BEDROOM-512,Perfect! Add everything to my cart.,customer,finalize_selection,21,2025-12-31
+SESSION-BEDROOM-512,"All set! Your customized dark navy Luna King bed, two Onyx nightstands with silver handles, Rustic Oak Dresser, ModernShag rug, and Luna Arc Lamp have been added to your cart. Your bedroom is now fully styled.",agent,add_to_cart_confirmation,22,2025-12-31
+SESSION-ENTERTAINMENT-317,"Hi, I’m setting up a home entertainment area. I need a TV, soundbar, media console, gaming chair, and smart lighting. I’d like to compare options before I decide.",customer,browse_multiple_furniture,1,2025-12-31
+SESSION-ENTERTAINMENT-317,"Perfect! I can show you two TVs, two soundbars, two media consoles, one gaming chair, and one smart lighting option. Shall we start with TVs?",agent,set_expectations,2,2025-12-31
+SESSION-ENTERTAINMENT-317,"Yes, show me the TVs first.",customer,confirm_flow,3,2025-12-31
+SESSION-ENTERTAINMENT-317,"TV Option A: UltraVision 65"" OLED, $1,499. Resolution: 4K UHD. Smart features: built-in apps, voice control. Pros: excellent picture quality, deep blacks. Cons: pricey. Link: https://furni.example.com/ultravision-oled",agent,recommend_product,4,2025-12-31
+SESSION-ENTERTAINMENT-317,"TV Option B: CineMax 70"" QLED, $1,399. Resolution: 4K UHD. Smart features: built-in streaming apps, HDR10+. Pros: larger screen, bright display. Cons: slightly less contrast than OLED. Link: https://furni.example.com/cinemax-qled",agent,recommend_product,5,2025-12-31
+SESSION-ENTERTAINMENT-317,I like the CineMax QLED. Can I get a wall mount included?,customer,inquire_customization,6,2025-12-31
+SESSION-ENTERTAINMENT-317,Yes! We can include a full-motion wall mount with your CineMax QLED for $80 extra. Link: https://furni.example.com/cinemax-qled-custom,agent,recommend_customization,7,2025-12-31
+SESSION-ENTERTAINMENT-317,Great. Now show soundbars.,customer,request_next_category,8,2025-12-31
+SESSION-ENTERTAINMENT-317,"Soundbar Option A: SonicBoom 5.1, $399. Channels: 5.1 surround. Pros: immersive sound, wireless subwoofer. Cons: takes more space. Link: https://furni.example.com/sonicboom-5-1",agent,recommend_product,9,2025-12-31
+SESSION-ENTERTAINMENT-317,"Soundbar Option B: ClearTone 3.1, $299. Channels: 3.1 surround. Pros: compact, easy setup. Cons: less powerful bass. Link: https://furni.example.com/cleartone-3-1",agent,recommend_product,10,2025-12-31
+SESSION-ENTERTAINMENT-317,"I’ll take the SonicBoom 5.1. Next, media consoles.",customer,request_next_category,11,2025-12-31
+SESSION-ENTERTAINMENT-317,"Media Console Option A: OakMedia 70"", $349. Material: solid oak. Color: walnut. Pros: sturdy, ample storage. Cons: heavy. Link: https://furni.example.com/oakmedia-70",agent,recommend_product,12,2025-12-31
+SESSION-ENTERTAINMENT-317,"Media Console Option B: SteelGlass 72"", $399. Material: steel frame, tempered glass shelves. Color: black. Pros: modern, sleek. Cons: less natural feel. Link: https://furni.example.com/steelglass-72",agent,recommend_product,13,2025-12-31
+SESSION-ENTERTAINMENT-317,"I’ll go with OakMedia 70"". Now the gaming chair.",customer,request_next_category,14,2025-12-31
+SESSION-ENTERTAINMENT-317,"Gaming Chair Option: TitanPro Ergonomic, $399. Material: PU leather, memory foam. Color: black/red. Pros: adjustable, comfortable for long gaming sessions. Cons: less breathable. Link: https://furni.example.com/titanpro-chair",agent,recommend_product,15,2025-12-31
+SESSION-ENTERTAINMENT-317,Perfect! Can I get it in all black?,customer,inquire_customization,16,2025-12-31
+SESSION-ENTERTAINMENT-317,Absolutely! TitanPro Ergonomic chair can be customized to all black for $20 extra. Link: https://furni.example.com/titanpro-chair-custom,agent,recommend_customization,17,2025-12-31
+SESSION-ENTERTAINMENT-317,"Finally, smart lighting.",customer,request_next_category,18,2025-12-31
+SESSION-ENTERTAINMENT-317,"Smart Lighting Option: Lumina Wi-Fi LED Strip, $129. Color: multicolor, app-controlled. Pros: customizable lighting scenes. Cons: requires Wi-Fi. Link: https://furni.example.com/lumina-led-strip",agent,recommend_product,19,2025-12-31
+SESSION-ENTERTAINMENT-317,Perfect! Add all to my cart.,customer,finalize_selection,20,2025-12-31
+SESSION-ENTERTAINMENT-317,"All set! Your customized CineMax QLED with wall mount, SonicBoom 5.1 soundbar, OakMedia console, all-black TitanPro chair, and Lumina LED strip have been added to your cart. Your home entertainment setup is complete.",agent,add_to_cart_confirmation,21,2025-12-31
+SESSION-FURN-REC-201,"Hi, I'm browsing for a sofa for my apartment.",customer,browse_furniture,1,2025-12-24
+SESSION-FURN-REC-201,"Sure! Are you prioritizing price, durability, comfort, or style?",agent,preference_elicitation,2,2025-12-24
+SESSION-FURN-REC-201,"Mostly price, but I still want decent comfort.",customer,state_preferences,3,2025-12-24
+SESSION-FURN-REC-201,"Here are two popular options. Option A is more affordable, Option B offers better cushioning and longevity.",agent,present_recommendations,4,2025-12-24
+SESSION-FURN-REC-201,"Option A: Urban Fabric Sofa, $399. Pros: low price, lightweight, easy assembly. Cons: thinner cushions, fabric may wear faster. Link: https://furni.example.com/urban-fabric-sofa",agent,recommend_product,5,2025-12-24
+SESSION-FURN-REC-201,"Option B: ComfortPlus Sofa, $649. Pros: deeper seats, high-density foam, stronger frame. Cons: higher price, heavier delivery. Link: https://furni.example.com/comfortplus-sofa",agent,recommend_product,6,2025-12-24
+SESSION-FURN-REC-201,The cheaper one seems fine. Can I add it to my cart?,customer,add_to_cart_request,7,2025-12-24
+SESSION-FURN-REC-201,Added Urban Fabric Sofa to your cart. Would you like to browse coffee tables or storage furniture next?,agent,add_to_cart_confirmation,8,2025-12-24
+SESSION-FURN-REC-201,"Show me coffee tables, but I'm just comparing.",customer,browse_category,9,2025-12-24
+SESSION-FURN-REC-201,No problem. I'll show you a few options to compare without adding anything yet.,agent,acknowledge_browsing,10,2025-12-24
+SESSION-FURN-REC-201,"Option A: Metro Coffee Table, $129. Pros: compact, affordable, easy to move. Cons: less scratch-resistant. Link: https://furni.example.com/metro-coffee-table",agent,recommend_product,11,2025-12-24
+SESSION-FURN-REC-201,"Option B: OakCraft Coffee Table, $249. Pros: solid oak, very durable, better finish. Cons: higher price, heavier. Link: https://furni.example.com/oakcraft-coffee-table",agent,recommend_product,12,2025-12-24
+SESSION-FURN-REC-201,I'll think about it later. Not adding anything else for now.,customer,defer_decision,13,2025-12-24
+SESSION-FURN-REC-201,Sounds good. Your cart will be saved if you want to continue later.,agent,cart_persistence_notice,14,2025-12-24
+SESSION-FURN-REC-201,Let me know anytime if you'd like more comparisons or recommendations. Have a great day!,agent,farewell,15,2025-12-24
+SESSION-FURN-REC-202,"Hi, I'm looking for a desk setup for working from home.",customer,browse_furniture,1,2025-12-24
+SESSION-FURN-REC-202,"Got it. Are you more focused on price, durability, size, or design?",agent,preference_elicitation,2,2025-12-24
+SESSION-FURN-REC-202,Durability and enough space for two monitors.,customer,state_preferences,3,2025-12-24
+SESSION-FURN-REC-202,"In that case, I’ll show one value option and one more heavy-duty option for comparison.",agent,present_recommendations,4,2025-12-24
+SESSION-FURN-REC-202,"Option A: FlexiWork Desk, $219. Pros: affordable, large surface, quick assembly. Cons: particle-board top, less stable for heavy equipment. Link: https://furni.example.com/flexiwork-desk",agent,recommend_product,5,2025-12-24
+SESSION-FURN-REC-202,"Option B: SteelFrame Pro Desk, $429. Pros: steel legs, solid wood top, very stable for dual monitors. Cons: higher price, heavier to move. Link: https://furni.example.com/steelframe-pro-desk",agent,recommend_product,6,2025-12-24
+SESSION-FURN-REC-202,The sturdier one sounds better. I'll add Option B to my cart.,customer,add_to_cart_request,7,2025-12-24
+SESSION-FURN-REC-202,SteelFrame Pro Desk has been added to your cart. Would you like chair recommendations as well?,agent,add_to_cart_confirmation,8,2025-12-24
+SESSION-FURN-REC-202,"Yes, but just to compare options.",customer,browse_category,9,2025-12-24
+SESSION-FURN-REC-202,"Option A: ErgoLite Chair, $179. Pros: breathable mesh, adjustable height. Cons: limited lumbar support. Link: https://furni.example.com/ergolite-chair",agent,recommend_product,10,2025-12-24
+SESSION-FURN-REC-202,"Option B: ComfortCore Chair, $329. Pros: strong lumbar support, adjustable arms, better for long hours. Cons: higher price, firmer seat. Link: https://furni.example.com/comfortcore-chair",agent,recommend_product,11,2025-12-24
+SESSION-FURN-REC-202,I'll skip the chair for now and decide later.,customer,defer_decision,12,2025-12-24
+SESSION-FURN-REC-202,"No problem. Your desk will stay in the cart, and you can compare chairs anytime.",agent,cart_persistence_notice,13,2025-12-24
+SESSION-FURN-REC-202,Let me know if you’d like more workspace or lighting recommendations. Have a great day!,agent,farewell,14,2025-12-24
+SESSION-FURN-REC-203,"Hi, I'm looking for a bed frame for a queen mattress.",customer,browse_furniture,1,2025-12-25
+SESSION-FURN-REC-203,"Got it. Are you more concerned with price, noise-free support, or storage space?",agent,preference_elicitation,2,2025-12-25
+SESSION-FURN-REC-203,"I want something quiet and sturdy, but not too expensive.",customer,state_preferences,3,2025-12-25
+SESSION-FURN-REC-203,I’ll show you one budget-friendly option and one with enhanced support so you can compare.,agent,present_recommendations,4,2025-12-25
+SESSION-FURN-REC-203,"Option A: SimpleSteel Bed Frame, $249. Pros: affordable, steel construction, no box spring needed. Cons: minimal design, no storage. Link: https://furni.example.com/simplesteel-bed-frame",agent,recommend_product,5,2025-12-25
+SESSION-FURN-REC-203,"Option B: SilentSupport Platform Bed, $389. Pros: reinforced slats, noise-reducing joints, more stable over time. Cons: higher price, heavier frame. Link: https://furni.example.com/silentsupport-platform-bed",agent,recommend_product,6,2025-12-25
+SESSION-FURN-REC-203,Does the second one really make less noise over time?,customer,clarification_request,7,2025-12-25
+SESSION-FURN-REC-203,"Yes, it uses padded joints and thicker slats, which significantly reduce squeaking compared to basic metal frames.",agent,provide_product_detail,8,2025-12-25
+SESSION-FURN-REC-203,"Alright, add the SilentSupport bed to my cart.",customer,add_to_cart_request,9,2025-12-25
+SESSION-FURN-REC-203,SilentSupport Platform Bed has been added to your cart. Would you like to look at mattresses or nightstands?,agent,add_to_cart_confirmation,10,2025-12-25
+SESSION-FURN-REC-203,Not right now. I'll come back later.,customer,defer_decision,11,2025-12-25
+SESSION-FURN-REC-203,No problem. Your cart will stay saved whenever you're ready.,agent,cart_persistence_notice,12,2025-12-25
+SESSION-FURN-REC-203,Feel free to ask if you'd like mattress comparisons or bedroom accessories later. Have a great day!,agent,farewell,13,2025-12-25
+SESSION-FURN-REC-205,"Hi, I need a desk chair for working from home.",customer,browse_furniture,1,2025-12-26
+SESSION-FURN-REC-205,"Got it. Are you prioritizing comfort for long hours, adjustability, or price?",agent,preference_elicitation,2,2025-12-26
+SESSION-FURN-REC-205,"Comfort for long hours, but not too expensive.",customer,state_preferences,3,2025-12-26
+SESSION-FURN-REC-205,I’ll show you two chairs: one budget-friendly and one mid-range ergonomic option so you can compare.,agent,present_recommendations,4,2025-12-26
+SESSION-FURN-REC-205,"Option A: WorkEase Mesh Chair, $129. Pros: breathable mesh, basic lumbar support, lightweight. Cons: limited armrest adjustment. Link: https://furni.example.com/workease-chair",agent,recommend_product,5,2025-12-26
+SESSION-FURN-REC-205,"Option B: ErgoPro Comfort Chair, $229. Pros: adjustable lumbar, headrest support, better posture for long sessions. Cons: higher price and heavier build. Link: https://furni.example.com/ergopro-chair",agent,recommend_product,6,2025-12-26
+SESSION-FURN-REC-205,The mid-range one sounds better for long workdays.,customer,express_preference,7,2025-12-26
+SESSION-FURN-REC-205,That’s a good choice for ergonomics. Would you like to add it to your cart or review more options?,agent,soft_add_to_cart_prompt,8,2025-12-26
+SESSION-FURN-REC-205,"Yes, add it to the cart.",customer,add_to_cart_request,9,2025-12-26
+SESSION-FURN-REC-205,ErgoPro Comfort Chair has been added to your cart. Let me know if you'd like desk or monitor recommendations.,agent,add_to_cart_confirmation,10,2025-12-26
+SESSION-FURN-REC-206,"Hi again, I’m looking for a height adjustable desk this time.",customer,browse_furniture,1,2025-12-27
+SESSION-FURN-REC-206,"Welcome back! Are you mainly looking for electric adjustment, desk size, or staying within a budget?",agent,preference_elicitation,2,2025-12-27
+SESSION-FURN-REC-206,Electric adjustment and stability are most important. Budget is flexible.,customer,state_preferences,3,2025-12-27
+SESSION-FURN-REC-206,Great. I’ll show you two electric standing desks—one value-focused and one premium—for comparison.,agent,present_recommendations,4,2025-12-27
+SESSION-FURN-REC-206,"Option A: FlexiLift Electric Desk, $399. Pros: quiet motor, memory keypad, good value. Cons: slightly less stable at max height. Link: https://furni.example.com/flexilift-desk",agent,recommend_product,5,2025-12-27
+SESSION-FURN-REC-206,"Option B: StandStrong Pro Desk, $699. Pros: dual motors, excellent stability at standing height, solid steel frame. Cons: higher price and heavier setup. Link: https://furni.example.com/standstrong-pro",agent,recommend_product,6,2025-12-27
+SESSION-FURN-REC-206,"Stability matters more to me, so the premium one seems worth it.",customer,express_preference,7,2025-12-27
+SESSION-FURN-REC-206,That makes sense for long-term comfort. Would you like me to add it to your cart or compare desktop sizes?,agent,soft_add_to_cart_prompt,8,2025-12-27
+SESSION-FURN-REC-206,Go ahead and add it to the cart.,customer,add_to_cart_request,9,2025-12-27
+SESSION-FURN-REC-206,StandStrong Pro Desk has been added to your cart. Let me know if you’d like accessories like desk mats or cable organizers.,agent,add_to_cart_confirmation,10,2025-12-27
+SESSION-FURN-REC-207,"Hi, I’m back. I’m looking for a floor mat to use with my standing desk.",customer,browse_accessories,1,2025-12-29
+SESSION-FURN-REC-207,Good idea—standing mats help reduce leg fatigue. Do you prefer softer cushioning or easier cleaning?,agent,preference_elicitation,2,2025-12-29
+SESSION-FURN-REC-207,More cushioning. I stand for long stretches.,customer,state_preferences,3,2025-12-29
+SESSION-FURN-REC-207,I’ll compare two mats: one comfort-focused and one easier to maintain.,agent,present_recommendations,4,2025-12-29
+SESSION-FURN-REC-207,"Option A: CloudStep Comfort Mat, $89. Pros: thick foam, excellent pressure relief for long standing. Cons: heavier and slower to clean. Link: https://furni.example.com/cloudstep-mat",agent,recommend_product,5,2025-12-29
+SESSION-FURN-REC-207,"Option B: FlexFloor Anti-Fatigue Mat, $59. Pros: lighter weight, water-resistant surface, easy cleanup. Cons: less cushioning for all-day standing. Link: https://furni.example.com/flexfloor-mat",agent,recommend_product,6,2025-12-29
+SESSION-FURN-REC-207,The comfort mat sounds better for me.,customer,express_preference,7,2025-12-29
+SESSION-FURN-REC-207,That’s a solid choice for long sessions. Would you like me to add it to your cart?,agent,soft_add_to_cart_prompt,8,2025-12-29
+SESSION-FURN-REC-207,"Yes, please add it.",customer,add_to_cart_request,9,2025-12-29
+SESSION-FURN-REC-207,CloudStep Comfort Mat has been added to your cart. Let me know if you’d like lighting or cable management suggestions.,agent,add_to_cart_confirmation,10,2025-12-29
+SESSION-FURN-REC-208,"Hi, I’m setting up a home office and need a desk, a bookshelf, and a desk lamp.",customer,browse_multiple_furniture,1,2025-12-30
+SESSION-FURN-REC-208,Got it. I’ll go category by category and show you two options for each so you can compare. Sound good?,agent,set_expectations,2,2025-12-30
+SESSION-FURN-REC-208,"Yes, that works.",customer,confirm_flow,3,2025-12-30
+SESSION-FURN-REC-208,Let’s start with desks. Are you looking for a standard desk or a standing desk?,agent,category_preference_inquiry,4,2025-12-30
+SESSION-FURN-REC-208,A standing desk would be ideal.,customer,state_preference,5,2025-12-30
+SESSION-FURN-REC-208,"Standing Desk Option A: FlexiLift Electric Desk, $399. Pros: good value, memory keypad. Cons: moderate stability at max height. Link: https://furni.example.com/flexilift-desk",agent,recommend_product,6,2025-12-30
+SESSION-FURN-REC-208,"Standing Desk Option B: StandStrong Pro Desk, $699. Pros: excellent stability, dual motors. Cons: higher cost. Link: https://furni.example.com/standstrong-pro",agent,recommend_product,7,2025-12-30
+SESSION-FURN-REC-208,I’ll think about the desk later. Let’s move on.,customer,defer_decision,8,2025-12-30
+SESSION-FURN-REC-208,"No problem. For bookshelves, do you need vertical storage or something shorter and wider?",agent,category_preference_inquiry,9,2025-12-30
+SESSION-FURN-REC-208,"Vertical storage, not too bulky.",customer,state_preference,10,2025-12-30
+SESSION-FURN-REC-208,"Bookshelf Option A: SlimLine 5-Tier Shelf, $149. Pros: narrow footprint, easy assembly. Cons: limited weight capacity. Link: https://furni.example.com/slimline-shelf",agent,recommend_product,11,2025-12-30
+SESSION-FURN-REC-208,"Bookshelf Option B: OakFrame Tall Bookcase, $279. Pros: solid wood, higher durability. Cons: heavier and pricier. Link: https://furni.example.com/oakframe-bookcase",agent,recommend_product,12,2025-12-30
+SESSION-FURN-REC-208,I like the solid wood bookshelf.,customer,express_preference,13,2025-12-30
+SESSION-FURN-REC-208,Great choice for durability. Would you like me to add it to your cart or continue to desk lamps first?,agent,soft_add_to_cart_prompt,14,2025-12-30
+SESSION-FURN-REC-208,Let’s add the bookshelf and then look at lamps.,customer,partial_add_to_cart,15,2025-12-30
+SESSION-FURN-REC-208,"OakFrame Tall Bookcase has been added to your cart. Next, I’ll show you desk lamp options with different lighting styles.",agent,add_to_cart_confirmation,16,2025-12-30
+SESSION-FURN-REC-309,"Hi, I need a cozy armchair, a coffee table, and a floor lamp for my living room.",customer,browse_multiple_furniture,1,2025-12-24
+SESSION-FURN-REC-309,Got it! I can show two options for each so you can compare easily. Shall we start with armchairs?,agent,set_expectations,2,2025-12-24
+SESSION-FURN-REC-309,"Yes, let's do that.",customer,confirm_flow,3,2025-12-24
+SESSION-FURN-REC-309,Are you looking for a fabric armchair or leather?,agent,category_preference_inquiry,4,2025-12-24
+SESSION-FURN-REC-309,"Fabric, please.",customer,state_preference,5,2025-12-24
+SESSION-FURN-REC-309,"Armchair Option A: CozyNest Recliner, $349. Pros: soft fabric, cushioned seat. Cons: larger footprint. Link: https://furni.example.com/cozynest-recliner",agent,recommend_product,6,2025-12-24
+SESSION-FURN-REC-309,"Armchair Option B: UrbanComfort Lounge Chair, $499. Pros: modern design, durable fabric. Cons: slightly firmer seat. Link: https://furni.example.com/urbancomfort-chair",agent,recommend_product,7,2025-12-24
+SESSION-FURN-REC-309,I like the CozyNest Recliner.,customer,express_preference,8,2025-12-24
+SESSION-FURN-REC-309,Great! Shall I add it to your cart or continue with the coffee table options?,agent,soft_add_to_cart_prompt,9,2025-12-24
+SESSION-FURN-REC-309,"Add the armchair, then let's see the coffee tables.",customer,partial_add_to_cart,10,2025-12-24
+SESSION-FURN-REC-309,"CozyNest Recliner has been added to your cart. Next, coffee tables: would you prefer wood or glass?",agent,add_to_cart_confirmation,11,2025-12-24
+SESSION-FURN-REC-309,A wooden coffee table would be perfect.,customer,state_preference,12,2025-12-24
+SESSION-FURN-REC-309,"Coffee Table Option A: OakCraft Rustic Table, $229. Pros: solid oak, rustic charm. Cons: heavier to move. Link: https://furni.example.com/oakcraft-table",agent,recommend_product,13,2025-12-24
+SESSION-FURN-REC-309,"Coffee Table Option B: MapleModern Low Table, $199. Pros: lightweight, sleek design. Cons: less rustic character. Link: https://furni.example.com/maplemodern-table",agent,recommend_product,14,2025-12-24
+SESSION-FURN-REC-309,I’ll go with the OakCraft Rustic Table.,customer,express_preference,15,2025-12-24
+SESSION-FURN-REC-309,"Perfect choice! OakCraft Rustic Table has been added to your cart. Finally, let’s look at floor lamps. Do you prefer warm or bright white light?",agent,add_to_cart_confirmation,16,2025-12-24
+SESSION-FURN-REC-410,"Hi, I’m looking for a living room furniture set—sofa, loveseat, and coffee table. I want to compare different combinations.",customer,browse_furniture_set,1,2025-12-24
+SESSION-FURN-REC-410,Great! I can show you two complete living room sets and highlight the differences so you can compare. Sound good?,agent,set_expectations,2,2025-12-24
+SESSION-FURN-REC-410,"Yes, please.",customer,confirm_flow,3,2025-12-24
+SESSION-FURN-REC-410,"Set Option A: CozyLiving Set, $1,299. Includes: Fabric sofa (3-seater), matching loveseat, Oak coffee table. Pros: coordinated design, soft cushions. Cons: heavier furniture. Link: https://furni.example.com/cozyliving-set",agent,recommend_product_set,4,2025-12-24
+SESSION-FURN-REC-410,"Set Option B: ModernComfort Collection, $1,499. Includes: Leather sofa (3-seater), loveseat, Glass top coffee table. Pros: sleek modern look, durable materials. Cons: leather can be warmer in summer. Link: https://furni.example.com/moderncomfort-set",agent,recommend_product_set,5,2025-12-24
+SESSION-FURN-REC-410,"I like the CozyLiving Set, but can I mix it with a different coffee table?",customer,express_preference_and_inquire,6,2025-12-24
+SESSION-FURN-REC-410,"Absolutely! We can replace the Oak coffee table with a MapleModern Table for a lighter look, keeping the sofa and loveseat the same. Pros: easier to move, modern finish. Cons: slightly less rustic charm. Link: https://furni.example.com/maplemodern-table",agent,recommend_combination,7,2025-12-24
+SESSION-FURN-REC-410,That sounds perfect. Let’s go with that combination.,customer,confirm_combination,8,2025-12-24
+SESSION-FURN-REC-410,Great! I’ve added the CozyLiving sofa and loveseat with the MapleModern Table to your cart. Would you like to look at lighting options for the set next?,agent,add_to_cart_confirmation_and_suggest_next,9,2025-12-24
+SESSION-FURN-REC-411,Hi again! I’m looking for lighting options to go with my CozyLiving set and MapleModern coffee table.,customer,browse_furniture_accessory,1,2025-12-27
+SESSION-FURN-REC-411,Welcome back! I can show you floor lamps and table lamps that complement your living room set. Would you like me to start with floor lamps?,agent,set_expectations,2,2025-12-27
+SESSION-FURN-REC-411,"Yes, floor lamps first.",customer,confirm_flow,3,2025-12-27
+SESSION-FURN-REC-411,"Floor Lamp Option A: LumaArc Tall Lamp, $129. Pros: warm LED light, adjustable height. Cons: simple design. Link: https://furni.example.com/lumaarc-lamp",agent,recommend_product,4,2025-12-27
+SESSION-FURN-REC-411,"Floor Lamp Option B: ModernGlow Arc Lamp, $179. Pros: elegant arc design, bright light for reading. Cons: larger footprint. Link: https://furni.example.com/modernglow-arc",agent,recommend_product,5,2025-12-27
+SESSION-FURN-REC-411,I like the ModernGlow Arc Lamp.,customer,express_preference,6,2025-12-27
+SESSION-FURN-REC-411,Great choice! ModernGlow Arc Lamp has been added to your cart. Would you like to see matching table lamps next?,agent,add_to_cart_confirmation_and_suggest_next,7,2025-12-27
+SESSION-FURN-REC-411,"Yes, show me the table lamps.",customer,confirm_flow,8,2025-12-27
+SESSION-FURN-REC-411,"Table Lamp Option A: MapleGlow Table Lamp, $79. Pros: warm ambient light, wood base matches MapleModern table. Cons: small lampshade. Link: https://furni.example.com/mapleglow-lamp",agent,recommend_product,9,2025-12-27
+SESSION-FURN-REC-411,"Table Lamp Option B: ModernLight Cube Lamp, $99. Pros: sleek cube design, adjustable brightness. Cons: modern style may contrast with rustic table. Link: https://furni.example.com/modernlight-cube",agent,recommend_product,10,2025-12-27
+SESSION-FURN-REC-411,I’ll go with the MapleGlow Table Lamp.,customer,express_preference,11,2025-12-27
+SESSION-FURN-REC-411,"Perfect! MapleGlow Table Lamp has been added to your cart. Your CozyLiving set, MapleModern Table, ModernGlow Arc Lamp, and MapleGlow Table Lamp are all set. Your living room is now fully styled!",agent,add_to_cart_confirmation,12,2025-12-27
+SESSION-FURN-REC-512,"Hi, I want to set up my bedroom and need a bed, nightstands, and a dresser. Can you show me some sets I can compare?",customer,browse_furniture_set,1,2025-12-28
+SESSION-FURN-REC-512,"Got it! I have two bedroom sets you can compare. One is a classic wood set, the other is a modern upholstered option. Which one would you like to see first?",agent,set_expectations,2,2025-12-28
+SESSION-FURN-REC-512,Let's start with the classic wood set.,customer,select_option_to_view,3,2025-12-28
+SESSION-FURN-REC-512,"Classic Wood Bedroom Set: $1,099. Includes: Queen bed frame, two nightstands, dresser. Pros: solid oak, timeless design. Cons: heavier pieces. Link: https://furni.example.com/classic-wood-set",agent,recommend_product_set,4,2025-12-28
+SESSION-FURN-REC-512,"Modern Upholstered Bedroom Set: $1,299. Includes: Queen upholstered bed, matching nightstands, floating dresser. Pros: sleek contemporary look, soft headboard. Cons: requires careful cleaning. Link: https://furni.example.com/modern-upholstered-set",agent,recommend_product_set,5,2025-12-28
+SESSION-FURN-REC-512,"I like the Modern Upholstered Set, but can I swap the floating dresser with a solid wood one?",customer,inquire_custom_combination,6,2025-12-28
+SESSION-FURN-REC-512,"Absolutely! You can keep the upholstered bed and nightstands and replace the floating dresser with the Classic Oak Dresser for $499. Pros: sturdy, complements modern set. Cons: heavier than floating style. Link: https://furni.example.com/classic-oak-dresser",agent,recommend_combination,7,2025-12-28
+SESSION-FURN-REC-512,That sounds perfect. Let’s go with that combination.,customer,confirm_combination,8,2025-12-28
+SESSION-FURN-REC-512,Perfect! Modern Upholstered bed and nightstands with the Classic Oak Dresser have been added to your cart. Would you like me to suggest bedding and rugs next to complete the room?,agent,add_to_cart_confirmation_and_suggest_next,9,2025-12-28
+SESSION-FURN-REC-620,"Hi, I’m furnishing my living room and I want a sectional sofa, two accent chairs, and a coffee table. I’d like to compare materials, colors, and sizes before deciding.",customer,browse_multiple_furniture,1,2025-12-31
+SESSION-FURN-REC-620,"Absolutely! I can show you two sectional options, two sets of accent chairs, and two coffee tables, highlighting materials, colors, and dimensions. Shall we start with the sectional sofas?",agent,set_expectations,2,2025-12-31
+SESSION-FURN-REC-620,"Yes, let’s start there.",customer,confirm_flow,3,2025-12-31
+SESSION-FURN-REC-620,"Sectional Option A: LuxeComfort Leather Sectional, $1,799. Material: genuine leather. Color: dark brown. Size: 120"" x 90"". Pros: durable, easy to clean. Cons: leather can feel cold in winter. Link: https://furni.example.com/luxe-leather-sectional",agent,recommend_product,4,2025-12-31
+SESSION-FURN-REC-620,"Sectional Option B: CozyFabric Modular Sectional, $1,499. Material: high-grade fabric. Color: light grey. Size: 110"" x 85"". Pros: soft and warm, modular for rearranging. Cons: fabric can stain more easily. Link: https://furni.example.com/cozy-fabric-sectional",agent,recommend_product,5,2025-12-31
+SESSION-FURN-REC-620,I like the fabric sectional but can I get it in a darker grey and with a chaise on the left side?,customer,inquire_customization,6,2025-12-31
+SESSION-FURN-REC-620,Yes! We can customize CozyFabric Modular Sectional to dark grey and position the chaise on the left. This adds $100 to the price. Link: https://furni.example.com/cozy-fabric-sectional-custom,agent,recommend_customization,7,2025-12-31
+SESSION-FURN-REC-620,Great! Now show me accent chairs.,customer,request_next_category,8,2025-12-31
+SESSION-FURN-REC-620,"Accent Chair Option A: Velvet Armchair, $299. Color: navy. Pros: soft, stylish. Cons: requires careful cleaning. Link: https://furni.example.com/velvet-armchair",agent,recommend_product,9,2025-12-31
+SESSION-FURN-REC-620,"Accent Chair Option B: Leather Recliner, $399. Color: dark brown. Pros: durable, recliner function. Cons: less cozy for long sitting. Link: https://furni.example.com/leather-recliner",agent,recommend_product,10,2025-12-31
+SESSION-FURN-REC-620,"I’ll go with the Velvet Armchair, but can I get two of them in a slightly lighter blue?",customer,inquire_quantity_and_color_customization,11,2025-12-31
+SESSION-FURN-REC-620,No problem! We can order two Velvet Armchairs in light blue. This will add $50 per chair for the custom color. Link: https://furni.example.com/velvet-armchair-custom,agent,recommend_customization,12,2025-12-31
+SESSION-FURN-REC-620,"Perfect. Finally, coffee tables.",customer,request_next_category,13,2025-12-31
+SESSION-FURN-REC-620,"Coffee Table Option A: Oak Rustic Table, $199. Pros: sturdy, rustic look. Cons: heavier to move. Link: https://furni.example.com/oak-rustic-table",agent,recommend_product,14,2025-12-31
+SESSION-FURN-REC-620,"Coffee Table Option B: Glass Modern Table, $249. Pros: sleek, light visual footprint. Cons: needs careful cleaning. Link: https://furni.example.com/glass-modern-table",agent,recommend_product,15,2025-12-31
+SESSION-FURN-REC-620,I’ll take the Oak Rustic Table. Let’s add everything to my cart.,customer,finalize_selection,16,2025-12-31
+SESSION-FURN-REC-620,"All set! Your customized dark grey CozyFabric sectional with left chaise, two light blue Velvet Armchairs, and Oak Rustic Table have been added to your cart. Your living room is now fully styled.",agent,add_to_cart_confirmation,17,2025-12-31
+SESSION-GAMING-774,"Hey, I want to upgrade my gaming setup with a desk, a gaming chair, a monitor, and RGB lighting. I want to compare sizes, materials, and features.",customer,browse_multiple_products,1,2025-12-31
+SESSION-GAMING-774,"Awesome! I can show you two gaming desks, two chairs, two monitors, and two RGB lighting options. Shall we start with desks?",agent,set_expectations,2,2025-12-31
+SESSION-GAMING-774,"Yes, let's start with desks.",customer,confirm_flow,3,2025-12-31
+SESSION-GAMING-774,"Desk Option A: TitanPro Carbon Fiber Desk, $399. Material: carbon fiber top, steel frame. Size: 60"" x 30"". Pros: sleek design, very durable. Cons: heavier to move. Link: https://furni.example.com/titanpro-desk",agent,recommend_product,4,2025-12-31
+SESSION-GAMING-774,"Desk Option B: Arcadia Gaming Desk, $349. Material: MDF with tempered glass panel. Size: 55"" x 28"". Pros: RGB side lighting built-in, lightweight. Cons: less durable than carbon fiber. Link: https://furni.example.com/arcadia-desk",agent,recommend_product,5,2025-12-31
+SESSION-GAMING-774,"I like the TitanPro desk, but can I get it with RGB edge lighting?",customer,inquire_customization,6,2025-12-31
+SESSION-GAMING-774,Yes! TitanPro Carbon Fiber Desk can be upgraded with RGB edge lighting for $60 extra. Link: https://furni.example.com/titanpro-desk-rgb,agent,recommend_customization,7,2025-12-31
+SESSION-GAMING-774,Great. Now the chairs.,customer,request_next_category,8,2025-12-31
+SESSION-GAMING-774,"Chair Option A: HyperSeat Pro Gaming Chair, $299. Material: PU leather, memory foam padding. Color: black/red. Pros: ergonomic, adjustable recline. Cons: PU leather can heat up. Link: https://furni.example.com/hyperseat-chair",agent,recommend_product,9,2025-12-31
+SESSION-GAMING-774,"Chair Option B: TitanX Mesh Chair, $279. Material: breathable mesh, adjustable lumbar support. Color: grey/black. Pros: breathable, good for long sessions. Cons: less plush padding. Link: https://furni.example.com/titanx-mesh-chair",agent,recommend_product,10,2025-12-31
+SESSION-GAMING-774,"I’ll go with the HyperSeat, but can I get it in all-black and two of them for my setup?",customer,inquire_quantity_and_color_customization,11,2025-12-31
+SESSION-GAMING-774,Sure! We can order two HyperSeat Pro Chairs in all-black for $40 extra per chair. Link: https://furni.example.com/hyperseat-chair-custom,agent,recommend_customization,12,2025-12-31
+SESSION-GAMING-774,"Next, the monitors.",customer,request_next_category,13,2025-12-31
+SESSION-GAMING-774,"Monitor Option A: UltraView 27"" 144Hz, $349. Resolution: 2560x1440. Panel: IPS. Pros: smooth refresh rate, vibrant colors. Cons: no built-in speakers. Link: https://furni.example.com/ultraview-monitor",agent,recommend_product,14,2025-12-31
+SESSION-GAMING-774,"Monitor Option B: TitanX Curved 32"" 165Hz, $449. Resolution: 2560x1440. Panel: VA. Pros: immersive curved screen, high refresh. Cons: larger footprint. Link: https://furni.example.com/titanx-curved-monitor",agent,recommend_product,15,2025-12-31
+SESSION-GAMING-774,"I like the TitanX Curved Monitor. No customization needed. Finally, the RGB lighting.",customer,request_next_category,16,2025-12-31
+SESSION-GAMING-774,"RGB Lighting Option A: LuminEdge LED Strip, $79. Full RGB with app control. Pros: easy to install, syncs with games. Cons: needs power outlet nearby. Link: https://furni.example.com/luminedge-led",agent,recommend_product,17,2025-12-31
+SESSION-GAMING-774,"RGB Lighting Option B: AuroraSmart Desk Lamp, $99. Full RGB with voice control. Pros: stylish, multi-function. Cons: smaller light coverage. Link: https://furni.example.com/aurorasmart-lamp",agent,recommend_product,18,2025-12-31
+SESSION-GAMING-774,I’ll take the LuminEdge LED Strip. Add everything to my cart.,customer,finalize_selection,19,2025-12-31
+SESSION-GAMING-774,"All done! Your TitanPro Desk with RGB lighting, two HyperSeat Pro Chairs in all-black, TitanX Curved Monitor, and LuminEdge LED Strip have been added to your cart. Your gaming setup is ready to go!",agent,add_to_cart_confirmation,20,2025-12-31
+SESSION-HOME-OFF-925,"Hi, I’m setting up a home office. I need a desk, an ergonomic chair, and a desk lamp. I want to compare styles, materials, and sizes.",customer,browse_multiple_furniture,1,2025-12-31
+SESSION-HOME-OFF-925,"Great! I can show you two desk options, two ergonomic chairs, and two desk lamps, highlighting materials, finishes, and dimensions. Shall we start with desks?",agent,set_expectations,2,2025-12-31
+SESSION-HOME-OFF-925,"Yes, let's start with the desks.",customer,confirm_flow,3,2025-12-31
+SESSION-HOME-OFF-925,"Desk Option A: Modern Oak Standing Desk, $499. Material: solid oak and steel frame. Color: natural oak. Size: 60"" x 30"". Pros: adjustable height, solid build. Cons: heavier to move. Link: https://furni.example.com/modern-oak-desk",agent,recommend_product,4,2025-12-31
+SESSION-HOME-OFF-925,"Desk Option B: Sleek Glass Top Desk, $399. Material: tempered glass and aluminum frame. Color: clear glass with silver frame. Size: 55"" x 28"". Pros: modern, lightweight. Cons: fingerprints show easily, less storage. Link: https://furni.example.com/glass-top-desk",agent,recommend_product,5,2025-12-31
+SESSION-HOME-OFF-925,"I like the oak desk, but can it come with a darker walnut finish and a cable management tray?",customer,inquire_customization,6,2025-12-31
+SESSION-HOME-OFF-925,Absolutely! We can customize the Modern Oak Standing Desk to a walnut finish and add a cable management tray for $75 extra. Link: https://furni.example.com/modern-oak-desk-custom,agent,recommend_customization,7,2025-12-31
+SESSION-HOME-OFF-925,Perfect. Now show me chairs.,customer,request_next_category,8,2025-12-31
+SESSION-HOME-OFF-925,"Chair Option A: Ergoflex Mesh Chair, $299. Material: breathable mesh, adjustable lumbar. Color: black. Pros: ergonomic, breathable. Cons: less cushioned. Link: https://furni.example.com/ergoflex-mesh-chair",agent,recommend_product,9,2025-12-31
+SESSION-HOME-OFF-925,"Chair Option B: Plush Executive Chair, $399. Material: faux leather, memory foam padding. Color: dark brown. Pros: comfortable, executive style. Cons: can get warm over long sessions. Link: https://furni.example.com/plush-executive-chair",agent,recommend_product,10,2025-12-31
+SESSION-HOME-OFF-925,"I like the Ergoflex, but can I get it in grey mesh instead of black?",customer,inquire_customization,11,2025-12-31
+SESSION-HOME-OFF-925,Of course! We can customize the Ergoflex Mesh Chair to grey mesh for $40 extra. Link: https://furni.example.com/ergoflex-mesh-chair-custom,agent,recommend_customization,12,2025-12-31
+SESSION-HOME-OFF-925,"Great. Finally, the desk lamps.",customer,request_next_category,13,2025-12-31
+SESSION-HOME-OFF-925,"Desk Lamp Option A: LED Swing Arm Lamp, $59. Color: matte black. Pros: adjustable, energy-efficient. Cons: less decorative. Link: https://furni.example.com/led-swing-lamp",agent,recommend_product,14,2025-12-31
+SESSION-HOME-OFF-925,"Desk Lamp Option B: Modern Desk Globe Lamp, $69. Color: brass finish. Pros: stylish, warm lighting. Cons: slightly smaller light coverage. Link: https://furni.example.com/desk-globe-lamp",agent,recommend_product,15,2025-12-31
+SESSION-HOME-OFF-925,I’ll take the LED Swing Arm Lamp. Please add everything to my cart.,customer,finalize_selection,16,2025-12-31
+SESSION-HOME-OFF-925,"All done! Your customized walnut Modern Oak Standing Desk with cable management, grey Ergoflex Mesh Chair, and LED Swing Arm Lamp have been added to your cart. Your home office is ready for work!",agent,add_to_cart_confirmation,17,2025-12-31
+SESSION-HOME-OFFICE-204,"Hi, I’m setting up a home office and need a desk, office chair, bookshelf, and a small side table. I’d like to see options for materials, finishes, and dimensions before deciding.",customer,browse_multiple_home_office_furniture,1,2025-04-12
+SESSION-HOME-OFFICE-204,"Absolutely! I can show two options for each category—desk, chair, bookshelf, and side table—with details on materials, finishes, and sizes. Shall we start with desks?",agent,set_expectations,2,2025-04-12
+SESSION-HOME-OFFICE-204,"Yes, let’s look at desks first.",customer,confirm_flow,3,2025-04-12
+SESSION-HOME-OFFICE-204,"Desk Option A: Maple Modern Desk, $399. Material: solid maple wood. Color: natural maple. Size: 50"" x 24"". Pros: clean, minimalist design. Cons: heavier than composite desks. Link: https://furni.example.com/maple-modern-desk",agent,recommend_product,4,2025-04-12
+SESSION-HOME-OFFICE-204,"Desk Option B: Glass and Metal Desk, $449. Material: tempered glass top with metal frame. Color: clear glass with black frame. Size: 48"" x 22"". Pros: sleek and modern, light visual footprint. Cons: glass surface needs careful cleaning. Link: https://furni.example.com/glass-metal-desk",agent,recommend_product,5,2025-04-12
+SESSION-HOME-OFFICE-204,"I like the Maple Modern Desk, but can it come in dark walnut?",customer,inquire_customization,6,2025-04-12
+SESSION-HOME-OFFICE-204,Yes! The Maple Modern Desk can be customized in dark walnut for an additional $50. Link: https://furni.example.com/maple-modern-desk-custom,agent,recommend_customization,7,2025-04-12
+SESSION-HOME-OFFICE-204,"Great. Now, office chairs.",customer,request_next_category,8,2025-04-12
+SESSION-HOME-OFFICE-204,"Chair Option A: Ergoflex Mesh Chair, $229. Color: black. Pros: ergonomic design, breathable mesh. Cons: minimal padding. Link: https://furni.example.com/ergoflex-chair",agent,recommend_product,9,2025-04-12
+SESSION-HOME-OFFICE-204,"Chair Option B: Leather Executive Chair, $279. Color: dark brown. Pros: plush and comfortable. Cons: less breathable for long sitting. Link: https://furni.example.com/leather-executive-chair",agent,recommend_product,10,2025-04-12
+SESSION-HOME-OFFICE-204,I’ll take one Ergoflex Chair in grey.,customer,inquire_quantity_and_color_customization,11,2025-04-12
+SESSION-HOME-OFFICE-204,Perfect! Your Ergoflex Chair can be customized in grey for $15 extra. Link: https://furni.example.com/ergoflex-chair-custom,agent,recommend_customization,12,2025-04-12
+SESSION-HOME-OFFICE-204,"Now, bookshelves.",customer,request_next_category,13,2025-04-12
+SESSION-HOME-OFFICE-204,"Bookshelf Option A: Oak 5-Tier Shelf, $179. Color: natural oak. Pros: sturdy, simple design. Cons: heavier to move. Link: https://furni.example.com/oak-5tier-shelf",agent,recommend_product,14,2025-04-12
+SESSION-HOME-OFFICE-204,"Bookshelf Option B: White Modern Cube Shelf, $159. Color: white. Pros: lightweight, modular. Cons: less durable than solid wood. Link: https://furni.example.com/white-cube-shelf",agent,recommend_product,15,2025-04-12
+SESSION-HOME-OFFICE-204,I’ll go with the Oak 5-Tier Shelf.,customer,finalize_selection,16,2025-04-12
+SESSION-HOME-OFFICE-204,"Great! Your customized Maple Modern Desk in dark walnut, Ergoflex Chair in grey, and Oak 5-Tier Shelf have been added to your cart. Finally, we can look at side tables to complete your home office setup.",agent,add_to_cart_confirmation,17,2025-04-12
+SESSION-HOME-OFFICE-921,"Hi, I’m setting up a home office. I need a desk, an ergonomic chair, a monitor, and a bookshelf. I want to compare materials, sizes, and styles before deciding.",customer,browse_multiple_furniture,1,2025-12-31
+SESSION-HOME-OFFICE-921,"Great! I can show two desks, two chairs, two monitors, and two bookshelves, highlighting materials, dimensions, and styles. Shall we start with desks?",agent,set_expectations,2,2025-12-31
+SESSION-HOME-OFFICE-921,"Yes, desks first.",customer,confirm_flow,3,2025-12-31
+SESSION-HOME-OFFICE-921,"Desk Option A: OakCraft Executive Desk, $499. Material: solid oak. Size: 60"" x 30"". Pros: sturdy, classic look. Cons: heavy to move. Link: https://furni.example.com/oakcraft-desk",agent,recommend_product,4,2025-12-31
+SESSION-HOME-OFFICE-921,"Desk Option B: SteelFrame Modern Desk, $449. Material: steel frame, tempered glass top. Size: 55"" x 28"". Pros: sleek, lightweight. Cons: glass can scratch. Link: https://furni.example.com/steelframe-desk",agent,recommend_product,5,2025-12-31
+SESSION-HOME-OFFICE-921,"I like the SteelFrame Desk, but can I get a slightly larger size, 60"" x 30""?",customer,inquire_customization,6,2025-12-31
+SESSION-HOME-OFFICE-921,"Absolutely! SteelFrame Modern Desk can be customized to 60"" x 30"" for $50 extra. Link: https://furni.example.com/steelframe-desk-custom",agent,recommend_customization,7,2025-12-31
+SESSION-HOME-OFFICE-921,Great. Now the chairs.,customer,request_next_category,8,2025-12-31
+SESSION-HOME-OFFICE-921,"Chair Option A: ErgoComfort Mesh Chair, $299. Material: breathable mesh, adjustable lumbar support. Color: black. Pros: ergonomic, breathable. Cons: less plush padding. Link: https://furni.example.com/ergocomfort-chair",agent,recommend_product,9,2025-12-31
+SESSION-HOME-OFFICE-921,"Chair Option B: LuxeLeather Office Chair, $349. Material: PU leather, memory foam. Color: dark brown. Pros: plush, adjustable recline. Cons: less breathable. Link: https://furni.example.com/luxeleather-chair",agent,recommend_product,10,2025-12-31
+SESSION-HOME-OFFICE-921,"I’ll take the ErgoComfort Chair, but can I get it in dark grey instead of black?",customer,inquire_customization,11,2025-12-31
+SESSION-HOME-OFFICE-921,No problem! ErgoComfort Mesh Chair can be ordered in dark grey for $20 extra. Link: https://furni.example.com/ergocomfort-chair-custom,agent,recommend_customization,12,2025-12-31
+SESSION-HOME-OFFICE-921,"Next, the monitor.",customer,request_next_category,13,2025-12-31
+SESSION-HOME-OFFICE-921,"Monitor Option A: UltraView 27"" IPS, $349. Resolution: 2560x1440. Refresh rate: 75Hz. Pros: vibrant colors, wide viewing angles. Cons: no speakers. Link: https://furni.example.com/ultraview-monitor",agent,recommend_product,14,2025-12-31
+SESSION-HOME-OFFICE-921,"Monitor Option B: ProDesk 32"" LED, $399. Resolution: 2560x1440. Refresh rate: 75Hz. Pros: larger screen, slim bezel. Cons: slightly higher price. Link: https://furni.example.com/prodesk-monitor",agent,recommend_product,15,2025-12-31
+SESSION-HOME-OFFICE-921,"I’ll go with the ProDesk 32"" LED. Finally, the bookshelf.",customer,request_next_category,16,2025-12-31
+SESSION-HOME-OFFICE-921,"Bookshelf Option A: MapleWood 5-Shelf, $199. Material: solid maple. Size: 72"" x 30"". Pros: sturdy, classic design. Cons: heavy. Link: https://furni.example.com/maplewood-bookshelf",agent,recommend_product,17,2025-12-31
+SESSION-HOME-OFFICE-921,"Bookshelf Option B: SteelFrame 4-Shelf, $149. Material: steel frame, MDF shelves. Size: 70"" x 28"". Pros: lightweight, industrial look. Cons: less natural feel. Link: https://furni.example.com/steelframe-bookshelf",agent,recommend_product,18,2025-12-31
+SESSION-HOME-OFFICE-921,I’ll take the MapleWood bookshelf. Add everything to my cart.,customer,finalize_selection,19,2025-12-31
+SESSION-HOME-OFFICE-921,"All set! Your customized SteelFrame desk, dark grey ErgoComfort chair, ProDesk monitor, and MapleWood bookshelf have been added to your cart. Your home office is fully ready.",agent,add_to_cart_confirmation,20,2025-12-31
+SESSION-KITCHEN-882,"Hi, I’m upgrading my kitchen and want a smart refrigerator, a range oven, and under-cabinet lighting. I want to compare brands, features, and sizes.",customer,browse_multiple_appliances,1,2025-12-31
+SESSION-KITCHEN-882,"Fantastic! I can show two smart refrigerators, two range ovens, and two lighting options, highlighting features, sizes, and finishes. Shall we start with refrigerators?",agent,set_expectations,2,2025-12-31
+SESSION-KITCHEN-882,"Yes, show me refrigerators first.",customer,confirm_flow,3,2025-12-31
+SESSION-KITCHEN-882,"Refrigerator Option A: FrostSmart French Door, $2,199. Capacity: 28 cu ft. Finish: stainless steel. Features: Wi-Fi connectivity, water dispenser, adjustable shelves. Pros: large capacity, modern design. Cons: higher energy usage. Link: https://furni.example.com/frostsmart-fridge",agent,recommend_product,4,2025-12-31
+SESSION-KITCHEN-882,"Refrigerator Option B: CoolTech Smart Fridge, $1,899. Capacity: 25 cu ft. Finish: matte black. Features: smart temperature control, energy-efficient, voice assistant compatible. Pros: eco-friendly, sleek look. Cons: slightly smaller interior. Link: https://furni.example.com/cooltech-fridge",agent,recommend_product,5,2025-12-31
+SESSION-KITCHEN-882,"I like the CoolTech fridge, but can I get it in silver and with a built-in ice maker?",customer,inquire_customization,6,2025-12-31
+SESSION-KITCHEN-882,Absolutely! CoolTech Smart Fridge can be customized to silver and include a built-in ice maker for $150 extra. Link: https://furni.example.com/cooltech-fridge-custom,agent,recommend_customization,7,2025-12-31
+SESSION-KITCHEN-882,Great. Show me range ovens next.,customer,request_next_category,8,2025-12-31
+SESSION-KITCHEN-882,"Range Oven Option A: ProBake Gas Range, $1,299. Fuel: natural gas. Features: convection oven, smart temperature probe. Pros: precise cooking, professional style. Cons: requires gas connection. Link: https://furni.example.com/probake-range",agent,recommend_product,9,2025-12-31
+SESSION-KITCHEN-882,"Range Oven Option B: SmartInduction Range, $1,499. Fuel: induction electric. Features: app-controlled, safety lock, fast heating. Pros: energy-efficient, easy to clean. Cons: needs compatible cookware. Link: https://furni.example.com/smartinduction-range",agent,recommend_product,10,2025-12-31
+SESSION-KITCHEN-882,"I prefer the SmartInduction Range, but can it come with a brushed steel finish and extra oven racks?",customer,inquire_customization,11,2025-12-31
+SESSION-KITCHEN-882,Yes! SmartInduction Range can be customized with brushed steel finish and two extra oven racks for $120 extra. Link: https://furni.example.com/smartinduction-range-custom,agent,recommend_customization,12,2025-12-31
+SESSION-KITCHEN-882,"Perfect. Finally, the lighting.",customer,request_next_category,13,2025-12-31
+SESSION-KITCHEN-882,"Lighting Option A: LED Under-Cabinet Strip, $79. Color temperature: 3000K warm white. Pros: energy-efficient, easy install. Cons: slightly dim for large countertops. Link: https://furni.example.com/led-strip-lighting",agent,recommend_product,14,2025-12-31
+SESSION-KITCHEN-882,"Lighting Option B: Smart Dimmable Puck Lights, $99. Color temperature: adjustable 2700K-5000K. Pros: app control, customizable brightness. Cons: requires smart hub. Link: https://furni.example.com/puck-lights",agent,recommend_product,15,2025-12-31
+SESSION-KITCHEN-882,I’ll take the Smart Dimmable Puck Lights. Please add all items to my cart.,customer,finalize_selection,16,2025-12-31
+SESSION-KITCHEN-882,"All set! Your customized silver CoolTech Smart Fridge with ice maker, brushed steel SmartInduction Range with extra racks, and Smart Dimmable Puck Lights have been added to your cart. Your kitchen is now fully upgraded!",agent,add_to_cart_confirmation,17,2025-12-31
+SESSION-OFFICE-883,"Hi, I’m setting up a new office. I need desks, ergonomic chairs, a conference table, filing cabinets, and task lighting. I want to see options with different materials, sizes, and colors before I decide.",customer,browse_multiple_furniture,1,2025-12-31
+SESSION-OFFICE-883,"Excellent! I can show you two desk options, two chair options, a conference table, two filing cabinet options, and two task lights. Shall we start with desks?",agent,set_expectations,2,2025-12-31
+SESSION-OFFICE-883,"Yes, desks first.",customer,confirm_flow,3,2025-12-31
+SESSION-OFFICE-883,"Desk Option A: Executive Maple Desk, $699. Material: solid maple wood. Color: natural. Size: 72"" x 36"". Pros: sturdy, classic look. Cons: heavier to move. Link: https://furni.example.com/executive-maple-desk",agent,recommend_product,4,2025-12-31
+SESSION-OFFICE-883,"Desk Option B: Modern Glass Desk, $599. Material: tempered glass top, steel frame. Color: clear glass with black frame. Size: 66"" x 30"". Pros: sleek, light visual footprint. Cons: requires regular cleaning. Link: https://furni.example.com/modern-glass-desk",agent,recommend_product,5,2025-12-31
+SESSION-OFFICE-883,I like the Modern Glass Desk. Can it come with a cable management system?,customer,inquire_customization,6,2025-12-31
+SESSION-OFFICE-883,Yes! We can add an integrated cable management system for $50 extra. Link: https://furni.example.com/modern-glass-desk-custom,agent,recommend_customization,7,2025-12-31
+SESSION-OFFICE-883,"Great, now chairs.",customer,request_next_category,8,2025-12-31
+SESSION-OFFICE-883,"Chair Option A: ErgoPro Mesh Chair, $349. Color: black. Pros: breathable mesh, adjustable lumbar support. Cons: armrests not removable. Link: https://furni.example.com/ergopro-mesh-chair",agent,recommend_product,9,2025-12-31
+SESSION-OFFICE-883,"Chair Option B: Executive Leather Chair, $399. Color: dark brown. Pros: plush seating, premium look. Cons: can feel warm in summer. Link: https://furni.example.com/executive-leather-chair",agent,recommend_product,10,2025-12-31
+SESSION-OFFICE-883,I’ll get two ErgoPro Mesh Chairs in dark grey instead of black.,customer,inquire_quantity_and_color_customization,11,2025-12-31
+SESSION-OFFICE-883,Absolutely! Two ErgoPro Mesh Chairs in dark grey will be $20 extra per chair. Link: https://furni.example.com/ergopro-mesh-chair-custom,agent,recommend_customization,12,2025-12-31
+SESSION-OFFICE-883,Now the conference table.,customer,request_next_category,13,2025-12-31
+SESSION-OFFICE-883,"Conference Table Option: Oak Veneer 12-Seater, $1,299. Material: oak veneer, steel legs. Color: medium oak. Size: 12-foot. Pros: spacious, classic look. Cons: heavy to move. Link: https://furni.example.com/oak-12-seater",agent,recommend_product,14,2025-12-31
+SESSION-OFFICE-883,Perfect. Filing cabinets next.,customer,request_next_category,15,2025-12-31
+SESSION-OFFICE-883,"Filing Cabinet Option A: Steel 4-Drawer Cabinet, $349. Color: grey. Pros: durable, lockable drawers. Cons: industrial look. Link: https://furni.example.com/steel-4drawer-cabinet",agent,recommend_product,16,2025-12-31
+SESSION-OFFICE-883,"Filing Cabinet Option B: Wooden 3-Drawer Cabinet, $329. Color: walnut. Pros: stylish, matches wood furniture. Cons: less storage capacity. Link: https://furni.example.com/wood-3drawer-cabinet",agent,recommend_product,17,2025-12-31
+SESSION-OFFICE-883,I’ll get two Wooden 3-Drawer Cabinets in a lighter walnut finish.,customer,inquire_quantity_and_color_customization,18,2025-12-31
+SESSION-OFFICE-883,Two Wooden 3-Drawer Cabinets in light walnut will be $15 extra each. Link: https://furni.example.com/wood-3drawer-cabinet-custom,agent,recommend_customization,19,2025-12-31
+SESSION-OFFICE-883,"Lastly, task lighting.",customer,request_next_category,20,2025-12-31
+SESSION-OFFICE-883,"Task Light Option: LED Adjustable Desk Lamp, $89. Color: matte black. Pros: adjustable brightness, modern look. Cons: requires outlet. Link: https://furni.example.com/led-desk-lamp",agent,recommend_product,21,2025-12-31
+SESSION-OFFICE-883,Great! Add everything to my cart.,customer,finalize_selection,22,2025-12-31
+SESSION-OFFICE-883,"All set! Your customized Modern Glass Desk with cable management, two ErgoPro Mesh Chairs in dark grey, Oak Veneer 12-Seater conference table, two Wooden 3-Drawer Cabinets in light walnut, and LED Desk Lamp have been added to your cart. Your office is now fully equipped.",agent,add_to_cart_confirmation,23,2025-12-31
+SESSION-OFFICE-883-FOLLOWUP,Hi again! I noticed you recently purchased a conference desk. Would you like to explore additional office furniture and supplies to complete your workspace?,agent,followup_offer,1,2026-01-05
+SESSION-OFFICE-883-FOLLOWUP,"Yes, that would be great. I think we need chairs, storage units, and some office organization accessories.",customer,browse_multiple_furniture,2,2026-01-05
+SESSION-OFFICE-883-FOLLOWUP,Perfect! Let’s start with office chairs. I can show you two options with ergonomic features and color choices. Then we’ll look at storage units and accessories.,agent,set_expectations,3,2026-01-05
+SESSION-OFFICE-883-FOLLOWUP,"Sounds good, let's start with chairs.",customer,confirm_flow,4,2026-01-05
+SESSION-OFFICE-883-FOLLOWUP,"Chair Option A: ErgoPro Mesh Chair, $349. Color: black. Pros: lumbar support, adjustable height, breathable mesh. Cons: armrests are minimal. Link: https://furni.example.com/ergopro-mesh",agent,recommend_product,5,2026-01-05
+SESSION-OFFICE-883-FOLLOWUP,"Chair Option B: Executive Leather Office Chair, $399. Color: dark brown. Pros: plush, premium feel, swivel function. Cons: less breathable. Link: https://furni.example.com/executive-leather-chair",agent,recommend_product,6,2026-01-05
+SESSION-OFFICE-883-FOLLOWUP,"I’ll take three ErgoPro chairs, but can we get them in dark grey?",customer,inquire_quantity_and_color_customization,7,2026-01-05
+SESSION-OFFICE-883-FOLLOWUP,Absolutely! Three ErgoPro chairs in dark grey can be customized for $20 extra each. Link: https://furni.example.com/ergopro-mesh-custom,agent,recommend_customization,8,2026-01-05
+SESSION-OFFICE-883-FOLLOWUP,Great. Now storage units.,customer,request_next_category,9,2026-01-05
+SESSION-OFFICE-883-FOLLOWUP,"Storage Option A: Metal 4-Drawer Cabinet, $299. Color: grey. Pros: lockable, sturdy. Cons: industrial look. Link: https://furni.example.com/metal-4drawer-cabinet",agent,recommend_product,10,2026-01-05
+SESSION-OFFICE-883-FOLLOWUP,"Storage Option B: Wooden 2-Drawer Cabinet, $249. Color: walnut. Pros: stylish, matches wood furniture. Cons: less storage. Link: https://furni.example.com/wood-2drawer-cabinet",agent,recommend_product,11,2026-01-05
+SESSION-OFFICE-883-FOLLOWUP,"Two Wooden 2-Drawer Cabinets in light walnut, please.",customer,inquire_quantity_and_color_customization,12,2026-01-05
+SESSION-OFFICE-883-FOLLOWUP,Two Wooden 2-Drawer Cabinets in light walnut will be $10 extra each. Link: https://furni.example.com/wood-2drawer-cabinet-custom,agent,recommend_customization,13,2026-01-05
+SESSION-OFFICE-883-FOLLOWUP,"Finally, office organization accessories.",customer,request_next_category,14,2026-01-05
+SESSION-OFFICE-883-FOLLOWUP,"Accessory Option A: Desk Organizer Set, $49. Pros: compartments for files and stationery. Cons: takes some desktop space. Link: https://furni.example.com/desk-organizer-set",agent,recommend_product,15,2026-01-05
+SESSION-OFFICE-883-FOLLOWUP,"Accessory Option B: Filing Tray Stack, $39. Pros: compact, stackable. Cons: limited capacity. Link: https://furni.example.com/filing-tray-stack",agent,recommend_product,16,2026-01-05
+SESSION-OFFICE-883-FOLLOWUP,I’ll go with one Desk Organizer Set and two Filing Tray Stacks.,customer,finalize_selection,17,2026-01-05
+SESSION-OFFICE-883-FOLLOWUP,"All set! Your three customized ErgoPro chairs, two Wooden 2-Drawer Cabinets, Desk Organizer Set, and two Filing Tray Stacks have been added to your cart. Your office is now fully equipped beyond the conference desk.",agent,add_to_cart_confirmation,18,2026-01-05
+SESSION-OFFICE-912,"Hello, we’re furnishing a new open-plan office. We need workstations, office chairs, filing cabinets, and some collaborative lounge furniture. I want to compare materials, finishes, and dimensions before ordering.",customer,browse_multiple_office_furniture,1,2026-02-10
+SESSION-OFFICE-912,"Great! I can show you two options for each category—workstations, chairs, filing cabinets, and lounge furniture—highlighting materials, finishes, and sizes. Shall we start with workstations?",agent,set_expectations,2,2026-02-10
+SESSION-OFFICE-912,"Yes, let’s start there.",customer,confirm_flow,3,2026-02-10
+SESSION-OFFICE-912,"Workstation Option A: Modular Desk Cluster, $499 each. Material: laminate with steel frame. Color: white with silver legs. Size: 60"" x 30"". Pros: expandable, easy to clean. Cons: laminate can scratch. Link: https://furni.example.com/modular-desk-cluster",agent,recommend_product,4,2026-02-10
+SESSION-OFFICE-912,"Workstation Option B: Solid Wood Executive Desk, $699 each. Material: oak veneer. Color: natural wood. Size: 65"" x 32"". Pros: premium look, durable. Cons: heavier and less modular. Link: https://furni.example.com/solid-wood-executive",agent,recommend_product,5,2026-02-10
+SESSION-OFFICE-912,"I like the Modular Desk Cluster, but can we have a walnut finish instead of white?",customer,inquire_customization,6,2026-02-10
+SESSION-OFFICE-912,Yes! The Modular Desk Cluster can be customized in walnut for an additional $50 per desk. Link: https://furni.example.com/modular-desk-cluster-custom,agent,recommend_customization,7,2026-02-10
+SESSION-OFFICE-912,"Great. Next, office chairs.",customer,request_next_category,8,2026-02-10
+SESSION-OFFICE-912,"Chair Option A: AirFlow Ergonomic Chair, $279. Color: black. Pros: adjustable lumbar support, breathable mesh. Cons: less padding for long sitting. Link: https://furni.example.com/airflow-ergonomic",agent,recommend_product,9,2026-02-10
+SESSION-OFFICE-912,"Chair Option B: Executive Leather Task Chair, $349. Color: dark brown. Pros: plush, premium feel. Cons: less breathable. Link: https://furni.example.com/executive-leather-task",agent,recommend_product,10,2026-02-10
+SESSION-OFFICE-912,I’ll take 10 AirFlow chairs in navy blue if possible.,customer,inquire_quantity_and_color_customization,11,2026-02-10
+SESSION-OFFICE-912,Absolutely! Ten AirFlow chairs in navy blue can be customized for $15 extra per chair. Link: https://furni.example.com/airflow-ergonomic-custom,agent,recommend_customization,12,2026-02-10
+SESSION-OFFICE-912,Now let’s move on to filing cabinets.,customer,request_next_category,13,2026-02-10
+SESSION-OFFICE-912,"Filing Cabinet Option A: Steel 4-Drawer Cabinet, $299. Color: grey. Pros: lockable, heavy-duty. Cons: industrial look. Link: https://furni.example.com/steel-4drawer",agent,recommend_product,14,2026-02-10
+SESSION-OFFICE-912,"Filing Cabinet Option B: Wooden 2-Drawer Cabinet, $249. Color: walnut. Pros: stylish, fits lounge areas. Cons: less storage. Link: https://furni.example.com/wooden-2drawer",agent,recommend_product,15,2026-02-10
+SESSION-OFFICE-912,We’ll take five Steel 4-Drawer Cabinets.,customer,finalize_selection,16,2026-02-10
+SESSION-OFFICE-912,"All set! Your customized Modular Desk Clusters, 10 navy AirFlow chairs, and five Steel 4-Drawer Cabinets have been added to your cart. Next, we can explore collaborative lounge furniture to complete your office.",agent,add_to_cart_confirmation,17,2026-02-10
+SESSION-OFFICE-945,"Hi, we’re outfitting a new corporate office. We need executive desks, ergonomic chairs, storage cabinets, and a few lounge seating options for the break room. I want to compare materials, colors, and dimensions before deciding.",customer,browse_multiple_office_furniture,1,2025-03-15
+SESSION-OFFICE-945,"Hello! I can show you two options for each category with details on materials, finishes, and dimensions. Shall we begin with executive desks?",agent,set_expectations,2,2025-03-15
+SESSION-OFFICE-945,"Yes, let’s start with desks.",customer,confirm_flow,3,2025-03-15
+SESSION-OFFICE-945,"Executive Desk Option A: Titan Oak Executive Desk, $899. Material: solid oak veneer. Color: natural oak. Size: 72"" x 36"". Pros: premium finish, durable. Cons: heavier, harder to move. Link: https://furni.example.com/titan-oak-desk",agent,recommend_product,4,2025-03-15
+SESSION-OFFICE-945,"Executive Desk Option B: Nova Glass Top Desk, $999. Material: tempered glass with metal frame. Color: clear glass with black frame. Size: 70"" x 34"". Pros: modern look, sleek design. Cons: glass requires careful cleaning. Link: https://furni.example.com/nova-glass-desk",agent,recommend_product,5,2025-03-15
+SESSION-OFFICE-945,"I like the Titan Oak Desk, but can we get it in a darker walnut finish?",customer,inquire_customization,6,2025-03-15
+SESSION-OFFICE-945,Yes! The Titan Oak Desk can be customized in walnut for an additional $75 per desk. Link: https://furni.example.com/titan-oak-desk-custom,agent,recommend_customization,7,2025-03-15
+SESSION-OFFICE-945,"Perfect. Next, ergonomic chairs.",customer,request_next_category,8,2025-03-15
+SESSION-OFFICE-945,"Chair Option A: CloudMesh Ergonomic Chair, $329. Color: black. Pros: adjustable lumbar support, breathable mesh. Cons: armrests not padded. Link: https://furni.example.com/cloudmesh-chair",agent,recommend_product,9,2025-03-15
+SESSION-OFFICE-945,"Chair Option B: Executive Leather Chair, $399. Color: dark brown. Pros: plush, premium feel. Cons: less breathable. Link: https://furni.example.com/executive-leather-chair",agent,recommend_product,10,2025-03-15
+SESSION-OFFICE-945,"We’ll take 12 CloudMesh chairs in grey, please.",customer,inquire_quantity_and_color_customization,11,2025-03-15
+SESSION-OFFICE-945,Absolutely! Twelve CloudMesh chairs in grey can be customized for $20 extra per chair. Link: https://furni.example.com/cloudmesh-chair-custom,agent,recommend_customization,12,2025-03-15
+SESSION-OFFICE-945,"Now, storage cabinets.",customer,request_next_category,13,2025-03-15
+SESSION-OFFICE-945,"Cabinet Option A: Steel 4-Drawer Cabinet, $299. Color: grey. Pros: lockable, durable. Cons: industrial look. Link: https://furni.example.com/steel-4drawer-cabinet",agent,recommend_product,14,2025-03-15
+SESSION-OFFICE-945,"Cabinet Option B: Wooden 2-Drawer Lateral Cabinet, $249. Color: walnut. Pros: stylish, fits lounge or executive areas. Cons: smaller capacity. Link: https://furni.example.com/wooden-2drawer-cabinet",agent,recommend_product,15,2025-03-15
+SESSION-OFFICE-945,We’ll take six Steel 4-Drawer Cabinets.,customer,finalize_selection,16,2025-03-15
+SESSION-OFFICE-945,"All set! Your customized Titan Oak desks in walnut, 12 CloudMesh chairs in grey, and six Steel 4-Drawer Cabinets have been added to your cart. Next, we can look at lounge seating options for the break room.",agent,add_to_cart_confirmation,17,2025-03-15
+SESSION-OFFICE-961,"Hello, I’m outfitting a new office space. I need workstations, ergonomic chairs, a large conference table, storage units, and floor lamps. I’d like to compare materials, colors, and sizes before ordering.",customer,browse_multiple_furniture,1,2025-12-31
+SESSION-OFFICE-961,"Absolutely! I can show you two workstation options, two chair options, a large conference table, two storage units, and two floor lamps. Shall we start with workstations?",agent,set_expectations,2,2025-12-31
+SESSION-OFFICE-961,"Yes, let’s start with workstations.",customer,confirm_flow,3,2025-12-31
+SESSION-OFFICE-961,"Workstation Option A: Modern L-Shaped Desk, $799. Material: engineered wood with metal legs. Color: white with black trim. Size: 60"" x 60"". Pros: spacious, modern design. Cons: heavier assembly. Link: https://furni.example.com/l-shaped-desk",agent,recommend_product,4,2025-12-31
+SESSION-OFFICE-961,"Workstation Option B: Adjustable Sit-Stand Desk, $899. Material: laminate top, steel frame. Color: grey. Size: 55"" x 30"". Pros: height-adjustable, ergonomic. Cons: smaller desktop space. Link: https://furni.example.com/sit-stand-desk",agent,recommend_product,5,2025-12-31
+SESSION-OFFICE-961,I like the sit-stand desk. Can it come with a built-in cable tray?,customer,inquire_customization,6,2025-12-31
+SESSION-OFFICE-961,Yes! We can add a built-in cable tray for $60 extra. Link: https://furni.example.com/sit-stand-desk-custom,agent,recommend_customization,7,2025-12-31
+SESSION-OFFICE-961,Great. Now chairs.,customer,request_next_category,8,2025-12-31
+SESSION-OFFICE-961,"Chair Option A: AeroMesh Ergonomic Chair, $329. Color: black. Pros: breathable mesh, lumbar support, adjustable armrests. Cons: armrest padding is minimal. Link: https://furni.example.com/aeromesh-chair",agent,recommend_product,9,2025-12-31
+SESSION-OFFICE-961,"Chair Option B: Executive Leather Chair, $399. Color: brown. Pros: plush, premium design. Cons: less breathable. Link: https://furni.example.com/executive-leather-chair",agent,recommend_product,10,2025-12-31
+SESSION-OFFICE-961,I’ll take two AeroMesh chairs in dark grey instead of black.,customer,inquire_quantity_and_color_customization,11,2025-12-31
+SESSION-OFFICE-961,Perfect! Two AeroMesh chairs in dark grey will be $15 extra each. Link: https://furni.example.com/aeromesh-chair-custom,agent,recommend_customization,12,2025-12-31
+SESSION-OFFICE-961,Conference table next.,customer,request_next_category,13,2025-12-31
+SESSION-OFFICE-961,"Conference Table Option: Solid Walnut 10-Seater, $1,099. Material: walnut, steel frame. Color: walnut. Size: 10-foot. Pros: sturdy, professional look. Cons: heavy. Link: https://furni.example.com/walnut-10-seater",agent,recommend_product,14,2025-12-31
+SESSION-OFFICE-961,Storage units now.,customer,request_next_category,15,2025-12-31
+SESSION-OFFICE-961,"Storage Option A: Metal 4-Drawer Cabinet, $299. Color: grey. Pros: durable, lockable. Cons: industrial look. Link: https://furni.example.com/metal-4drawer-cabinet",agent,recommend_product,16,2025-12-31
+SESSION-OFFICE-961,"Storage Option B: Wooden 2-Drawer Cabinet, $249. Color: walnut. Pros: stylish, matches wood furniture. Cons: less storage. Link: https://furni.example.com/wood-2drawer-cabinet",agent,recommend_product,17,2025-12-31
+SESSION-OFFICE-961,I’ll take two Wooden 2-Drawer Cabinets in light walnut.,customer,inquire_quantity_and_color_customization,18,2025-12-31
+SESSION-OFFICE-961,Two Wooden 2-Drawer Cabinets in light walnut will be $10 extra each. Link: https://furni.example.com/wood-2drawer-cabinet-custom,agent,recommend_customization,19,2025-12-31
+SESSION-OFFICE-961,"Finally, floor lamps.",customer,request_next_category,20,2025-12-31
+SESSION-OFFICE-961,"Floor Lamp Option: Adjustable LED Floor Lamp, $119. Color: matte black. Pros: adjustable height and brightness, modern design. Cons: requires outlet. Link: https://furni.example.com/led-floor-lamp",agent,recommend_product,21,2025-12-31
+SESSION-OFFICE-961,"Add everything to my cart, please.",customer,finalize_selection,22,2025-12-31
+SESSION-OFFICE-961,"All done! Your customized Adjustable Sit-Stand Desk with cable tray, two AeroMesh chairs in dark grey, Solid Walnut 10-Seater conference table, two Wooden 2-Drawer Cabinets in light walnut, and LED Floor Lamp have been added to your cart. Your office is fully furnished.",agent,add_to_cart_confirmation,23,2025-12-31

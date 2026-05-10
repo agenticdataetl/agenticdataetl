@@ -1,0 +1,7 @@
+customer_id,preference,session_id,_valid_from,_valid_to
+CUST-20345,"price, comfort",SESSION-FURN-REC-201,2025-12-24,
+CUST-20345,"durability, dual monitor",SESSION-FURN-REC-202,2025-12-24,
+CUST-20345,"noise_free, stability, price",SESSION-FURN-REC-203,2025-12-25,
+CUST-20345,"comfort, moderate price",SESSION-FURN-REC-205,2025-12-26,
+CUST-20345,"electric height adjustment, stability",SESSION-FURN-REC-206,2025-12-27,
+CUST-20345,"cushioning, long standing",SESSION-FURN-REC-207,2025-12-29,

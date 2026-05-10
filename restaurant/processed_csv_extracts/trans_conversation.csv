@@ -1,0 +1,428 @@
+session_id,conversation_content,speaker,intent,start_sec,end_sec,emotion,conversation_turn,v_as_of_date
+SESSION-BREAKFAST860,"Hi, I want to order breakfast.",customer,order_intent,0.5,2.5,neutral,1,2025-12-22
+SESSION-BREAKFAST860,"Sure! Would you like eggs, pancakes, waffles, or a combo plate?",agent,meal_type_inquiry,3.0,7.5,friendly,2,2025-12-22
+SESSION-BREAKFAST860,I’ll go with eggs and toast.,customer,select_meal_type,8.0,9.5,positive,3,2025-12-22
+SESSION-BREAKFAST860,"How would you like your eggs? Scrambled, fried, poached, or omelette?",agent,egg_style_inquiry,10.0,14.0,informative,4,2025-12-22
+SESSION-BREAKFAST860,"Scrambled, please.",customer,select_egg_style,14.5,16.0,neutral,5,2025-12-22
+SESSION-BREAKFAST860,"Which bread for your toast? White, whole wheat, sourdough, or rye?",agent,toast_selection_inquiry,16.5,20.5,informative,6,2025-12-22
+SESSION-BREAKFAST860,"Sourdough, please.",customer,select_toast_type,21.0,22.5,positive,7,2025-12-22
+SESSION-BREAKFAST860,"Would you like any sides like bacon, sausage, or hash browns?",agent,side_inquiry,23.0,27.0,informative,8,2025-12-22
+SESSION-BREAKFAST860,"Bacon and hash browns, please.",customer,select_sides,27.5,29.5,positive,9,2025-12-22
+SESSION-BREAKFAST860,"Do you want a drink? Coffee, tea, orange juice, or milk?",agent,drink_inquiry,30.0,34.0,informative,10,2025-12-22
+SESSION-BREAKFAST860,"Coffee, black, please.",customer,select_drink,34.5,36.0,positive,11,2025-12-22
+SESSION-BREAKFAST860,Do you have any dietary restrictions or allergies?,agent,dietary_inquiry,36.5,40.5,informative,12,2025-12-22
+SESSION-BREAKFAST860,No allergies.,customer,decline_dietary_option,41.0,42.0,neutral,13,2025-12-22
+SESSION-BREAKFAST860,"Your breakfast with scrambled eggs, sourdough toast, bacon, hash browns, and black coffee is confirmed. Pickup in 15 minutes.",agent,confirm_order,42.5,50.5,positive,14,2025-12-22
+SESSION-BREAKFAST860,Thanks! That’s perfect.,customer,express_gratitude,51.0,52.5,happy,15,2025-12-22
+SESSION-BRUNCH-20251222,"Hi, I’d like to order brunch today.",customer,order_intent,0.5,2.5,neutral,1,2025-12-22
+SESSION-BRUNCH-20251222,"Sure! We have eggs benedict, avocado toast, pancakes, or smoothie bowls. Which one would you like?",agent,meal_type_inquiry,3.0,7.5,friendly,2,2025-12-22
+SESSION-BRUNCH-20251222,"I’ll have the eggs benedict, please.",customer,select_meal_type,8.0,10.0,positive,3,2025-12-22
+SESSION-BRUNCH-20251222,"Would you like it with ham, smoked salmon, or spinach?",agent,eggs_benedict_variant_inquiry,10.5,14.0,informative,4,2025-12-22
+SESSION-BRUNCH-20251222,"Smoked salmon, please.",customer,select_variant,14.5,16.0,positive,5,2025-12-22
+SESSION-BRUNCH-20251222,"Would you like a side? Hash browns, roasted vegetables, or fruit salad?",agent,side_inquiry,16.5,21.0,informative,6,2025-12-22
+SESSION-BRUNCH-20251222,"Fruit salad, please.",customer,select_side,21.5,23.0,positive,7,2025-12-22
+SESSION-BRUNCH-20251222,"Would you like a drink? Coffee, latte, tea, or fresh juice?",agent,drink_inquiry,23.5,27.5,informative,8,2025-12-22
+SESSION-BRUNCH-20251222,"A latte, please.",customer,select_drink,28.0,29.5,neutral,9,2025-12-22
+SESSION-BRUNCH-20251222,"Would you like any extras? Avocado slices, smoked bacon, or extra hollandaise sauce?",agent,extras_inquiry,30.0,34.0,informative,10,2025-12-22
+SESSION-BRUNCH-20251222,"Extra hollandaise sauce, please.",customer,select_extra,34.5,36.0,positive,11,2025-12-22
+SESSION-BRUNCH-20251222,"Would you like any toast or bread on the side? Sourdough, whole wheat, or rye?",agent,toast_inquiry,36.5,41.0,informative,12,2025-12-22
+SESSION-BRUNCH-20251222,"Whole wheat toast, please.",customer,select_toast,41.5,43.0,positive,13,2025-12-22
+SESSION-BRUNCH-20251222,"Any seasoning preferences? Salt, pepper, paprika, or everything mix?",agent,seasoning_inquiry,43.5,48.0,informative,14,2025-12-22
+SESSION-BRUNCH-20251222,"Just salt and pepper, please.",customer,select_seasoning,48.5,50.0,neutral,15,2025-12-22
+SESSION-BRUNCH-20251222,Do you want a dessert option like mini pancakes or a muffin?,agent,dessert_inquiry,50.5,55.0,informative,16,2025-12-22
+SESSION-BRUNCH-20251222,"No, thank you.",customer,decline_dessert,55.5,57.0,neutral,17,2025-12-22
+SESSION-BRUNCH-20251222,"Perfect. So eggs benedict with smoked salmon, extra hollandaise, fruit salad, whole wheat toast, latte, salt & pepper, confirmed. Pickup in 20 minutes.",agent,confirm_order,57.5,63.0,positive,18,2025-12-22
+SESSION-BRUNCH-20251222,Thank you! Can’t wait.,customer,express_gratitude,63.5,65.0,happy,19,2025-12-22
+SESSION-BRUNCH-20251222,You’re welcome! Enjoy your brunch.,agent,farewell,65.5,68.0,friendly,20,2025-12-22
+SESSION-BURGER811,"Hi, I want to place a burger order.",customer,order_intent,0.5,2.8,neutral,1,2025-12-22
+SESSION-BURGER811,"Sure! Would you like a beef, chicken, or veggie burger?",agent,burger_type_inquiry,3.2,7.0,friendly,2,2025-12-22
+SESSION-BURGER811,Beef burger.,customer,select_burger_type,7.5,9.5,neutral,3,2025-12-22
+SESSION-BURGER811,"Which toppings would you like? Lettuce, tomato, onion, pickles, cheese, bacon?",agent,toppings_inquiry,10.0,14.5,informative,4,2025-12-22
+SESSION-BURGER811,"Lettuce, tomato, cheese, and bacon.",customer,select_toppings,15.0,18.0,positive,5,2025-12-22
+SESSION-BURGER811,Would you like to make it a combo with fries and a drink?,agent,combo_offer,18.4,22.0,friendly,6,2025-12-22
+SESSION-BURGER811,"Yes, combo please.",customer,accept_combo,22.5,25.0,positive,7,2025-12-22
+SESSION-BURGER811,"Which drink would you like? Coke, Diet Coke, or iced tea?",agent,drink_selection_inquiry,25.4,29.5,informative,8,2025-12-22
+SESSION-BURGER811,Coke.,customer,select_drink,29.9,32.0,positive,9,2025-12-22
+SESSION-BURGER811,"Would you like any extra sauces or sides, like ketchup, mayo, or onion rings?",agent,extra_sides_inquiry,32.4,36.5,informative,10,2025-12-22
+SESSION-BURGER811,"Extra ketchup, please.",customer,add_extra_sides,36.9,39.0,positive,11,2025-12-22
+SESSION-BURGER811,Do you have any dietary preferences or allergies?,agent,dietary_inquiry,39.5,43.0,informative,12,2025-12-22
+SESSION-BURGER811,No allergies.,customer,decline_dietary_option,43.5,45.5,neutral,13,2025-12-22
+SESSION-BURGER811,Your total is $11.75. Would you like to confirm your order?,agent,present_total_and_confirm,46.0,50.5,neutral,14,2025-12-22
+SESSION-BURGER811,"Yes, confirm it.",customer,confirm_action,50.9,53.0,positive,15,2025-12-22
+SESSION-BURGER811,"Your beef burger combo with lettuce, tomato, cheese, bacon, Coke, and extra ketchup is confirmed. It will be ready for pickup in 20 minutes.",agent,confirm_order,53.5,59.0,positive,16,2025-12-22
+SESSION-CAKE9911,"Hi, I want to order a cake.",customer,order_intent,0.4,2.8,neutral,1,2025-12-15
+SESSION-CAKE9911,"Sure! What type of cake would you like? Round, sheet, or cupcake set?",agent,cake_type_inquiry,3.2,7.1,friendly,2,2025-12-15
+SESSION-CAKE9911,"Round cake, please.",customer,select_cake_type,7.5,10.0,neutral,3,2025-12-15
+SESSION-CAKE9911,"What size would you like? 6-inch, 8-inch, or 10-inch?",agent,cake_size_inquiry,10.4,14.8,neutral,4,2025-12-15
+SESSION-CAKE9911,8-inch.,customer,select_size,15.2,17.1,neutral,5,2025-12-15
+SESSION-CAKE9911,"Which flavor would you like? Chocolate, vanilla, red velvet, or lemon?",agent,flavor_inquiry,17.5,22.0,friendly,6,2025-12-15
+SESSION-CAKE9911,Chocolate.,customer,select_flavor,22.5,25.1,positive,7,2025-12-15
+SESSION-CAKE9911,"What type of frosting do you prefer? Buttercream, whipped cream, or ganache?",agent,frosting_inquiry,25.5,30.0,friendly,8,2025-12-15
+SESSION-CAKE9911,"Ganache, please.",customer,select_frosting,30.4,33.0,positive,9,2025-12-15
+SESSION-CAKE9911,"Would you like to add toppings or decorations? Sprinkles, fruit, or chocolate chips?",agent,toppings_inquiry,33.4,38.0,friendly,10,2025-12-15
+SESSION-CAKE9911,Add strawberries on top.,customer,add_toppings,38.4,41.1,positive,11,2025-12-15
+SESSION-CAKE9911,Do you have any dietary preferences? Gluten-free or vegan options?,agent,dietary_preference_inquiry,41.5,46.2,informative,12,2025-12-15
+SESSION-CAKE9911,No dietary restrictions.,customer,decline_dietary_option,46.6,48.8,neutral,13,2025-12-15
+SESSION-CAKE9911,Your total is $28.50. Would you like to confirm your order?,agent,present_total_and_confirm,49.2,54.0,neutral,14,2025-12-15
+SESSION-CAKE9911,"Yes, please confirm.",customer,confirm_action,54.4,56.5,positive,15,2025-12-15
+SESSION-CAKE9911,Your chocolate ganache cake with strawberries is confirmed and will be ready for pickup in 1 hour.,agent,confirm_order,56.9,62.2,positive,16,2025-12-15
+SESSION-CHINESE524,"Hi, I want to order some Chinese food.",customer,order_intent,0.5,2.5,neutral,1,2025-12-22
+SESSION-CHINESE524,"Great! Would you like rice, noodles, or a combination platter?",agent,main_type_inquiry,3.0,7.5,friendly,2,2025-12-22
+SESSION-CHINESE524,I’ll go with the combination platter.,customer,select_main_type,8.0,10.0,positive,3,2025-12-22
+SESSION-CHINESE524,"Which dishes would you like in your platter? Kung Pao Chicken, Sweet and Sour Pork, or Mapo Tofu?",agent,dish_selection_inquiry,10.5,14.5,informative,4,2025-12-22
+SESSION-CHINESE524,"Kung Pao Chicken and Mapo Tofu, please.",customer,select_dishes,15.0,17.0,positive,5,2025-12-22
+SESSION-CHINESE524,"What spice level would you like? Mild, Medium, or Spicy?",agent,spice_level_inquiry,17.5,21.5,informative,6,2025-12-22
+SESSION-CHINESE524,Medium spice is good.,customer,select_spice_level,22.0,24.0,neutral,7,2025-12-22
+SESSION-CHINESE524,Would you like any add-ons like dumplings or spring rolls?,agent,addons_inquiry,24.5,28.5,informative,8,2025-12-22
+SESSION-CHINESE524,"Add dumplings, please.",customer,select_addons,29.0,31.0,positive,9,2025-12-22
+SESSION-CHINESE524,"Would you like a drink? Green tea, soda, or juice?",agent,drink_inquiry,31.5,35.5,informative,10,2025-12-22
+SESSION-CHINESE524,"Green tea, please.",customer,select_drink,36.0,37.5,positive,11,2025-12-22
+SESSION-CHINESE524,Do you have any dietary restrictions or allergies?,agent,dietary_inquiry,38.0,42.0,informative,12,2025-12-22
+SESSION-CHINESE524,No allergies.,customer,decline_dietary_option,42.5,44.0,neutral,13,2025-12-22
+SESSION-CHINESE524,"Your combination platter with Kung Pao Chicken, Mapo Tofu, dumplings, medium spice, and green tea is confirmed. Ready for pickup in 25 minutes.",agent,confirm_order,44.5,51.5,positive,14,2025-12-22
+SESSION-CHINESE524,"Thank you, sounds perfect!",customer,express_gratitude,52.0,53.5,happy,15,2025-12-22
+SESSION-CHINESE561,"Hi, I'd like to order dinner.",customer,order_intent,0.4,2.6,neutral,1,2025-12-29
+SESSION-CHINESE561,"Welcome back! Would you like rice, noodles, or a chef’s special?",agent,main_type_inquiry,3.0,7.2,friendly,2,2025-12-29
+SESSION-CHINESE561,I’ll have noodles.,customer,select_main_type,7.8,10.2,positive,3,2025-12-29
+SESSION-CHINESE561,"Which noodle dish would you like? Chow Mein, Dan Dan Noodles, or Beef Lo Mein?",agent,dish_selection_inquiry,10.6,14.8,informative,4,2025-12-29
+SESSION-CHINESE561,Beef Lo Mein and Orange Chicken.,customer,select_dishes,15.3,18.2,positive,5,2025-12-29
+SESSION-CHINESE561,What spice level would you like?,agent,spice_level_inquiry,18.7,22.8,informative,6,2025-12-29
+SESSION-CHINESE561,"Mild, please.",customer,select_spice_level,23.3,25.1,neutral,7,2025-12-29
+SESSION-CHINESE561,Would you like any sides like egg rolls or wonton soup?,agent,addons_inquiry,25.6,29.8,informative,8,2025-12-29
+SESSION-CHINESE561,"Egg rolls, please.",customer,select_addons,30.2,32.8,positive,9,2025-12-29
+SESSION-CHINESE561,Would you like a drink with your order?,agent,drink_inquiry,33.3,37.5,informative,10,2025-12-29
+SESSION-CHINESE561,No drink today.,customer,decline_drink,38.0,40.2,neutral,11,2025-12-29
+SESSION-CHINESE561,"Your Beef Lo Mein with Orange Chicken, mild spice, and egg rolls is confirmed. Ready for pickup in 20 minutes.",agent,confirm_order,40.8,47.5,positive,12,2025-12-29
+SESSION-COFFEE361,"Hi, I’d like to order a coffee.",customer,order_intent,0.5,2.5,neutral,1,2025-12-22
+SESSION-COFFEE361,"Great! Would you like a Latte, Cappuccino, Americano, or Espresso?",agent,coffee_type_inquiry,3.0,7.0,friendly,2,2025-12-22
+SESSION-COFFEE361,I’ll have a Latte.,customer,select_coffee_type,7.5,9.5,positive,3,2025-12-22
+SESSION-COFFEE361,"What size would you like? Small, Medium, or Large?",agent,coffee_size_inquiry,10.0,13.5,informative,4,2025-12-22
+SESSION-COFFEE361,"Medium, please.",customer,select_coffee_size,14.0,16.0,neutral,5,2025-12-22
+SESSION-COFFEE361,"Which milk would you like? Whole, skim, almond, oat, or soy?",agent,milk_option_inquiry,16.5,20.5,informative,6,2025-12-22
+SESSION-COFFEE361,"Oat milk, please.",customer,select_milk_option,21.0,23.0,positive,7,2025-12-22
+SESSION-COFFEE361,"Would you like any flavors like vanilla, caramel, or hazelnut?",agent,flavor_inquiry,23.5,27.5,informative,8,2025-12-22
+SESSION-COFFEE361,"Caramel, please.",customer,select_flavor,28.0,30.0,positive,9,2025-12-22
+SESSION-COFFEE361,Would you like a pastry or snack with your coffee?,agent,side_inquiry,30.5,34.0,informative,10,2025-12-22
+SESSION-COFFEE361,"Yes, a chocolate croissant.",customer,add_side,34.5,36.5,positive,11,2025-12-22
+SESSION-COFFEE361,Do you have any allergies or dietary restrictions?,agent,dietary_inquiry,37.0,41.0,informative,12,2025-12-22
+SESSION-COFFEE361,No allergies.,customer,decline_dietary_option,41.5,42.5,neutral,13,2025-12-22
+SESSION-COFFEE361,Your Medium Caramel Latte with oat milk and a chocolate croissant is confirmed. It will be ready for pickup in 12 minutes.,agent,confirm_order,43.0,49.0,positive,14,2025-12-22
+SESSION-COFFEE361,Thanks a lot!,customer,express_gratitude,49.5,51.0,happy,15,2025-12-22
+SESSION-COFFEE590,"Hi, I want to order a coffee.",customer,order_intent,0.6,3.1,neutral,1,2025-10-02
+SESSION-COFFEE590,"Sure! What type of coffee would you like? Latte, cappuccino, or drip coffee?",agent,drink_type_inquiry,3.5,6.9,friendly,2,2025-10-02
+SESSION-COFFEE590,I’ll have a latte.,customer,select_drink,7.2,9.8,neutral,3,2025-10-02
+SESSION-COFFEE590,"What size would you like? Small, medium, or large?",agent,size_inquiry,10.2,13.8,neutral,4,2025-10-02
+SESSION-COFFEE590,Medium.,customer,select_size,14.2,16.5,neutral,5,2025-10-02
+SESSION-COFFEE590,"What kind of milk would you like? Whole, oat, almond, or soy?",agent,milk_inquiry,16.9,20.8,informative,6,2025-10-02
+SESSION-COFFEE590,"Oat milk, please.",customer,select_milk,21.1,23.8,neutral,7,2025-10-02
+SESSION-COFFEE590,"How sweet would you like it? No sugar, regular, or extra sweet?",agent,sweetness_inquiry,24.2,28.4,friendly,8,2025-10-02
+SESSION-COFFEE590,Regular sweetness.,customer,select_sweetness,28.8,31.6,neutral,9,2025-10-02
+SESSION-COFFEE590,Would you like to add a flavor shot like vanilla or caramel?,agent,flavor_addon_inquiry,32.0,36.5,friendly,10,2025-10-02
+SESSION-COFFEE590,"Yes, add vanilla.",customer,add_flavor,36.9,39.8,positive,11,2025-10-02
+SESSION-COFFEE590,"Would you like anything to eat, such as a muffin or croissant?",agent,food_upsell,40.2,44.8,friendly,12,2025-10-02
+SESSION-COFFEE590,No thanks.,customer,decline_offer,45.2,47.8,neutral,13,2025-10-02
+SESSION-COFFEE590,Your total is $5.45. Would you like to confirm your order?,agent,present_total_and_confirm,48.2,53.1,neutral,14,2025-10-02
+SESSION-COFFEE590,"Yes, confirm it.",customer,confirm_action,53.5,55.8,positive,15,2025-10-02
+SESSION-COFFEE590,Your latte is confirmed and will be ready in about 5 minutes.,agent,confirm_order,56.2,61.4,positive,16,2025-10-02
+SESSION-COFFEE901,"Hi, I’d like to order a coffee.",customer,order_intent,0.4,3.0,neutral,1,2025-09-22
+SESSION-COFFEE901,Sure! What type of coffee are you in the mood for?,agent,drink_type_inquiry,3.3,6.1,friendly,2,2025-09-22
+SESSION-COFFEE901,I’ll have a latte.,customer,select_drink,6.4,9.1,neutral,3,2025-09-22
+SESSION-COFFEE901,"What size would you like? Small, medium, or large?",agent,size_inquiry,9.5,12.8,neutral,4,2025-09-22
+SESSION-COFFEE901,Medium.,customer,select_size,13.1,15.4,neutral,5,2025-09-22
+SESSION-COFFEE901,"What kind of milk would you like? We have whole, oat, almond, and soy.",agent,milk_preference_inquiry,15.8,19.6,informative,6,2025-09-22
+SESSION-COFFEE901,"Oat milk, please.",customer,select_milk,20.0,22.7,neutral,7,2025-09-22
+SESSION-COFFEE901,"How sweet would you like it? Unsweetened, lightly sweetened, or regular?",agent,sweetness_inquiry,23.1,26.8,neutral,8,2025-09-22
+SESSION-COFFEE901,Lightly sweetened.,customer,select_sweetness,27.2,29.9,neutral,9,2025-09-22
+SESSION-COFFEE901,Would you like it hot or iced?,agent,temperature_inquiry,30.3,34.1,neutral,10,2025-09-22
+SESSION-COFFEE901,"Iced, please.",customer,select_temperature,34.5,37.0,neutral,11,2025-09-22
+SESSION-COFFEE901,"Would you like to add any flavors, like vanilla or caramel?",agent,add_on_offer,37.4,41.8,friendly,12,2025-09-22
+SESSION-COFFEE901,"Yes, add vanilla syrup.",customer,add_on_request,42.2,45.0,decisive,13,2025-09-22
+SESSION-COFFEE901,Your total is $5.75. Would you like to confirm your order?,agent,present_total_and_confirm,45.4,49.9,neutral,14,2025-09-22
+SESSION-COFFEE901,"Yes, confirm it.",customer,confirm_action,50.2,52.3,positive,15,2025-09-22
+SESSION-COFFEE901,Your iced oat milk latte is confirmed and will be ready in 5 minutes.,agent,confirm_order,52.7,57.8,positive,16,2025-09-22
+SESSION-DESSERT336,"Hi, I’d like to order a dessert.",customer,order_intent,0.5,2.5,neutral,1,2025-12-22
+SESSION-DESSERT336,"Sure! Would you like a cake, cupcake, or cookie platter?",agent,dessert_type_inquiry,3.0,7.0,friendly,2,2025-12-22
+SESSION-DESSERT336,I’ll go with a cake.,customer,select_dessert_type,7.5,9.5,positive,3,2025-12-22
+SESSION-DESSERT336,"What size would you like? 6-inch, 8-inch, or 10-inch?",agent,dessert_size_inquiry,10.0,14.0,informative,4,2025-12-22
+SESSION-DESSERT336,"8-inch, please.",customer,select_dessert_size,14.5,16.5,neutral,5,2025-12-22
+SESSION-DESSERT336,"Which flavor would you like? Chocolate, Vanilla, Red Velvet, or Strawberry?",agent,dessert_flavor_inquiry,17.0,21.0,informative,6,2025-12-22
+SESSION-DESSERT336,"Chocolate, please.",customer,select_dessert_flavor,21.5,23.5,positive,7,2025-12-22
+SESSION-DESSERT336,"Would you like any toppings? Sprinkles, nuts, or chocolate chips?",agent,toppings_inquiry,24.0,28.0,informative,8,2025-12-22
+SESSION-DESSERT336,"Yes, add chocolate chips.",customer,select_toppings,28.5,30.5,positive,9,2025-12-22
+SESSION-DESSERT336,"Would you like to add a drink? Coffee, tea, or juice?",agent,drink_inquiry,31.0,35.0,informative,10,2025-12-22
+SESSION-DESSERT336,"Add a juice, please.",customer,select_drink,35.5,37.5,positive,11,2025-12-22
+SESSION-DESSERT336,Do you have any allergies or dietary restrictions?,agent,dietary_inquiry,38.0,42.0,informative,12,2025-12-22
+SESSION-DESSERT336,No allergies.,customer,decline_dietary_option,42.5,44.0,neutral,13,2025-12-22
+SESSION-DESSERT336,Your 8-inch Chocolate Cake with chocolate chips and a juice is confirmed. It will be ready for pickup in 20 minutes.,agent,confirm_order,44.5,50.5,positive,14,2025-12-22
+SESSION-DESSERT336,Thank you so much!,customer,express_gratitude,51.0,52.5,happy,15,2025-12-22
+SESSION-FOOD763,"Hi, I’m looking for something vegetarian.",customer,dietary_preference_inquiry,0.5,3.1,neutral,1,2025-09-18
+SESSION-FOOD763,Absolutely! We have several vegetarian dishes available.,agent,acknowledge_request,3.4,6.2,friendly,2,2025-09-18
+SESSION-FOOD763,"Popular options include the veggie wrap, margherita pizza, and lentil soup.",agent,recommend_menu_items,6.5,10.9,positive,3,2025-09-18
+SESSION-FOOD763,Is the veggie wrap dairy-free?,customer,allergen_inquiry,11.2,14.8,curious,4,2025-09-18
+SESSION-FOOD763,"It normally includes cheese, but we can make it completely dairy-free.",agent,provide_allergen_information,15.1,19.4,reassuring,5,2025-09-18
+SESSION-FOOD763,Great. Can I add avocado to it?,customer,customization_request,19.8,22.6,interested,6,2025-09-18
+SESSION-FOOD763,"Yes, avocado can be added for an extra dollar.",agent,inform_customization_pricing,22.9,26.1,neutral,7,2025-09-18
+SESSION-FOOD763,That’s fine. How big is the portion?,customer,portion_size_inquiry,26.5,29.4,curious,8,2025-09-18
+SESSION-FOOD763,It’s a full-sized wrap served with a side salad.,agent,provide_portion_information,29.8,33.9,informative,9,2025-09-18
+SESSION-FOOD763,"Okay, I’ll take one veggie wrap with no cheese and extra avocado.",customer,place_order,34.2,37.1,decisive,10,2025-09-18
+SESSION-FOOD763,Would you like a drink to go with that?,agent,upsell_offer,37.5,41.4,friendly,11,2025-09-18
+SESSION-FOOD763,"Yes, a lemonade please.",customer,add_item_request,41.8,44.3,neutral,12,2025-09-18
+SESSION-FOOD763,Your total comes to $13.50. Would you like to confirm the order?,agent,present_total_and_confirm,44.7,48.8,neutral,13,2025-09-18
+SESSION-FOOD763,"Yes, please confirm it.",customer,confirm_action,49.1,51.2,positive,14,2025-09-18
+SESSION-FOOD763,Your order of veggie wrap with no cheese and extra avocado and lemonade drink is confirmed and will be ready for pickup in 20 minutes.,agent,confirm_order,51.6,56.4,positive,15,2025-09-18
+SESSION-HEALTHYBF901,"Hi, I want to order a healthy breakfast.",customer,order_intent,0.5,2.5,neutral,1,2025-12-22
+SESSION-HEALTHYBF901,"Great! Would you like a smoothie, yogurt parfait, or oatmeal bowl today?",agent,meal_type_inquiry,3.0,8.0,friendly,2,2025-12-22
+SESSION-HEALTHYBF901,"I’ll have a smoothie, please.",customer,select_meal_type,8.5,10.5,positive,3,2025-12-22
+SESSION-HEALTHYBF901,"Which base would you like? Almond milk, soy milk, regular milk, or coconut water?",agent,smoothie_base_inquiry,11.0,16.0,informative,4,2025-12-22
+SESSION-HEALTHYBF901,"Almond milk, please.",customer,select_smoothie_base,16.5,18.0,positive,5,2025-12-22
+SESSION-HEALTHYBF901,"Which fruits would you like? Strawberry, banana, mango, blueberry, or mixed berries?",agent,smoothie_fruit_inquiry,18.5,23.5,informative,6,2025-12-22
+SESSION-HEALTHYBF901,"Banana and mango, please.",customer,select_smoothie_fruits,24.0,26.0,positive,7,2025-12-22
+SESSION-HEALTHYBF901,"Would you like to add protein powder, chia seeds, or flax seeds?",agent,smoothie_addon_inquiry,26.5,30.5,informative,8,2025-12-22
+SESSION-HEALTHYBF901,"Yes, protein powder, please.",customer,select_smoothie_addon,31.0,32.5,positive,9,2025-12-22
+SESSION-HEALTHYBF901,Do you want any toppings like granola or coconut flakes?,agent,toppings_inquiry,33.0,37.0,informative,10,2025-12-22
+SESSION-HEALTHYBF901,"Granola, please.",customer,select_toppings,37.5,39.0,positive,11,2025-12-22
+SESSION-HEALTHYBF901,Would you like a small side today? Yogurt cup or fruit salad?,agent,side_inquiry,39.5,44.5,informative,12,2025-12-22
+SESSION-HEALTHYBF901,"Fruit salad, please.",customer,select_side,45.0,46.5,positive,13,2025-12-22
+SESSION-HEALTHYBF901,"Do you want a drink? Green tea, herbal tea, smoothie refill, or water?",agent,drink_inquiry,47.0,53.0,informative,14,2025-12-22
+SESSION-HEALTHYBF901,"Water, please.",customer,select_drink,53.5,55.0,neutral,15,2025-12-22
+SESSION-HEALTHYBF901,"Your smoothie with almond milk, banana, mango, protein powder, granola topping, a side of fruit salad, and water is confirmed. Pickup in 15 minutes.",agent,confirm_order,55.5,62.0,positive,16,2025-12-22
+SESSION-HEALTHYBF902,"Hello, I want a healthy breakfast today.",customer,order_intent,0.5,2.5,neutral,1,2025-12-22
+SESSION-HEALTHYBF902,"Great! Would you like a smoothie, oatmeal bowl, or yogurt parfait?",agent,meal_type_inquiry,3.0,7.0,friendly,2,2025-12-22
+SESSION-HEALTHYBF902,"I’ll take an oatmeal bowl, please.",customer,select_meal_type,7.5,9.0,positive,3,2025-12-22
+SESSION-HEALTHYBF902,"Would you like rolled oats, steel-cut oats, or quinoa flakes as a base?",agent,oat_base_inquiry,9.5,14.0,informative,4,2025-12-22
+SESSION-HEALTHYBF902,"Steel-cut oats, please.",customer,select_oat_base,14.5,16.0,neutral,5,2025-12-22
+SESSION-HEALTHYBF902,"Which fruits would you like? Banana, blueberry, strawberry, or mixed berries?",agent,fruit_inquiry,16.5,20.0,informative,6,2025-12-22
+SESSION-HEALTHYBF902,"Blueberries and strawberries, please.",customer,select_fruits,20.5,22.0,positive,7,2025-12-22
+SESSION-HEALTHYBF902,"Would you like to add nuts or seeds? Almonds, walnuts, chia seeds, or flax seeds?",agent,add_on_inquiry,22.5,26.0,informative,8,2025-12-22
+SESSION-HEALTHYBF902,"Yes, chia seeds, please.",customer,select_addon,26.5,28.0,positive,9,2025-12-22
+SESSION-HEALTHYBF902,Do you want a side of yogurt or fresh fruit salad?,agent,side_inquiry,28.5,32.0,informative,10,2025-12-22
+SESSION-HEALTHYBF902,"Fruit salad, please.",customer,select_side,32.5,34.0,positive,11,2025-12-22
+SESSION-HEALTHYBF902,"Would you like a drink? Green tea, herbal tea, water, or smoothie refill?",agent,drink_inquiry,34.5,39.0,informative,12,2025-12-22
+SESSION-HEALTHYBF902,"Green tea, please.",customer,select_drink,39.5,41.0,neutral,13,2025-12-22
+SESSION-HEALTHYBF902,"Your oatmeal bowl with steel-cut oats, blueberries, strawberries, chia seeds, a side of fruit salad, and green tea is confirmed. Pickup in 15 minutes.",agent,confirm_order,41.5,48.0,positive,14,2025-12-22
+SESSION-HEALTHYBF902,Thank you! That’s great.,customer,express_gratitude,48.5,50.0,happy,15,2025-12-22
+SESSION-ICECREAM124,"Hi, I’d like to order some ice cream.",customer,order_intent,0.5,3.0,neutral,1,2025-09-28
+SESSION-ICECREAM124,Sure! Would you like a cup or a cone?,agent,container_inquiry,3.4,6.2,friendly,2,2025-09-28
+SESSION-ICECREAM124,"A cone, please.",customer,select_container,6.6,8.9,neutral,3,2025-09-28
+SESSION-ICECREAM124,Would you like a sugar cone or a waffle cone?,agent,cone_type_inquiry,9.3,12.9,neutral,4,2025-09-28
+SESSION-ICECREAM124,Waffle cone.,customer,select_cone_type,13.3,15.7,neutral,5,2025-09-28
+SESSION-ICECREAM124,How many scoops would you like?,agent,scoop_quantity_inquiry,16.1,19.8,neutral,6,2025-09-28
+SESSION-ICECREAM124,Two scoops.,customer,select_scoop_quantity,20.1,22.7,neutral,7,2025-09-28
+SESSION-ICECREAM124,"What flavors would you like? Our popular ones are vanilla, chocolate, and strawberry.",agent,flavor_inquiry,23.1,28.0,friendly,8,2025-09-28
+SESSION-ICECREAM124,Vanilla and chocolate.,customer,select_flavors,28.4,32.8,decisive,9,2025-09-28
+SESSION-ICECREAM124,"Would you like to add any toppings, such as sprinkles or chocolate chips?",agent,topping_inquiry,33.2,37.4,friendly,10,2025-09-28
+SESSION-ICECREAM124,"Yes, add sprinkles.",customer,add_topping,37.8,40.9,positive,11,2025-09-28
+SESSION-ICECREAM124,Would you like whipped cream on top?,agent,upsell_offer,41.3,45.8,friendly,12,2025-09-28
+SESSION-ICECREAM124,"No, that’s okay.",customer,decline_offer,46.2,48.6,neutral,13,2025-09-28
+SESSION-ICECREAM124,Your total comes to $6.25. Would you like to confirm your order?,agent,present_total_and_confirm,49.0,53.6,neutral,14,2025-09-28
+SESSION-ICECREAM124,"Yes, please confirm.",customer,confirm_action,54.0,56.1,positive,15,2025-09-28
+SESSION-ICECREAM124,Your ice cream order is confirmed. Enjoy!,agent,confirm_order,56.5,61.8,positive,16,2025-09-28
+SESSION-MEATLOVER-20251222,"Hi, I’d like to order lunch today, preferably something meaty.",customer,order_intent,0.5,2.0,neutral,1,2025-12-22
+SESSION-MEATLOVER-20251222,"Great! We have ribeye steak, beef burger, pulled pork sandwich, or grilled chicken. Which would you like?",agent,meal_type_inquiry,2.5,7.5,friendly,2,2025-12-22
+SESSION-MEATLOVER-20251222,I’ll go with the ribeye steak.,customer,select_meal_type,8.0,10.0,positive,3,2025-12-22
+SESSION-MEATLOVER-20251222,"How would you like it cooked? Rare, medium, or well done?",agent,cooking_preference_inquiry,10.5,14.0,informative,4,2025-12-22
+SESSION-MEATLOVER-20251222,"Medium, please.",customer,select_cooking_preference,14.5,16.0,neutral,5,2025-12-22
+SESSION-MEATLOVER-20251222,"Would you like any sides? Mashed potatoes, grilled vegetables, or onion rings?",agent,side_inquiry,16.5,21.0,informative,6,2025-12-22
+SESSION-MEATLOVER-20251222,"Grilled vegetables, please.",customer,select_side,21.5,23.0,positive,7,2025-12-22
+SESSION-MEATLOVER-20251222,"Would you like a sauce? Peppercorn, mushroom, béarnaise, or none?",agent,sauce_inquiry,23.5,28.0,informative,8,2025-12-22
+SESSION-MEATLOVER-20251222,"Peppercorn, please.",customer,select_sauce,28.5,30.0,positive,9,2025-12-22
+SESSION-MEATLOVER-20251222,"Would you like a drink? Soda, iced tea, lemonade, or beer?",agent,drink_inquiry,30.5,34.5,informative,10,2025-12-22
+SESSION-MEATLOVER-20251222,"Iced tea, please.",customer,select_drink,35.0,36.5,neutral,11,2025-12-22
+SESSION-MEATLOVER-20251222,Would you like any seasoning or sides like garlic butter or chimichurri sauce?,agent,seasoning_inquiry,37.0,41.0,informative,12,2025-12-22
+SESSION-MEATLOVER-20251222,"Chimichurri sauce, please.",customer,select_sauce_extra,41.5,43.0,positive,13,2025-12-22
+SESSION-MEATLOVER-20251222,"Any dessert or snack on the side? Chocolate brownie, fruit salad, or none?",agent,dessert_inquiry,43.5,47.0,informative,14,2025-12-22
+SESSION-MEATLOVER-20251222,"No dessert, thanks.",customer,decline_dessert,47.5,49.0,neutral,15,2025-12-22
+SESSION-MEATLOVER-20251222,Any dietary preferences or allergies I should note?,agent,dietary_inquiry,49.5,54.0,informative,16,2025-12-22
+SESSION-MEATLOVER-20251222,"No allergies, all good.",customer,dietary_confirmation,54.5,56.0,neutral,17,2025-12-22
+SESSION-MEATLOVER-20251222,"Perfect! Ribeye steak, medium, with chimichurri sauce, grilled vegetables, iced tea, no dessert. Pickup in 25 minutes.",agent,confirm_order,56.5,61.0,positive,18,2025-12-22
+SESSION-MEATLOVER-20251222,Thank you! Can’t wait to try it.,customer,express_gratitude,61.5,63.0,happy,19,2025-12-22
+SESSION-MEATLOVER-20251222,You’re welcome! Enjoy your meal.,agent,farewell,63.5,66.0,friendly,20,2025-12-22
+SESSION-MEATLOVER961,"Hi, I want to place a meat-heavy order.",customer,order_intent,0.5,2.5,neutral,1,2025-12-22
+SESSION-MEATLOVER961,"Great! Would you like a steak, ribs, or a mixed grill platter?",agent,meat_type_inquiry,3.0,7.5,friendly,2,2025-12-22
+SESSION-MEATLOVER961,I’ll have a ribeye steak.,customer,select_meat_type,8.0,10.0,positive,3,2025-12-22
+SESSION-MEATLOVER961,"How would you like it cooked? Rare, Medium, or Well Done?",agent,cooking_preference_inquiry,10.5,14.5,informative,4,2025-12-22
+SESSION-MEATLOVER961,"Medium rare, please.",customer,select_cooking_preference,15.0,16.5,neutral,5,2025-12-22
+SESSION-MEATLOVER961,"Which sides would you like? Mashed potatoes, grilled vegetables, or fries?",agent,side_inquiry,17.0,21.0,informative,6,2025-12-22
+SESSION-MEATLOVER961,Mashed potatoes and grilled vegetables.,customer,select_sides,21.5,23.5,positive,7,2025-12-22
+SESSION-MEATLOVER961,"Would you like a sauce? Options are BBQ, Peppercorn, or Garlic Butter.",agent,sauce_inquiry,24.0,28.0,informative,8,2025-12-22
+SESSION-MEATLOVER961,"Garlic butter, please.",customer,select_sauce,28.5,30.5,positive,9,2025-12-22
+SESSION-MEATLOVER961,"Do you want a drink with that? Beer, soda, or iced tea?",agent,drink_inquiry,31.0,35.0,informative,10,2025-12-22
+SESSION-MEATLOVER961,"Iced tea, please.",customer,select_drink,35.5,37.0,positive,11,2025-12-22
+SESSION-MEATLOVER961,Do you have any dietary restrictions or allergies?,agent,dietary_inquiry,37.5,41.5,informative,12,2025-12-22
+SESSION-MEATLOVER961,No allergies.,customer,decline_dietary_option,42.0,43.5,neutral,13,2025-12-22
+SESSION-MEATLOVER961,"Your Ribeye Steak, cooked medium rare, with mashed potatoes, grilled vegetables, garlic butter sauce, and iced tea is confirmed. Pickup will be ready in 20 minutes.",agent,confirm_order,44.0,50.5,positive,14,2025-12-22
+SESSION-MEATLOVER961,"Perfect, thanks!",customer,express_gratitude,51.0,52.5,happy,15,2025-12-22
+SESSION-PIZZA-20251222,"Hi, I want to order a pizza for dinner.",customer,order_intent,0.5,2.0,neutral,1,2025-12-22
+SESSION-PIZZA-20251222,"Sure! Do you want a small, medium, or large pizza?",agent,size_inquiry,2.5,7.0,friendly,2,2025-12-22
+SESSION-PIZZA-20251222,"Medium, please.",customer,select_size,7.5,9.0,neutral,3,2025-12-22
+SESSION-PIZZA-20251222,"Which crust would you like? Thin, regular, or stuffed?",agent,crust_inquiry,9.5,13.0,informative,4,2025-12-22
+SESSION-PIZZA-20251222,"Thin crust, please.",customer,select_crust,13.5,15.0,neutral,5,2025-12-22
+SESSION-PIZZA-20251222,"Great! What toppings would you like? We have pepperoni, mushrooms, onions, olives, green peppers, sausage, and extra cheese.",agent,toppings_inquiry,15.5,20.0,informative,6,2025-12-22
+SESSION-PIZZA-20251222,"Pepperoni, mushrooms, and extra cheese.",customer,select_toppings,20.5,23.0,positive,7,2025-12-22
+SESSION-PIZZA-20251222,"Would you like any sides? Garlic knots, breadsticks, or chicken wings?",agent,side_inquiry,23.5,27.0,informative,8,2025-12-22
+SESSION-PIZZA-20251222,"Garlic knots, please.",customer,select_side,27.5,29.0,positive,9,2025-12-22
+SESSION-PIZZA-20251222,"Would you like a drink? Soda, iced tea, lemonade, or water?",agent,drink_inquiry,29.5,33.0,informative,10,2025-12-22
+SESSION-PIZZA-20251222,"Soda, please.",customer,select_drink,33.5,35.0,neutral,11,2025-12-22
+SESSION-PIZZA-20251222,Would you like extra toppings or sides like jalapeños or dipping sauces?,agent,extra_options_inquiry,35.5,39.5,informative,12,2025-12-22
+SESSION-PIZZA-20251222,"No extras, that’s fine.",customer,decline_extra,40.0,41.5,neutral,13,2025-12-22
+SESSION-PIZZA-20251222,"Any dessert? Chocolate chip cookies, brownie, or none?",agent,dessert_inquiry,42.0,46.0,informative,14,2025-12-22
+SESSION-PIZZA-20251222,"Brownie, please.",customer,select_dessert,46.5,48.0,positive,15,2025-12-22
+SESSION-PIZZA-20251222,Do you have any allergies or dietary preferences I should note?,agent,dietary_inquiry,48.5,52.0,informative,16,2025-12-22
+SESSION-PIZZA-20251222,"No allergies, all good.",customer,dietary_confirmation,52.5,54.0,neutral,17,2025-12-22
+SESSION-PIZZA-20251222,"Perfect! Medium thin-crust pizza with pepperoni, mushrooms, extra cheese, garlic knots, soda, and a brownie. Ready for pickup in 30 minutes.",agent,confirm_order,54.5,59.0,positive,18,2025-12-22
+SESSION-PIZZA-20251222,Thanks! Can’t wait to try it.,customer,express_gratitude,59.5,61.0,happy,19,2025-12-22
+SESSION-PIZZA-20251222,You’re welcome! Enjoy your pizza.,agent,farewell,61.5,64.0,friendly,20,2025-12-22
+SESSION-PIZZA314,"Hi, I want to order a pizza.",customer,order_intent,0.4,3.1,neutral,1,2025-10-04
+SESSION-PIZZA314,"Sure! What size pizza would you like? Small, medium, or large?",agent,size_inquiry,3.5,7.2,friendly,2,2025-10-04
+SESSION-PIZZA314,"Large, please.",customer,select_size,7.6,9.8,neutral,3,2025-10-04
+SESSION-PIZZA314,"What crust would you like? Thin, hand-tossed, or deep dish?",agent,crust_inquiry,10.2,14.3,neutral,4,2025-10-04
+SESSION-PIZZA314,Hand-tossed.,customer,select_crust,14.7,17.2,neutral,5,2025-10-04
+SESSION-PIZZA314,"Would you like our classic tomato sauce, white sauce, or barbecue sauce?",agent,sauce_inquiry,17.6,22.4,informative,6,2025-10-04
+SESSION-PIZZA314,Classic tomato sauce.,customer,select_sauce,22.8,25.4,neutral,7,2025-10-04
+SESSION-PIZZA314,"What toppings would you like? You can choose from pepperoni, mushrooms, onions, peppers, or olives.",agent,toppings_inquiry,25.8,31.2,friendly,8,2025-10-04
+SESSION-PIZZA314,Pepperoni and mushrooms.,customer,select_toppings,31.6,36.1,decisive,9,2025-10-04
+SESSION-PIZZA314,Would you like extra cheese or any dietary modifications?,agent,upsell_or_dietary_inquiry,36.5,41.2,friendly,10,2025-10-04
+SESSION-PIZZA314,"Yes, extra cheese please.",customer,add_extra_item,41.6,44.8,positive,11,2025-10-04
+SESSION-PIZZA314,Would you like to add a drink or garlic bread to your order?,agent,side_upsell,45.2,49.8,friendly,12,2025-10-04
+SESSION-PIZZA314,"No, just the pizza.",customer,decline_offer,50.2,53.1,neutral,13,2025-10-04
+SESSION-PIZZA314,Your total comes to $18.90. Would you like to place the order?,agent,present_total_and_confirm,53.5,58.4,neutral,14,2025-10-04
+SESSION-PIZZA314,"Yes, place the order.",customer,confirm_action,58.8,61.1,positive,15,2025-10-04
+SESSION-PIZZA314,Your pizza order is confirmed and will be delivered in about 30 minutes.,agent,confirm_order,61.5,67.0,positive,16,2025-10-04
+SESSION-PIZZA776,"Hi, I want to order a pizza.",customer,order_intent,0.5,2.8,neutral,1,2025-12-22
+SESSION-PIZZA776,"Sure! Would you like a Margherita, Pepperoni, BBQ Chicken, or Veggie pizza?",agent,pizza_type_inquiry,3.2,7.5,friendly,2,2025-12-22
+SESSION-PIZZA776,Pepperoni pizza.,customer,select_pizza_type,8.0,10.0,positive,3,2025-12-22
+SESSION-PIZZA776,"What size would you like? Small, medium, or large?",agent,pizza_size_inquiry,10.4,14.5,informative,4,2025-12-22
+SESSION-PIZZA776,"Large, please.",customer,select_pizza_size,15.0,17.0,neutral,5,2025-12-22
+SESSION-PIZZA776,"Which crust would you like? Thin, regular, or stuffed crust?",agent,crust_inquiry,17.4,22.0,informative,6,2025-12-22
+SESSION-PIZZA776,Stuffed crust.,customer,select_crust,22.5,25.0,positive,7,2025-12-22
+SESSION-PIZZA776,"Would you like extra toppings? Mushrooms, onions, peppers, olives, or extra cheese?",agent,extra_toppings_inquiry,25.5,30.0,friendly,8,2025-12-22
+SESSION-PIZZA776,Extra cheese and olives.,customer,select_extra_toppings,30.5,33.0,positive,9,2025-12-22
+SESSION-PIZZA776,Would you like to add sides like garlic bread or chicken wings?,agent,side_inquiry,33.5,38.0,informative,10,2025-12-22
+SESSION-PIZZA776,"Garlic bread, please.",customer,add_side,38.5,41.0,positive,11,2025-12-22
+SESSION-PIZZA776,"Which drink would you like? Coke, Sprite, or iced tea?",agent,drink_inquiry,41.5,45.5,informative,12,2025-12-22
+SESSION-PIZZA776,"Sprite, please.",customer,select_drink,46.0,48.0,positive,13,2025-12-22
+SESSION-PIZZA776,Do you have any allergies or dietary restrictions?,agent,dietary_inquiry,48.5,53.5,informative,14,2025-12-22
+SESSION-PIZZA776,No allergies.,customer,decline_dietary_option,54.0,55.5,neutral,15,2025-12-22
+SESSION-PIZZA776,"Your large pepperoni pizza with stuffed crust, extra cheese, olives, garlic bread, and Sprite is confirmed. It will be ready for pickup in 25 minutes.",agent,confirm_order,56.0,62.0,positive,16,2025-12-22
+SESSION-PIZZA889,"Hi, I'd like to place another order.",customer,order_intent,0.4,2.6,neutral,1,2026-01-04
+SESSION-PIZZA889,"Welcome back! Would you like a Margherita, Pepperoni, BBQ Chicken, or Veggie pizza?",agent,pizza_type_inquiry,3.0,7.2,friendly,2,2026-01-04
+SESSION-PIZZA889,Veggie pizza.,customer,select_pizza_type,7.8,10.1,positive,3,2026-01-04
+SESSION-PIZZA889,"What size would you like? Small, medium, or large?",agent,pizza_size_inquiry,10.5,14.2,informative,4,2026-01-04
+SESSION-PIZZA889,Medium.,customer,select_pizza_size,14.8,16.8,neutral,5,2026-01-04
+SESSION-PIZZA889,"Which crust would you like? Thin, regular, or stuffed crust?",agent,crust_inquiry,17.2,21.8,informative,6,2026-01-04
+SESSION-PIZZA889,Thin crust.,customer,select_crust,22.2,24.8,positive,7,2026-01-04
+SESSION-PIZZA889,"Would you like extra toppings such as mushrooms, peppers, or olives?",agent,extra_toppings_inquiry,25.3,29.9,friendly,8,2026-01-04
+SESSION-PIZZA889,Mushrooms and peppers.,customer,select_extra_toppings,30.4,33.2,positive,9,2026-01-04
+SESSION-PIZZA889,Would you like a drink with your order?,agent,drink_inquiry,33.8,38.2,informative,10,2026-01-04
+SESSION-PIZZA889,No drink this time.,customer,decline_drink,38.7,40.8,neutral,11,2026-01-04
+SESSION-PIZZA889,"Your medium veggie pizza with thin crust, mushrooms, and peppers is confirmed. It will be ready for pickup in 20 minutes.",agent,confirm_order,41.3,47.8,positive,12,2026-01-04
+SESSION-SALAD521,"Hi, I want to order a salad.",customer,order_intent,0.5,2.9,neutral,1,2025-12-22
+SESSION-SALAD521,Sure! Would you like a pre-made salad or create your own?,agent,salad_type_inquiry,3.2,7.0,friendly,2,2025-12-22
+SESSION-SALAD521,Create my own.,customer,select_custom_salad,7.5,9.5,neutral,3,2025-12-22
+SESSION-SALAD521,"Which base would you like? Romaine, spinach, kale, or mixed greens?",agent,base_inquiry,10.0,14.5,informative,4,2025-12-22
+SESSION-SALAD521,"Spinach, please.",customer,select_base,15.0,17.0,positive,5,2025-12-22
+SESSION-SALAD521,"Which ingredients would you like? Options include tomato, cucumber, carrots, bell peppers, avocado, and olives.",agent,ingredient_inquiry,17.5,22.0,informative,6,2025-12-22
+SESSION-SALAD521,"Tomato, avocado, and carrots.",customer,select_ingredients,22.4,25.2,positive,7,2025-12-22
+SESSION-SALAD521,"Which dressing would you like? Balsamic, ranch, Caesar, or lemon vinaigrette?",agent,dressing_inquiry,25.6,30.0,friendly,8,2025-12-22
+SESSION-SALAD521,Lemon vinaigrette.,customer,select_dressing,30.4,32.2,positive,9,2025-12-22
+SESSION-SALAD521,"Would you like any protein? Chicken, tofu, shrimp, or salmon?",agent,protein_inquiry,32.6,37.0,friendly,10,2025-12-22
+SESSION-SALAD521,Add grilled chicken.,customer,add_protein,37.4,40.0,positive,11,2025-12-22
+SESSION-SALAD521,Do you have any dietary preferences? Gluten-free or vegan?,agent,dietary_preference_inquiry,40.4,45.0,informative,12,2025-12-22
+SESSION-SALAD521,"Gluten-free, please.",customer,select_dietary_option,45.4,47.6,neutral,13,2025-12-22
+SESSION-SALAD521,Your total is $12.95. Would you like to confirm your order?,agent,present_total_and_confirm,48.0,52.5,neutral,14,2025-12-22
+SESSION-SALAD521,"Yes, confirm it.",customer,confirm_action,52.9,55.0,positive,15,2025-12-22
+SESSION-SALAD521,"Your spinach salad with tomato, avocado, carrots, grilled chicken, and lemon vinaigrette is confirmed and will be ready for pickup in 15 minutes.",agent,confirm_order,55.4,61.0,positive,16,2025-12-22
+SESSION-SEAFOOD-20251222,"Hi, I’d like to order seafood for lunch.",customer,order_intent,0.5,2.0,neutral,1,2025-12-22
+SESSION-SEAFOOD-20251222,"Great! We have grilled salmon, shrimp pasta, fish tacos, and seafood salad. Which would you like?",agent,meal_type_inquiry,2.5,7.0,friendly,2,2025-12-22
+SESSION-SEAFOOD-20251222,I’ll have the shrimp pasta.,customer,select_meal_type,7.5,9.0,positive,3,2025-12-22
+SESSION-SEAFOOD-20251222,"Would you like the pasta with creamy Alfredo, tomato basil, or garlic butter sauce?",agent,sauce_choice_inquiry,9.5,13.0,informative,4,2025-12-22
+SESSION-SEAFOOD-20251222,"Tomato basil, please.",customer,select_sauce,13.5,15.0,neutral,5,2025-12-22
+SESSION-SEAFOOD-20251222,"Would you like any sides? Garlic bread, mixed vegetables, or Caesar salad?",agent,side_inquiry,15.5,19.0,informative,6,2025-12-22
+SESSION-SEAFOOD-20251222,Garlic bread sounds good.,customer,select_side,19.5,21.0,positive,7,2025-12-22
+SESSION-SEAFOOD-20251222,"Would you like a drink with your lunch? Water, soda, iced tea, or white wine?",agent,drink_inquiry,21.5,25.5,informative,8,2025-12-22
+SESSION-SEAFOOD-20251222,"I’ll have iced tea, please.",customer,select_drink,26.0,27.5,neutral,9,2025-12-22
+SESSION-SEAFOOD-20251222,"Would you like any toppings? Parmesan, chili flakes, or extra shrimp?",agent,toppings_inquiry,28.0,32.0,informative,10,2025-12-22
+SESSION-SEAFOOD-20251222,"Extra shrimp, please.",customer,select_topping,32.5,34.0,positive,11,2025-12-22
+SESSION-SEAFOOD-20251222,"Would you like a dessert to go with your lunch? Chocolate mousse, fruit tart, or no dessert?",agent,dessert_inquiry,34.5,38.0,informative,12,2025-12-22
+SESSION-SEAFOOD-20251222,"No dessert, thanks.",customer,decline_dessert,38.5,40.0,neutral,13,2025-12-22
+SESSION-SEAFOOD-20251222,Do you have any dietary preferences or allergies I should know about?,agent,dietary_inquiry,40.5,45.0,informative,14,2025-12-22
+SESSION-SEAFOOD-20251222,"No allergies, everything is fine.",customer,dietary_confirmation,45.5,47.0,neutral,15,2025-12-22
+SESSION-SEAFOOD-20251222,"Perfect. Shrimp pasta with tomato basil, extra shrimp, garlic bread, iced tea, no dessert, all set for pickup in 25 minutes.",agent,confirm_order,47.5,52.0,positive,16,2025-12-22
+SESSION-SEAFOOD-20251222,Thank you! Sounds delicious.,customer,express_gratitude,52.5,54.0,happy,17,2025-12-22
+SESSION-SEAFOOD-20251222,You’re welcome! Enjoy your lunch.,agent,farewell,54.5,57.0,friendly,18,2025-12-22
+SESSION-SEAFOOD153,"Hi, I’d like to place a seafood order.",customer,order_intent,0.5,2.5,neutral,1,2025-12-22
+SESSION-SEAFOOD153,"Great! Would you like shrimp, lobster, salmon, or a mixed seafood platter?",agent,seafood_type_inquiry,3.0,7.5,friendly,2,2025-12-22
+SESSION-SEAFOOD153,I’ll have the mixed seafood platter.,customer,select_seafood_type,8.0,10.0,positive,3,2025-12-22
+SESSION-SEAFOOD153,"How would you like it cooked? Grilled, steamed, or fried?",agent,cooking_style_inquiry,10.5,14.5,informative,4,2025-12-22
+SESSION-SEAFOOD153,"Grilled, please.",customer,select_cooking_style,15.0,16.5,neutral,5,2025-12-22
+SESSION-SEAFOOD153,"Which sides would you like? Rice, steamed vegetables, or coleslaw?",agent,side_inquiry,17.0,21.0,informative,6,2025-12-22
+SESSION-SEAFOOD153,Rice and steamed vegetables.,customer,select_sides,21.5,23.5,positive,7,2025-12-22
+SESSION-SEAFOOD153,"Would you like a sauce? Lemon butter, cocktail, or garlic herb?",agent,sauce_inquiry,24.0,28.0,informative,8,2025-12-22
+SESSION-SEAFOOD153,"Garlic herb, please.",customer,select_sauce,28.5,30.5,positive,9,2025-12-22
+SESSION-SEAFOOD153,"Do you want a drink with that? White wine, soda, or sparkling water?",agent,drink_inquiry,31.0,35.0,informative,10,2025-12-22
+SESSION-SEAFOOD153,"Sparkling water, please.",customer,select_drink,35.5,37.0,positive,11,2025-12-22
+SESSION-SEAFOOD153,Do you have any dietary restrictions or allergies?,agent,dietary_inquiry,37.5,41.5,informative,12,2025-12-22
+SESSION-SEAFOOD153,"No, none.",customer,decline_dietary_option,42.0,43.5,neutral,13,2025-12-22
+SESSION-SEAFOOD153,"Your Grilled Mixed Seafood Platter with rice, steamed vegetables, and garlic herb sauce is confirmed. Sparkling water is included. Pickup will be ready in 25 minutes.",agent,confirm_order,44.0,51.0,positive,14,2025-12-22
+SESSION-SEAFOOD153,"Thank you, sounds perfect!",customer,express_gratitude,51.5,53.0,happy,15,2025-12-22
+SESSION-SMOOTHIE161,"Hi, I want to order a smoothie.",customer,order_intent,0.5,2.5,neutral,1,2025-12-22
+SESSION-SMOOTHIE161,"Great! Would you like a Strawberry Banana, Mango Pineapple, or Green Detox smoothie?",agent,smoothie_type_inquiry,3.0,6.5,friendly,2,2025-12-22
+SESSION-SMOOTHIE161,"Mango Pineapple, please.",customer,select_smoothie_type,7.0,9.0,positive,3,2025-12-22
+SESSION-SMOOTHIE161,"What size would you like? Small, Medium, or Large?",agent,smoothie_size_inquiry,9.5,13.0,informative,4,2025-12-22
+SESSION-SMOOTHIE161,"Large, please.",customer,select_smoothie_size,13.5,15.5,neutral,5,2025-12-22
+SESSION-SMOOTHIE161,"Would you like to add protein powder, chia seeds, or flax seeds?",agent,add_on_inquiry,16.0,20.0,informative,6,2025-12-22
+SESSION-SMOOTHIE161,"Add protein powder, please.",customer,select_add_on,20.5,22.5,positive,7,2025-12-22
+SESSION-SMOOTHIE161,"Would you like any sweeteners, like honey or agave syrup?",agent,sweetener_inquiry,23.0,27.0,informative,8,2025-12-22
+SESSION-SMOOTHIE161,No sweetener.,customer,decline_sweetener,27.5,29.0,neutral,9,2025-12-22
+SESSION-SMOOTHIE161,"Do you want to add a side, like a granola bar or fruit cup?",agent,side_inquiry,29.5,34.0,informative,10,2025-12-22
+SESSION-SMOOTHIE161,"Fruit cup, please.",customer,add_side,34.5,36.0,positive,11,2025-12-22
+SESSION-SMOOTHIE161,Do you have any allergies or dietary restrictions?,agent,dietary_inquiry,36.5,40.5,informative,12,2025-12-22
+SESSION-SMOOTHIE161,No allergies.,customer,decline_dietary_option,41.0,42.5,neutral,13,2025-12-22
+SESSION-SMOOTHIE161,Your large Mango Pineapple smoothie with protein powder and a fruit cup is confirmed. It will be ready for pickup in 15 minutes.,agent,confirm_order,43.0,48.0,positive,14,2025-12-22
+SESSION-SMOOTHIE161,"Great, thank you!",customer,express_gratitude,48.5,50.0,happy,15,2025-12-22
+SESSION-SMOOTHIE702,"Hi, I want to order a smoothie.",customer,order_intent,0.5,2.9,neutral,1,2025-12-01
+SESSION-SMOOTHIE702,"Great! What size would you like? Small, medium, or large?",agent,size_inquiry,3.2,7.1,friendly,2,2025-12-01
+SESSION-SMOOTHIE702,Medium.,customer,select_size,7.5,9.2,neutral,3,2025-12-01
+SESSION-SMOOTHIE702,"Which fruits would you like in your smoothie? Options include strawberry, banana, mango, and blueberry.",agent,fruit_selection_inquiry,9.5,14.0,informative,4,2025-12-01
+SESSION-SMOOTHIE702,Strawberry and banana.,customer,select_fruits,14.5,17.5,positive,5,2025-12-01
+SESSION-SMOOTHIE702,Would you like to add protein powder or chia seeds?,agent,add_on_inquiry,18.0,22.0,friendly,6,2025-12-01
+SESSION-SMOOTHIE702,"Yes, add protein powder.",customer,add_addon,22.5,25.2,positive,7,2025-12-01
+SESSION-SMOOTHIE702,Would you like any sweetener or keep it natural?,agent,sweetener_inquiry,25.6,30.0,friendly,8,2025-12-01
+SESSION-SMOOTHIE702,Keep it natural.,customer,select_sweetener,30.4,32.8,neutral,9,2025-12-01
+SESSION-SMOOTHIE702,"Do you have any dietary preferences? Dairy-free, vegan, or gluten-free?",agent,dietary_preference_inquiry,33.2,37.8,informative,10,2025-12-01
+SESSION-SMOOTHIE702,"Dairy-free, please.",customer,select_dietary_preference,38.2,40.6,neutral,11,2025-12-01
+SESSION-SMOOTHIE702,Would you like to add a snack or granola bar?,agent,upsell_snack_inquiry,41.0,46.0,friendly,12,2025-12-01
+SESSION-SMOOTHIE702,"No, just the smoothie.",customer,decline_offer,46.4,48.8,neutral,13,2025-12-01
+SESSION-SMOOTHIE702,Your total is $6.75. Would you like to confirm your order?,agent,present_total_and_confirm,49.2,53.6,neutral,14,2025-12-01
+SESSION-SMOOTHIE702,"Yes, confirm it.",customer,confirm_action,54.0,56.2,positive,15,2025-12-01
+SESSION-SMOOTHIE702,Your smoothie is confirmed and will be ready in about 5 minutes.,agent,confirm_order,56.6,61.8,positive,16,2025-12-01
+SESSION-SUSHI313,"Hi, I want to order sushi.",customer,order_intent,0.4,3.2,neutral,1,2025-09-25
+SESSION-SUSHI313,"Welcome! Are you interested in rolls, nigiri, or sashimi?",agent,menu_category_inquiry,3.6,6.4,friendly,2,2025-09-25
+SESSION-SUSHI313,I’d like sushi rolls.,customer,select_menu_category,6.8,9.6,neutral,3,2025-09-25
+SESSION-SUSHI313,"Our most popular rolls are the California roll, spicy tuna roll, and veggie roll.",agent,recommend_menu_items,10.0,14.5,positive,4,2025-09-25
+SESSION-SUSHI313,Is the spicy tuna roll very spicy?,customer,spice_level_inquiry,14.9,18.3,curious,5,2025-09-25
+SESSION-SUSHI313,"It has a moderate spice level, but we can make it mild if you prefer.",agent,describe_spice_level,18.7,22.9,reassuring,6,2025-09-25
+SESSION-SUSHI313,"Okay, I’ll take one mild spicy tuna roll.",customer,place_order,23.3,26.4,decisive,7,2025-09-25
+SESSION-SUSHI313,Would you like to add another roll or some miso soup?,agent,upsell_offer,26.8,30.9,friendly,8,2025-09-25
+SESSION-SUSHI313,"Yes, add a veggie roll.",customer,add_item_request,31.3,34.4,neutral,9,2025-09-25
+SESSION-SUSHI313,Would you like this order for pickup or delivery?,agent,fulfillment_method_inquiry,34.8,38.9,neutral,10,2025-09-25
+SESSION-SUSHI313,"Pickup, please.",customer,select_fulfillment_method,39.3,41.8,neutral,11,2025-09-25
+SESSION-SUSHI313,Your total is $16.25. Would you like to confirm the order?,agent,present_total_and_confirm,42.2,46.9,neutral,12,2025-09-25
+SESSION-SUSHI313,"Yes, confirm it.",customer,confirm_action,47.3,49.4,positive,13,2025-09-25
+SESSION-SUSHI313,Your order of mild spicy tuna roll and veggie roll is confirmed and will be ready for pickup in 25 minutes.,agent,confirm_order,49.8,55.4,positive,14,2025-09-25
+SESSION-TACO679,"Hi, I want to order some tacos.",customer,order_intent,0.4,3.0,neutral,1,2025-09-27
+SESSION-TACO679,Awesome! Would you like soft corn tortillas or flour tortillas?,agent,tortilla_inquiry,3.4,6.6,friendly,2,2025-09-27
+SESSION-TACO679,Corn tortillas.,customer,select_tortilla,7.0,9.4,neutral,3,2025-09-27
+SESSION-TACO679,"What protein would you like? We have chicken, steak, carnitas, and black beans.",agent,protein_inquiry,9.8,14.2,informative,4,2025-09-27
+SESSION-TACO679,I’ll go with carnitas.,customer,select_protein,14.6,17.8,neutral,5,2025-09-27
+SESSION-TACO679,"How spicy would you like them? Mild, medium, or hot?",agent,spice_level_inquiry,18.2,22.8,neutral,6,2025-09-27
+SESSION-TACO679,Medium spice.,customer,select_spice_level,23.1,25.9,neutral,7,2025-09-27
+SESSION-TACO679,Would you like onions and cilantro on your tacos?,agent,topping_inquiry,26.3,30.9,friendly,8,2025-09-27
+SESSION-TACO679,Yes to both.,customer,confirm_toppings,31.3,34.2,neutral,9,2025-09-27
+SESSION-TACO679,How many tacos would you like?,agent,quantity_inquiry,34.6,38.8,neutral,10,2025-09-27
+SESSION-TACO679,Three tacos.,customer,select_quantity,39.1,41.8,decisive,11,2025-09-27
+SESSION-TACO679,Would you like to add a side of chips and salsa?,agent,upsell_offer,42.2,46.9,friendly,12,2025-09-27
+SESSION-TACO679,"Yes, add that.",customer,add_item_request,47.3,50.2,positive,13,2025-09-27
+SESSION-TACO679,Your total is $12.75. Would you like to confirm your order?,agent,present_total_and_confirm,50.6,55.4,neutral,14,2025-09-27
+SESSION-TACO679,"Yes, please confirm.",customer,confirm_action,55.8,58.1,positive,15,2025-09-27
+SESSION-TACO679,Your taco order is confirmed and will be ready for pickup in 15 minutes.,agent,confirm_order,58.5,64.0,positive,16,2025-09-27

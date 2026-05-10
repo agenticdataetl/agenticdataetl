@@ -1,0 +1,28 @@
+session_id,order_confirmation,order_total,v_as_of_date
+SESSION-BREAKFAST860,"Your breakfast with scrambled eggs, sourdough toast, bacon, hash browns, and black coffee is confirmed. Pickup in 15 minutes.",,2025-12-22
+SESSION-BRUNCH-20251222,"Perfect. So eggs benedict with smoked salmon, extra hollandaise, fruit salad, whole wheat toast, latte, salt & pepper, confirmed. Pickup in 20 minutes.",,2025-12-22
+SESSION-BURGER811,"Your beef burger combo with lettuce, tomato, cheese, bacon, Coke, and extra ketchup is confirmed. It will be ready for pickup in 20 minutes.",$11.75.,2025-12-22
+SESSION-CAKE9911,Your chocolate ganache cake with strawberries is confirmed and will be ready for pickup in 1 hour.,$28.50.,2025-12-15
+SESSION-CHINESE524,"Your combination platter with Kung Pao Chicken, Mapo Tofu, dumplings, medium spice, and green tea is confirmed. Ready for pickup in 25 minutes.",,2025-12-22
+SESSION-CHINESE561,"Your Beef Lo Mein with Orange Chicken, mild spice, and egg rolls is confirmed. Ready for pickup in 20 minutes.",,2025-12-29
+SESSION-COFFEE361,Your Medium Caramel Latte with oat milk and a chocolate croissant is confirmed. It will be ready for pickup in 12 minutes.,,2025-12-22
+SESSION-COFFEE590,Your latte is confirmed and will be ready in about 5 minutes.,$5.45.,2025-10-02
+SESSION-COFFEE901,Your iced oat milk latte is confirmed and will be ready in 5 minutes.,$5.75.,2025-09-22
+SESSION-DESSERT336,Your 8-inch Chocolate Cake with chocolate chips and a juice is confirmed. It will be ready for pickup in 20 minutes.,,2025-12-22
+SESSION-FOOD763,Your order of veggie wrap with no cheese and extra avocado and lemonade drink is confirmed and will be ready for pickup in 20 minutes.,$13.50.,2025-09-18
+SESSION-HEALTHYBF901,"Your smoothie with almond milk, banana, mango, protein powder, granola topping, a side of fruit salad, and water is confirmed. Pickup in 15 minutes.",,2025-12-22
+SESSION-HEALTHYBF902,"Your oatmeal bowl with steel-cut oats, blueberries, strawberries, chia seeds, a side of fruit salad, and green tea is confirmed. Pickup in 15 minutes.",,2025-12-22
+SESSION-ICECREAM124,Your ice cream order is confirmed. Enjoy!,$6.25.,2025-09-28
+SESSION-MEATLOVER-20251222,"Perfect! Ribeye steak, medium, with chimichurri sauce, grilled vegetables, iced tea, no dessert. Pickup in 25 minutes.",,2025-12-22
+SESSION-MEATLOVER961,"Your Ribeye Steak, cooked medium rare, with mashed potatoes, grilled vegetables, garlic butter sauce, and iced tea is confirmed. Pickup will be ready in 20 minutes.",,2025-12-22
+SESSION-PIZZA-20251222,"Perfect! Medium thin-crust pizza with pepperoni, mushrooms, extra cheese, garlic knots, soda, and a brownie. Ready for pickup in 30 minutes.",,2025-12-22
+SESSION-PIZZA314,Your pizza order is confirmed and will be delivered in about 30 minutes.,$18.90.,2025-10-04
+SESSION-PIZZA776,"Your large pepperoni pizza with stuffed crust, extra cheese, olives, garlic bread, and Sprite is confirmed. It will be ready for pickup in 25 minutes.",,2025-12-22
+SESSION-PIZZA889,"Your medium veggie pizza with thin crust, mushrooms, and peppers is confirmed. It will be ready for pickup in 20 minutes.",,2026-01-04
+SESSION-SALAD521,"Your spinach salad with tomato, avocado, carrots, grilled chicken, and lemon vinaigrette is confirmed and will be ready for pickup in 15 minutes.",$12.95.,2025-12-22
+SESSION-SEAFOOD-20251222,"Perfect. Shrimp pasta with tomato basil, extra shrimp, garlic bread, iced tea, no dessert, all set for pickup in 25 minutes.",,2025-12-22
+SESSION-SEAFOOD153,"Your Grilled Mixed Seafood Platter with rice, steamed vegetables, and garlic herb sauce is confirmed. Sparkling water is included. Pickup will be ready in 25 minutes.",,2025-12-22
+SESSION-SMOOTHIE161,Your large Mango Pineapple smoothie with protein powder and a fruit cup is confirmed. It will be ready for pickup in 15 minutes.,,2025-12-22
+SESSION-SMOOTHIE702,Your smoothie is confirmed and will be ready in about 5 minutes.,$6.75.,2025-12-01
+SESSION-SUSHI313,Your order of mild spicy tuna roll and veggie roll is confirmed and will be ready for pickup in 25 minutes.,$16.25.,2025-09-25
+SESSION-TACO679,Your taco order is confirmed and will be ready for pickup in 15 minutes.,$12.75.,2025-09-27

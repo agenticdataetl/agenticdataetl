@@ -1,0 +1,397 @@
+session_id,conversation_content,speaker,intent,conversation_turn,v_as_of_date
+SESSION-GROC-101,"Hi, I want to order groceries, budget $50.",customer,start_grocery_order,1,2025-11-15
+SESSION-GROC-101,"Got it! Start with produce, dairy, pantry, or beverages?",agent,category_inquiry,2,2025-11-15
+SESSION-GROC-101,Produce: I need strawberries and spinach.,customer,request_items,3,2025-11-15
+SESSION-GROC-101,"Strawberries: $3.99 per pound, organic $5.99 per pound. Spinach: $2.49 per pound, organic $4.49 per pound. Organic is fresher. Which do you want?",agent,offer_comparison_with_benefits,4,2025-11-15
+SESSION-GROC-101,"Organic strawberries, regular spinach.",customer,select_items,5,2025-11-15
+SESSION-GROC-101,"Added: 1 lb organic strawberries $5.99, 1 lb spinach $2.49. Remaining budget: $41.52. Dairy next?",agent,confirm_items_and_budget,6,2025-11-15
+SESSION-GROC-101,"Yes, cheese and eggs.",customer,request_items,7,2025-11-15
+SESSION-GROC-101,"Cheddar $4.99, organic $6.99. Eggs: large $3.49, organic $5.99. Organic is hormone-free. Choices?",agent,offer_comparison_with_benefits,8,2025-11-15
+SESSION-GROC-101,Cheddar $4.99 and large eggs.,customer,select_items,9,2025-11-15
+SESSION-GROC-101,Added $4.99 cheese and $3.49 eggs. Budget left: $33.04. Protein next?,agent,confirm_items_and_budget,10,2025-11-15
+SESSION-GROC-101,"Salmon and tofu, 1 lb each.",customer,request_items_with_quantity,11,2025-11-15
+SESSION-GROC-101,"Salmon: farmed $9.99/lb, wild $14.99/lb. Tofu: regular $2.49/lb, organic $3.49/lb. Wild salmon is higher in omega-3. Choices?",agent,offer_comparison_with_benefits,12,2025-11-15
+SESSION-GROC-101,Wild salmon and regular tofu.,customer,select_items,13,2025-11-15
+SESSION-GROC-101,Added salmon $14.99 and tofu $2.49. Budget left: $15.56. Pantry or beverages next?,agent,confirm_items_and_budget,14,2025-11-15
+SESSION-GROC-101,Quinoa 1 lb and sparkling water 2 bottles.,customer,request_items_with_quantity,15,2025-11-15
+SESSION-GROC-101,"Quinoa $5.99, sparkling water $1.99 each. Budget left: $0.60. Delivery or pickup?",agent,final_budget_and_fulfillment,16,2025-11-15
+SESSION-GROC-101,"Delivery, please.",customer,select_fulfillment,17,2025-11-15
+SESSION-GROC-101,Perfect! Your groceries will arrive today. Thanks for shopping!,agent,confirm_order,18,2025-11-15
+SESSION-GROC-102,"Hello, want groceries, budget $35.",customer,start_grocery_order,1,
+SESSION-GROC-102,"Got it! Start with produce, dairy, or pantry?",agent,category_inquiry,2,
+SESSION-GROC-102,Produce: bell peppers and zucchini.,customer,request_items,3,
+SESSION-GROC-102,"Bell peppers $2.49/lb, organic $3.99. Zucchini $1.99/lb, organic $2.99. Organic is fresher and tastier. Choices?",agent,offer_comparison_with_benefits,4,
+SESSION-GROC-102,"Regular bell peppers, organic zucchini.",customer,select_items,5,
+SESSION-GROC-102,"Added $4.98 peppers, $2.99 zucchini. Budget left: $27.03. Dairy next?",agent,confirm_items_and_budget,6,
+SESSION-GROC-102,Milk and Greek yogurt.,customer,request_items,7,
+SESSION-GROC-102,"Milk: regular $3.19, organic $5.49. Greek yogurt: $5.49, organic $6.99. Organic is hormone-free. Choices?",agent,offer_comparison_with_benefits,8,
+SESSION-GROC-102,"Regular milk, Greek yogurt.",customer,select_items,9,
+SESSION-GROC-102,Added $3.19 milk and $5.49 yogurt. Budget left: $18.35. Protein next?,agent,confirm_items_and_budget,10,
+SESSION-GROC-102,"Chicken thighs, 2 lbs.",customer,request_items_with_quantity,11,
+SESSION-GROC-102,"Bone-in $1.99/lb, boneless $3.99/lb. Boneless is antibiotic-free. Choices?",agent,offer_comparison_with_benefits,12,
+SESSION-GROC-102,Boneless.,customer,select_items,13,
+SESSION-GROC-102,Added $7.98 boneless chicken. Budget left: $10.37. Pantry or beverages?,agent,confirm_items_and_budget,14,
+SESSION-GROC-102,Pasta 2 lbs and juice 1 bottle.,customer,request_items_with_quantity,15,
+SESSION-GROC-102,"Pasta $2.49/lb, juice $2.99. Budget left: $2.40. Pickup or delivery?",agent,final_budget_and_fulfillment,16,
+SESSION-GROC-102,"Pickup, thanks.",customer,select_fulfillment,17,
+SESSION-GROC-102,Pickup confirmed. Thanks for shopping!,agent,confirm_order,18,
+SESSION-GROC-103,"Hi, I need groceries today, budget $40.",customer,start_grocery_order,1,
+SESSION-GROC-103,"Hello! Should we start with produce, dairy, or pantry items?",agent,category_inquiry,2,
+SESSION-GROC-103,Produce: carrots and spinach.,customer,request_items,3,
+SESSION-GROC-103,"Carrots $1.29/lb, organic $2.49. Spinach $2.99/bag, organic $4.49. Organic is fresher and pesticide-free. Choices?",agent,offer_comparison_with_benefits,4,
+SESSION-GROC-103,"Regular carrots, organic spinach.",customer,select_items,5,
+SESSION-GROC-103,"Added $1.29 carrots, $4.49 spinach. Budget left: $34.22. Dairy next?",agent,confirm_items_and_budget,6,
+SESSION-GROC-103,"Milk and cheddar cheese, please.",customer,request_items,7,
+SESSION-GROC-103,"Milk: regular $3.49, organic $5.79. Cheddar: $4.99, aged $6.99. Organic milk is hormone-free; aged cheddar has richer flavor. Choices?",agent,offer_comparison_with_benefits,8,
+SESSION-GROC-103,"Regular milk, aged cheddar.",customer,select_items,9,
+SESSION-GROC-103,"Added $3.49 milk, $6.99 cheese. Budget left: $23.74. Protein or pantry next?",agent,confirm_items_and_budget,10,
+SESSION-GROC-103,"Ground beef, 1.5 lbs.",customer,request_items_with_quantity,11,
+SESSION-GROC-103,"Regular $4.49/lb, lean $5.99/lb. Lean is lower fat. Choices?",agent,offer_comparison_with_benefits,12,
+SESSION-GROC-103,Regular.,customer,select_items,13,
+SESSION-GROC-103,Added $6.74 ground beef. Budget left: $16.99. Pantry or beverages?,agent,confirm_items_and_budget,14,
+SESSION-GROC-103,Brown rice 2 lbs and orange juice 1 bottle.,customer,request_items_with_quantity,15,
+SESSION-GROC-103,"Brown rice $2.79/lb, juice $3.49. Budget left: $8.92. Pickup or delivery?",agent,final_budget_and_fulfillment,16,
+SESSION-GROC-103,"Pickup, thanks.",customer,select_fulfillment,17,
+SESSION-GROC-103,Pickup confirmed. Thanks for shopping!,agent,confirm_order,18,
+SESSION-GROC-216,"Hello, grocery shopping today, budget $50.",customer,start_grocery_order,1,2025-12-23
+SESSION-GROC-216,"Hi! Shall we start with produce, dairy, pantry, or beverages?",agent,category_inquiry,2,2025-12-23
+SESSION-GROC-216,Produce: avocados and strawberries.,customer,request_items,3,2025-12-23
+SESSION-GROC-216,"Avocados $1.49 each, organic $2.29 each. Strawberries $3.99/pint, organic $5.49. Organic options are fresher and pesticide-free. Choices?",agent,offer_comparison_with_benefits,4,2025-12-23
+SESSION-GROC-216,"Organic avocados, regular strawberries.",customer,select_items,5,2025-12-23
+SESSION-GROC-216,"Added $4.58 avocados, $3.99 strawberries. Budget left: $41.43. Dairy next?",agent,confirm_items_and_budget,6,2025-12-23
+SESSION-GROC-216,Eggs and oat milk.,customer,request_items,7,2025-12-23
+SESSION-GROC-216,"Eggs: large $3.29, organic $5.79. Oat milk $3.99, organic $5.49. Organic eggs are cage-free. Choices?",agent,offer_comparison_with_benefits,8,2025-12-23
+SESSION-GROC-216,Organic eggs and regular oat milk.,customer,select_items,9,2025-12-23
+SESSION-GROC-216,"Added $5.79 eggs, $3.99 oat milk. Budget left: $31.65. Protein next?",agent,confirm_items_and_budget,10,2025-12-23
+SESSION-GROC-216,"Salmon, 1 lb.",customer,request_items_with_quantity,11,2025-12-23
+SESSION-GROC-216,"Salmon: farmed $11.99/lb, wild $17.99/lb. Wild is more flavorful. Choices?",agent,offer_comparison_with_benefits,12,2025-12-23
+SESSION-GROC-216,Farmed salmon.,customer,select_items,13,2025-12-23
+SESSION-GROC-216,Added $11.99 salmon. Budget left: $19.66. Pantry or beverages?,agent,confirm_items_and_budget,14,2025-12-23
+SESSION-GROC-216,Quinoa 2 lbs and sparkling water 2 bottles.,customer,request_items_with_quantity,15,2025-12-23
+SESSION-GROC-216,"Quinoa $4.49/lb, sparkling water $1.99/bottle. Budget left: $8.69. Delivery or pickup?",agent,final_budget_and_fulfillment,16,2025-12-23
+SESSION-GROC-216,"Delivery, please.",customer,select_fulfillment,17,2025-12-23
+SESSION-GROC-216,Delivery confirmed. Thanks for shopping!,agent,confirm_order,18,2025-12-23
+SESSION-GROC-317,"Hi, I need groceries, budget $45.",customer,start_grocery_order,1,2025-12-23
+SESSION-GROC-317,"Hello! Shall we start with produce, dairy, pantry, or beverages?",agent,category_inquiry,2,2025-12-23
+SESSION-GROC-317,Produce: carrots and cherry tomatoes.,customer,request_items,3,2025-12-23
+SESSION-GROC-317,"Carrots $1.29/lb, organic $2.29. Cherry tomatoes $3.49/pint, organic $4.99. Organic carrots are pesticide-free. Choices?",agent,offer_comparison_with_benefits,4,2025-12-23
+SESSION-GROC-317,"Regular carrots, organic cherry tomatoes.",customer,select_items,5,2025-12-23
+SESSION-GROC-317,"Added $2.58 carrots, $4.99 cherry tomatoes. Budget left: $37.43. Dairy next?",agent,confirm_items_and_budget,6,2025-12-23
+SESSION-GROC-317,Cheddar cheese and vanilla yogurt.,customer,request_items,7,2025-12-23
+SESSION-GROC-317,"Cheddar: $4.99, organic $6.99. Yogurt: $3.49, organic $4.99. Organic cheddar is from grass-fed cows. Choices?",agent,offer_comparison_with_benefits,8,2025-12-23
+SESSION-GROC-317,"Regular cheddar, organic yogurt.",customer,select_items,9,2025-12-23
+SESSION-GROC-317,"Added $4.99 cheddar, $4.99 yogurt. Budget left: $27.45. Protein next?",agent,confirm_items_and_budget,10,2025-12-23
+SESSION-GROC-317,"Ground turkey, 1 lb.",customer,request_items_with_quantity,11,2025-12-23
+SESSION-GROC-317,"Ground turkey: regular $5.49/lb, organic $7.99/lb. Organic is leaner and antibiotic-free. Choice?",agent,offer_comparison_with_benefits,12,2025-12-23
+SESSION-GROC-317,Regular turkey.,customer,select_items,13,2025-12-23
+SESSION-GROC-317,Added $5.49 turkey. Budget left: $21.96. Pantry or beverages?,agent,confirm_items_and_budget,14,2025-12-23
+SESSION-GROC-317,"Whole wheat bread and orange juice, please.",customer,request_items,15,2025-12-23
+SESSION-GROC-317,"Bread $3.99, juice $4.49. Budget left: $13.48. Delivery or pickup?",agent,final_budget_and_fulfillment,16,2025-12-23
+SESSION-GROC-317,"Pickup, thanks.",customer,select_fulfillment,17,2025-12-23
+SESSION-GROC-317,Pickup confirmed. Thanks for shopping!,agent,confirm_order,18,2025-12-23
+SESSION-GROC-428,"Hello, I’d like to order groceries, budget $50.",customer,start_grocery_order,1,2025-12-23
+SESSION-GROC-428,"Hi! Should we start with produce, dairy, pantry, or beverages?",agent,category_inquiry,2,2025-12-23
+SESSION-GROC-428,Produce: spinach and red onions.,customer,request_items,3,2025-12-23
+SESSION-GROC-428,"Spinach $2.49/bag, organic $3.99. Red onions $1.29/lb, organic $2.19/lb. Organic spinach is fresher and pesticide-free. Choices?",agent,offer_comparison_with_benefits,4,2025-12-23
+SESSION-GROC-428,"Organic spinach, regular onions.",customer,select_items,5,2025-12-23
+SESSION-GROC-428,"Added $3.99 spinach, $1.29 onions. Budget left: $44.72. Dairy next?",agent,confirm_items_and_budget,6,2025-12-23
+SESSION-GROC-428,Milk and cottage cheese.,customer,request_items,7,2025-12-23
+SESSION-GROC-428,"Milk: regular $3.29, organic $5.49. Cottage cheese: $4.29, organic $5.99. Organic milk is hormone-free. Choices?",agent,offer_comparison_with_benefits,8,2025-12-23
+SESSION-GROC-428,"Regular milk, organic cottage cheese.",customer,select_items,9,2025-12-23
+SESSION-GROC-428,"Added $3.29 milk, $5.99 cottage cheese. Budget left: $35.44. Protein next?",agent,confirm_items_and_budget,10,2025-12-23
+SESSION-GROC-428,"Salmon fillets, 1 lb.",customer,request_items_with_quantity,11,2025-12-23
+SESSION-GROC-428,"Salmon: farmed $11.99/lb, wild $16.99/lb. Wild salmon is higher in omega-3s. Choice?",agent,offer_comparison_with_benefits,12,2025-12-23
+SESSION-GROC-428,Farmed salmon.,customer,select_items,13,2025-12-23
+SESSION-GROC-428,Added $11.99 salmon. Budget left: $23.45. Pantry or beverages next?,agent,confirm_items_and_budget,14,2025-12-23
+SESSION-GROC-428,"Brown rice 2 lbs and green tea, please.",customer,request_items,15,2025-12-23
+SESSION-GROC-428,"Brown rice $2.99/lb, green tea $4.99. Budget left: $13.48. Pickup or delivery?",agent,final_budget_and_fulfillment,16,2025-12-23
+SESSION-GROC-428,Pickup works.,customer,select_fulfillment,17,2025-12-23
+SESSION-GROC-428,Pickup confirmed. Thank you for shopping!,agent,confirm_order,18,2025-12-23
+SESSION-GROC-429,"Hi, grocery budget $40.",customer,start_grocery_order,1,2025-12-23
+SESSION-GROC-429,"Start with produce, dairy, pantry, or beverages?",agent,category_inquiry,2,2025-12-23
+SESSION-GROC-429,Produce: carrots and romaine lettuce.,customer,request_items,3,2025-12-23
+SESSION-GROC-429,"Carrots $1.29/lb, organic $1.99. Romaine $2.49/head, organic $3.49. Organic is pesticide-free. Choices?",agent,offer_comparison_with_benefits,4,2025-12-23
+SESSION-GROC-429,"Regular carrots, organic romaine.",customer,select_items,5,2025-12-23
+SESSION-GROC-429,"Added $1.29 carrots, $3.49 romaine. Budget left: $35.22. Dairy next?",agent,confirm_items_and_budget,6,2025-12-23
+SESSION-GROC-429,Cheddar cheese and yogurt.,customer,request_items,7,2025-12-23
+SESSION-GROC-429,"Cheddar $4.99, organic $6.49. Yogurt $3.99, organic $5.49. Organic cheese is grass-fed. Choices?",agent,offer_comparison_with_benefits,8,2025-12-23
+SESSION-GROC-429,"Regular cheddar, organic yogurt.",customer,select_items,9,2025-12-23
+SESSION-GROC-429,"Added $4.99 cheddar, $5.49 yogurt. Budget left: $24.74. Protein next?",agent,confirm_items_and_budget,10,2025-12-23
+SESSION-GROC-429,"Ground turkey, 1.5 lbs.",customer,request_items_with_quantity,11,2025-12-23
+SESSION-GROC-429,"Ground turkey $4.99/lb, organic $7.49/lb. Organic is antibiotic-free. Choice?",agent,offer_comparison_with_benefits,12,2025-12-23
+SESSION-GROC-429,Regular turkey.,customer,select_items,13,2025-12-23
+SESSION-GROC-429,Added $7.49. Budget left: $17.25. Pantry or beverages?,agent,confirm_items_and_budget,14,2025-12-23
+SESSION-GROC-429,Quinoa 1 lb and orange juice 1 bottle.,customer,request_items_with_quantity,15,2025-12-23
+SESSION-GROC-429,"Quinoa $4.99, juice $3.99. Budget left: $8.27. Pickup or delivery?",agent,final_budget_and_fulfillment,16,2025-12-23
+SESSION-GROC-429,Pickup please.,customer,select_fulfillment,17,2025-12-23
+SESSION-GROC-429,Pickup confirmed. Thank you for shopping!,agent,confirm_order,18,2025-12-23
+SESSION-GROC-430,"Hello, budget $55 for groceries.",customer,start_grocery_order,1,2025-12-23
+SESSION-GROC-430,"Shall we start with produce, dairy, pantry, or beverages?",agent,category_inquiry,2,2025-12-23
+SESSION-GROC-430,Produce: strawberries and bell peppers.,customer,request_items,3,2025-12-23
+SESSION-GROC-430,"Strawberries $4.99/pint, organic $6.49. Bell peppers $2.49/lb, organic $3.99. Organic strawberries are pesticide-free. Choices?",agent,offer_comparison_with_benefits,4,2025-12-23
+SESSION-GROC-430,"Organic strawberries, regular peppers.",customer,select_items,5,2025-12-23
+SESSION-GROC-430,"Added $6.49 strawberries, $2.49 peppers. Budget left: $46.02. Dairy next?",agent,confirm_items_and_budget,6,2025-12-23
+SESSION-GROC-430,Milk and butter.,customer,request_items,7,2025-12-23
+SESSION-GROC-430,"Milk: $3.29, organic $5.49. Butter: $4.49, organic $5.99. Organic butter is grass-fed. Choices?",agent,offer_comparison_with_benefits,8,2025-12-23
+SESSION-GROC-430,"Regular milk, organic butter.",customer,select_items,9,2025-12-23
+SESSION-GROC-430,"Added $3.29 milk, $5.99 butter. Budget left: $36.74. Protein next?",agent,confirm_items_and_budget,10,2025-12-23
+SESSION-GROC-430,"Chicken breasts, 2 lbs.",customer,request_items_with_quantity,11,2025-12-23
+SESSION-GROC-430,"Chicken: bone-in $2.49/lb, boneless $3.99/lb, antibiotic-free premium $5.49/lb. Choice?",agent,offer_comparison_with_benefits,12,2025-12-23
+SESSION-GROC-430,Boneless please.,customer,select_items,13,2025-12-23
+SESSION-GROC-430,Added $7.98. Budget left: $28.76. Pantry or beverages?,agent,confirm_items_and_budget,14,2025-12-23
+SESSION-GROC-430,Oatmeal 2 lbs and sparkling water 2 bottles.,customer,request_items_with_quantity,15,2025-12-23
+SESSION-GROC-430,"Oatmeal $2.99/lb, water $1.49/bottle. Budget left: $22.79. Pickup or delivery?",agent,final_budget_and_fulfillment,16,2025-12-23
+SESSION-GROC-430,"Delivery, please.",customer,select_fulfillment,17,2025-12-23
+SESSION-GROC-430,Delivery confirmed. Thank you for shopping!,agent,confirm_order,18,2025-12-23
+SESSION-GROC-431,"Hello, I have $50 for groceries.",customer,start_grocery_order,1,2025-12-23
+SESSION-GROC-431,"Shall we start with produce, dairy, pantry, or beverages?",agent,category_inquiry,2,2025-12-23
+SESSION-GROC-431,Produce: broccoli and apples.,customer,request_items,3,2025-12-23
+SESSION-GROC-431,"Broccoli $1.99/lb, organic $2.99. Apples $1.49/lb, organic $2.49. Organic broccoli is pesticide-free. Choices?",agent,offer_comparison_with_benefits,4,2025-12-23
+SESSION-GROC-431,"Organic broccoli, regular apples.",customer,select_items,5,2025-12-23
+SESSION-GROC-431,"Added $2.99 broccoli, $1.49 apples. Budget left: $45.52. Dairy next?",agent,confirm_items_and_budget,6,2025-12-23
+SESSION-GROC-431,Greek yogurt and butter.,customer,request_items,7,2025-12-23
+SESSION-GROC-431,"Yogurt $5.49, organic $6.99. Butter $4.49, organic $5.99. Organic yogurt has probiotics. Choices?",agent,offer_comparison_with_benefits,8,2025-12-23
+SESSION-GROC-431,"Organic yogurt, regular butter.",customer,select_items,9,2025-12-23
+SESSION-GROC-431,"Added $6.99 yogurt, $4.49 butter. Budget left: $34.04. Protein next?",agent,confirm_items_and_budget,10,2025-12-23
+SESSION-GROC-431,"Salmon, 1 lb.",customer,request_items_with_quantity,11,2025-12-23
+SESSION-GROC-431,"Salmon farmed $12.99/lb, wild $18.99/lb. Wild is richer in omega-3. Choice?",agent,offer_comparison_with_benefits,12,2025-12-23
+SESSION-GROC-431,Farmed salmon.,customer,select_items,13,2025-12-23
+SESSION-GROC-431,Added $12.99 salmon. Budget left: $21.05. Pantry or beverages?,agent,confirm_items_and_budget,14,2025-12-23
+SESSION-GROC-431,"Brown rice 2 lbs, apple juice 1 bottle.",customer,request_items_with_quantity,15,2025-12-23
+SESSION-GROC-431,"Brown rice $3.49/lb, juice $2.99. Budget left: $11.08. Pickup or delivery?",agent,final_budget_and_fulfillment,16,2025-12-23
+SESSION-GROC-431,Pickup.,customer,select_fulfillment,17,2025-12-23
+SESSION-GROC-431,Pickup confirmed. Thank you for shopping!,agent,confirm_order,18,2025-12-23
+SESSION-GROC-432,"Hi, my budget is $70.",customer,start_grocery_order,1,2025-12-23
+SESSION-GROC-432,"Shall we start with produce, dairy, pantry, or beverages?",agent,category_inquiry,2,2025-12-23
+SESSION-GROC-432,Produce: spinach and mangoes.,customer,request_items,3,2025-12-23
+SESSION-GROC-432,"Spinach $2.49/bag, organic $3.99. Mangoes $1.99/lb, organic $3.49. Organic spinach is pesticide-free. Choices?",agent,offer_comparison_with_benefits,4,2025-12-23
+SESSION-GROC-432,"Organic spinach, regular mangoes.",customer,select_items,5,2025-12-23
+SESSION-GROC-432,"Added $3.99 spinach, $1.99 mangoes. Budget left: $64.02. Dairy next?",agent,confirm_items_and_budget,6,2025-12-23
+SESSION-GROC-432,Cheese and yogurt.,customer,request_items,7,2025-12-23
+SESSION-GROC-432,"Cheese $4.99, organic $6.49. Yogurt $3.99, organic $5.49. Organic yogurt has probiotics. Choices?",agent,offer_comparison_with_benefits,8,2025-12-23
+SESSION-GROC-432,"Organic cheese, organic yogurt.",customer,select_items,9,2025-12-23
+SESSION-GROC-432,"Added $6.49 cheese, $5.49 yogurt. Budget left: $51.04. Protein next?",agent,confirm_items_and_budget,10,2025-12-23
+SESSION-GROC-432,"Salmon, 2 lbs.",customer,request_items_with_quantity,11,2025-12-23
+SESSION-GROC-432,"Salmon: farmed $12.99/lb, wild $18.99/lb. Wild is richer in omega-3. Choice?",agent,offer_comparison_with_benefits,12,2025-12-23
+SESSION-GROC-432,Farmed salmon.,customer,select_items,13,2025-12-23
+SESSION-GROC-432,Added $25.98. Budget left: $25.06. Pantry or beverages?,agent,confirm_items_and_budget,14,2025-12-23
+SESSION-GROC-432,"Quinoa 2 lbs, orange juice 2 bottles.",customer,request_items_with_quantity,15,2025-12-23
+SESSION-GROC-432,"Quinoa $4.49/lb, juice $2.99/bottle. Budget left: $13.09. Pickup or delivery?",agent,final_budget_and_fulfillment,16,2025-12-23
+SESSION-GROC-432,Pickup.,customer,select_fulfillment,17,2025-12-23
+SESSION-GROC-432,Pickup confirmed. Thank you for shopping!,agent,confirm_order,18,2025-12-23
+SESSION-GROC-434,"Hello, budget is $55 today.",customer,start_grocery_order,1,2025-12-23
+SESSION-GROC-434,"Start with produce, dairy, pantry, or beverages?",agent,category_inquiry,2,2025-12-23
+SESSION-GROC-434,Produce: kale and oranges.,customer,request_items,3,2025-12-23
+SESSION-GROC-434,"Kale $2.49/bag, organic $3.49. Oranges $1.29/lb, organic $2.29. Organic kale is pesticide-free. Choices?",agent,offer_comparison_with_benefits,4,2025-12-23
+SESSION-GROC-434,"Organic kale, regular oranges.",customer,select_items,5,2025-12-23
+SESSION-GROC-434,"Added $3.49 kale, $1.29 oranges. Budget left: $50.22. Dairy next?",agent,confirm_items_and_budget,6,2025-12-23
+SESSION-GROC-434,Milk and cottage cheese.,customer,request_items,7,2025-12-23
+SESSION-GROC-434,"Milk $3.19, organic $5.49. Cottage cheese $4.49, organic $5.99. Organic milk is hormone-free. Choices?",agent,offer_comparison_with_benefits,8,2025-12-23
+SESSION-GROC-434,"Regular milk, organic cottage cheese.",customer,select_items,9,2025-12-23
+SESSION-GROC-434,"Added $3.19 milk, $5.99 cottage cheese. Budget left: $41.04. Protein next?",agent,confirm_items_and_budget,10,2025-12-23
+SESSION-GROC-434,"Chicken breast, 2 lbs.",customer,request_items_with_quantity,11,2025-12-23
+SESSION-GROC-434,"Chicken breast $3.99/lb, antibiotic-free $5.49/lb. Choice?",agent,offer_comparison_with_benefits,12,2025-12-23
+SESSION-GROC-434,"Premium, please.",customer,select_items,13,2025-12-23
+SESSION-GROC-434,Added $10.98. Budget left: $30.06. Pantry or beverages?,agent,confirm_items_and_budget,14,2025-12-23
+SESSION-GROC-434,Pasta 3 lbs and green tea 2 bottles.,customer,request_items_with_quantity,15,2025-12-23
+SESSION-GROC-434,"Pasta $2.49/lb, green tea $2.49/bottle. Budget left: $18.10. Pickup or delivery?",agent,final_budget_and_fulfillment,16,2025-12-23
+SESSION-GROC-434,"Pickup, thanks.",customer,select_fulfillment,17,2025-12-23
+SESSION-GROC-434,Pickup confirmed. Thank you for shopping!,agent,confirm_order,18,2025-12-23
+SESSION-GROC-435,"Hi, grocery shopping today. Budget $45.",customer,start_grocery_order,1,2025-12-24
+SESSION-GROC-435,"Start with produce, dairy, pantry, or beverages?",agent,category_inquiry,2,2025-12-24
+SESSION-GROC-435,Produce: spinach and strawberries.,customer,request_items,3,2025-12-24
+SESSION-GROC-435,"Spinach $2.29/bag, organic $3.49. Strawberries $4.49/pint, organic $5.99. Organic spinach is pesticide-free. Choices?",agent,offer_comparison_with_benefits,4,2025-12-24
+SESSION-GROC-435,"Organic spinach, regular strawberries.",customer,select_items,5,2025-12-24
+SESSION-GROC-435,"Added $3.49 spinach, $4.49 strawberries. Budget left: $37.02. Dairy next?",agent,confirm_items_and_budget,6,2025-12-24
+SESSION-GROC-435,Cheddar cheese and soy milk.,customer,request_items,7,2025-12-24
+SESSION-GROC-435,"Cheddar $4.99, organic $6.49. Soy milk $3.49, organic $4.99. Organic cheese is grass-fed. Choices?",agent,offer_comparison_with_benefits,8,2025-12-24
+SESSION-GROC-435,"Organic cheese, regular soy milk.",customer,select_items,9,2025-12-24
+SESSION-GROC-435,"Added $6.49 cheese, $3.49 soy milk. Budget left: $27.04. Protein next?",agent,confirm_items_and_budget,10,2025-12-24
+SESSION-GROC-435,"Salmon fillet, 1 lb.",customer,request_items_with_quantity,11,2025-12-24
+SESSION-GROC-435,"Salmon $11.99/lb, wild-caught $16.99/lb. Wild is sustainably sourced. Choice?",agent,offer_comparison_with_benefits,12,2025-12-24
+SESSION-GROC-435,"Wild, please.",customer,select_items,13,2025-12-24
+SESSION-GROC-435,Added $16.99. Budget left: $10.05. Pantry or beverages?,agent,confirm_items_and_budget,14,2025-12-24
+SESSION-GROC-435,Oats 2 lbs and herbal tea 1 box.,customer,request_items_with_quantity,15,2025-12-24
+SESSION-GROC-435,"Oats $2.49/lb, herbal tea $3.99. Budget left: $3.08. Pickup or delivery?",agent,final_budget_and_fulfillment,16,2025-12-24
+SESSION-GROC-435,"Pickup, thanks.",customer,select_fulfillment,17,2025-12-24
+SESSION-GROC-435,Pickup confirmed. Thanks for shopping!,agent,confirm_order,18,2025-12-24
+SESSION-GROC-436,"Hi, budget $40 today.",customer,start_grocery_order,1,2025-12-24
+SESSION-GROC-436,"Start with produce, dairy, pantry, or beverages?",agent,category_inquiry,2,2025-12-24
+SESSION-GROC-436,Produce: carrots and green beans.,customer,request_items,3,2025-12-24
+SESSION-GROC-436,"Carrots $1.49/lb, organic $2.49. Green beans $2.29/lb, organic $3.29. Organic carrots are pesticide-free. Choices?",agent,offer_comparison_with_benefits,4,2025-12-24
+SESSION-GROC-436,"Regular carrots, organic green beans.",customer,select_items,5,2025-12-24
+SESSION-GROC-436,"Added $2.98 carrots, $3.29 green beans. Budget left: $33.73. Dairy next?",agent,confirm_items_and_budget,6,2025-12-24
+SESSION-GROC-436,Milk and Greek yogurt.,customer,request_items,7,2025-12-24
+SESSION-GROC-436,"Milk $3.19, organic $5.49. Greek yogurt $5.49, organic $6.99. Organic milk is hormone-free. Choices?",agent,offer_comparison_with_benefits,8,2025-12-24
+SESSION-GROC-436,"Regular milk, regular Greek yogurt.",customer,select_items,9,2025-12-24
+SESSION-GROC-436,"Added $3.19 milk, $5.49 yogurt. Budget left: $25.05. Protein next?",agent,confirm_items_and_budget,10,2025-12-24
+SESSION-GROC-436,"Pork chops, 2 lbs.",customer,request_items_with_quantity,11,2025-12-24
+SESSION-GROC-436,"Pork chops $2.99/lb, organic $4.49/lb. Organic is hormone-free. Choice?",agent,offer_comparison_with_benefits,12,2025-12-24
+SESSION-GROC-436,"Regular, thanks.",customer,select_items,13,2025-12-24
+SESSION-GROC-436,Added $5.98. Budget left: $19.07. Pantry or beverages?,agent,confirm_items_and_budget,14,2025-12-24
+SESSION-GROC-436,Quinoa 1 lb and orange juice 1 bottle.,customer,request_items_with_quantity,15,2025-12-24
+SESSION-GROC-436,"Quinoa $5.49, juice $2.99. Budget left: $10.59. Pickup or delivery?",agent,final_budget_and_fulfillment,16,2025-12-24
+SESSION-GROC-436,"Delivery, please.",customer,select_fulfillment,17,2025-12-24
+SESSION-GROC-436,Delivery confirmed. Thanks for shopping!,agent,confirm_order,18,2025-12-24
+SESSION-GROC-437,"Hi, I want groceries, budget $55.",customer,start_grocery_order,1,2025-12-25
+SESSION-GROC-437,"Start with produce, dairy, pantry, or beverages?",agent,category_inquiry,2,2025-12-25
+SESSION-GROC-437,Produce: kale and oranges.,customer,request_items,3,2025-12-25
+SESSION-GROC-437,"Kale $2.49/bag, organic $3.49. Oranges $1.29/lb, organic $2.49. Organic kale is pesticide-free. Choices?",agent,offer_comparison_with_benefits,4,2025-12-25
+SESSION-GROC-437,"Organic kale, regular oranges.",customer,select_items,5,2025-12-25
+SESSION-GROC-437,"Added $3.49 kale, $3.87 oranges. Budget left: $47.64. Dairy next?",agent,confirm_items_and_budget,6,2025-12-25
+SESSION-GROC-437,Cheese and yogurt.,customer,request_items,7,2025-12-25
+SESSION-GROC-437,"Cheese $5.49, organic $6.99. Yogurt $4.99, organic $6.49. Organic cheese is grass-fed. Choices?",agent,offer_comparison_with_benefits,8,2025-12-25
+SESSION-GROC-437,"Organic cheese, regular yogurt.",customer,select_items,9,2025-12-25
+SESSION-GROC-437,"Added $6.99 cheese, $4.99 yogurt. Budget left: $35.66. Protein next?",agent,confirm_items_and_budget,10,2025-12-25
+SESSION-GROC-437,"Ground beef, 2 lbs.",customer,request_items_with_quantity,11,2025-12-25
+SESSION-GROC-437,"Ground beef $4.99/lb, organic $6.99/lb. Organic is grass-fed. Choice?",agent,offer_comparison_with_benefits,12,2025-12-25
+SESSION-GROC-437,"Regular, thanks.",customer,select_items,13,2025-12-25
+SESSION-GROC-437,Added $9.98. Budget left: $25.68. Pantry or beverages?,agent,confirm_items_and_budget,14,2025-12-25
+SESSION-GROC-437,Pasta 2 lbs and juice 1 bottle.,customer,request_items_with_quantity,15,2025-12-25
+SESSION-GROC-437,"Pasta $2.49/lb, juice $2.99. Budget left: $18.71. Pickup or delivery?",agent,final_budget_and_fulfillment,16,2025-12-25
+SESSION-GROC-437,"Pickup, please.",customer,select_fulfillment,17,2025-12-25
+SESSION-GROC-437,Pickup confirmed. Thanks for shopping!,agent,confirm_order,18,2025-12-25
+SESSION-GROC-438,"Hello, budget $50 today.",customer,start_grocery_order,1,2025-12-25
+SESSION-GROC-438,"Start with produce, dairy, pantry, or beverages?",agent,category_inquiry,2,2025-12-25
+SESSION-GROC-438,Produce: apples and broccoli.,customer,request_items,3,2025-12-25
+SESSION-GROC-438,"Apples $1.99/lb, organic $2.99. Broccoli $2.49/lb, organic $3.49. Organic broccoli is pesticide-free. Choices?",agent,offer_comparison_with_benefits,4,2025-12-25
+SESSION-GROC-438,"Regular apples, organic broccoli.",customer,select_items,5,2025-12-25
+SESSION-GROC-438,"Added $3.98 apples, $3.49 broccoli. Budget left: $42.53. Dairy next?",agent,confirm_items_and_budget,6,2025-12-25
+SESSION-GROC-438,Eggs and milk.,customer,request_items,7,2025-12-25
+SESSION-GROC-438,"Eggs $3.49, organic $5.99. Milk $3.19, organic $5.49. Organic eggs are free-range. Choices?",agent,offer_comparison_with_benefits,8,2025-12-25
+SESSION-GROC-438,"Organic eggs, regular milk.",customer,select_items,9,2025-12-25
+SESSION-GROC-438,"Added $5.99 eggs, $3.19 milk. Budget left: $33.35. Protein next?",agent,confirm_items_and_budget,10,2025-12-25
+SESSION-GROC-438,"Tilapia, 2 lbs.",customer,request_items_with_quantity,11,2025-12-25
+SESSION-GROC-438,"Tilapia $7.99/lb, wild $10.99/lb. Wild is sustainably sourced. Choice?",agent,offer_comparison_with_benefits,12,2025-12-25
+SESSION-GROC-438,"Regular, thanks.",customer,select_items,13,2025-12-25
+SESSION-GROC-438,Added $15.98. Budget left: $17.37. Pantry or beverages?,agent,confirm_items_and_budget,14,2025-12-25
+SESSION-GROC-438,Bread 1 loaf and green tea 1 box.,customer,request_items_with_quantity,15,2025-12-25
+SESSION-GROC-438,"Bread $3.49, green tea $4.99. Budget left: $8.89. Pickup or delivery?",agent,final_budget_and_fulfillment,16,2025-12-25
+SESSION-GROC-438,"Delivery, please.",customer,select_fulfillment,17,2025-12-25
+SESSION-GROC-438,Delivery confirmed. Thanks for shopping!,agent,confirm_order,18,2025-12-25
+SESSION-GROC-439,"Hi, budget $45 for groceries.",customer,start_grocery_order,1,2025-12-26
+SESSION-GROC-439,"Start with produce, dairy, pantry, or beverages?",agent,category_inquiry,2,2025-12-26
+SESSION-GROC-439,Produce: tomatoes and cucumbers.,customer,request_items,3,2025-12-26
+SESSION-GROC-439,"Tomatoes $2.99/lb, organic $4.49. Cucumbers $1.29 each, organic $1.99. Organic tomatoes are vine-ripened. Choices?",agent,offer_comparison_with_benefits,4,2025-12-26
+SESSION-GROC-439,"Organic tomatoes, regular cucumbers.",customer,select_items,5,2025-12-26
+SESSION-GROC-439,"Added $4.49 tomatoes, $1.29 cucumbers. Budget left: $39.22. Dairy next?",agent,confirm_items_and_budget,6,2025-12-26
+SESSION-GROC-439,Cheddar cheese and skim milk.,customer,request_items,7,2025-12-26
+SESSION-GROC-439,"Cheddar $4.99, organic $6.49. Skim milk $3.19, organic $4.99. Organic cheese is grass-fed. Choices?",agent,offer_comparison_with_benefits,8,2025-12-26
+SESSION-GROC-439,"Organic cheddar, regular milk.",customer,select_items,9,2025-12-26
+SESSION-GROC-439,"Added $6.49 cheese, $3.19 milk. Budget left: $29.54. Protein next?",agent,confirm_items_and_budget,10,2025-12-26
+SESSION-GROC-439,"Chicken breasts, 1.5 lbs.",customer,request_items_with_quantity,11,2025-12-26
+SESSION-GROC-439,"Chicken breasts $3.49/lb, organic $5.49/lb. Organic is antibiotic-free. Choice?",agent,offer_comparison_with_benefits,12,2025-12-26
+SESSION-GROC-439,"Regular, thanks.",customer,select_items,13,2025-12-26
+SESSION-GROC-439,Added $5.24. Budget left: $24.30. Pantry or beverages?,agent,confirm_items_and_budget,14,2025-12-26
+SESSION-GROC-439,Spaghetti 1 lb and orange juice 1 bottle.,customer,request_items_with_quantity,15,2025-12-26
+SESSION-GROC-439,"Spaghetti $2.49, juice $2.99. Budget left: $18.82. Pickup or delivery?",agent,final_budget_and_fulfillment,16,2025-12-26
+SESSION-GROC-439,"Pickup, please.",customer,select_fulfillment,17,2025-12-26
+SESSION-GROC-439,Pickup confirmed. Thanks for shopping!,agent,confirm_order,18,2025-12-26
+SESSION-GROC-440,"Hi, groceries today, budget $50.",customer,start_grocery_order,1,2025-12-27
+SESSION-GROC-440,"Produce, dairy, pantry, or beverages first?",agent,category_inquiry,2,2025-12-27
+SESSION-GROC-440,Produce: spinach and carrots.,customer,request_items,3,2025-12-27
+SESSION-GROC-440,"Spinach $2.49/bag, organic $3.49. Carrots $1.29/lb, organic $1.99. Organic spinach is baby leaf. Choices?",agent,offer_comparison_with_benefits,4,2025-12-27
+SESSION-GROC-440,"Organic spinach, regular carrots.",customer,select_items,5,2025-12-27
+SESSION-GROC-440,"Added $3.49 spinach, $1.29 carrots. Budget left: $45.22. Dairy next?",agent,confirm_items_and_budget,6,2025-12-27
+SESSION-GROC-440,Yogurt and milk.,customer,request_items,7,2025-12-27
+SESSION-GROC-440,"Yogurt $4.99, organic $6.49. Milk $3.19, organic $4.99. Organic yogurt is Greek. Choices?",agent,offer_comparison_with_benefits,8,2025-12-27
+SESSION-GROC-440,"Organic yogurt, regular milk.",customer,select_items,9,2025-12-27
+SESSION-GROC-440,"Added $6.49 yogurt, $3.19 milk. Budget left: $35.54. Protein next?",agent,confirm_items_and_budget,10,2025-12-27
+SESSION-GROC-440,"Ground turkey, 2 lbs.",customer,request_items_with_quantity,11,2025-12-27
+SESSION-GROC-440,"Ground turkey $4.49/lb, organic $6.99/lb. Organic is antibiotic-free. Choice?",agent,offer_comparison_with_benefits,12,2025-12-27
+SESSION-GROC-440,"Regular, thanks.",customer,select_items,13,2025-12-27
+SESSION-GROC-440,Added $8.98. Budget left: $26.56. Pantry or beverages?,agent,confirm_items_and_budget,14,2025-12-27
+SESSION-GROC-440,Quinoa 1 lb and lemonade 2 bottles.,customer,request_items_with_quantity,15,2025-12-27
+SESSION-GROC-440,"Quinoa $4.49, lemonade $5.98. Budget left: $16.09. Pickup or delivery?",agent,final_budget_and_fulfillment,16,2025-12-27
+SESSION-GROC-440,"Delivery, please.",customer,select_fulfillment,17,2025-12-27
+SESSION-GROC-440,Delivery confirmed. Thanks for shopping!,agent,confirm_order,18,2025-12-27
+SESSION-GROC-441,"Hello, groceries, budget $40.",customer,start_grocery_order,1,2025-12-28
+SESSION-GROC-441,"Produce, dairy, pantry, or beverages first?",agent,category_inquiry,2,2025-12-28
+SESSION-GROC-441,Produce: grapes and bell peppers.,customer,request_items,3,2025-12-28
+SESSION-GROC-441,"Grapes $3.99/lb, organic $5.49. Bell peppers $2.49/lb, organic $3.99. Organic grapes are seedless. Choices?",agent,offer_comparison_with_benefits,4,2025-12-28
+SESSION-GROC-441,"Organic grapes, regular bell peppers.",customer,select_items,5,2025-12-28
+SESSION-GROC-441,"Added $5.49 grapes, $2.49 peppers. Budget left: $32.02. Dairy next?",agent,confirm_items_and_budget,6,2025-12-28
+SESSION-GROC-441,Milk and butter.,customer,request_items,7,2025-12-28
+SESSION-GROC-441,"Milk $3.19, organic $4.99. Butter $4.49, organic $6.49. Organic butter is grass-fed. Choices?",agent,offer_comparison_with_benefits,8,2025-12-28
+SESSION-GROC-441,"Regular milk, organic butter.",customer,select_items,9,2025-12-28
+SESSION-GROC-441,"Added $3.19 milk, $6.49 butter. Budget left: $22.34. Protein next?",agent,confirm_items_and_budget,10,2025-12-28
+SESSION-GROC-441,"Salmon, 1 lb.",customer,request_items_with_quantity,11,2025-12-28
+SESSION-GROC-441,"Salmon $11.99/lb, wild $17.99/lb. Wild is higher omega-3. Choice?",agent,offer_comparison_with_benefits,12,2025-12-28
+SESSION-GROC-441,Regular farmed salmon.,customer,select_items,13,2025-12-28
+SESSION-GROC-441,Added $11.99. Budget left: $10.35. Pantry or beverages?,agent,confirm_items_and_budget,14,2025-12-28
+SESSION-GROC-441,Oats 2 lbs and iced tea 1 bottle.,customer,request_items_with_quantity,15,2025-12-28
+SESSION-GROC-441,"Oats $2.49/lb, iced tea $2.99. Budget left: $2.38. Pickup or delivery?",agent,final_budget_and_fulfillment,16,2025-12-28
+SESSION-GROC-441,"Pickup, please.",customer,select_fulfillment,17,2025-12-28
+SESSION-GROC-441,Pickup confirmed. Thanks for shopping!,agent,confirm_order,18,2025-12-28
+SESSION-GROC-442,"Hello, grocery shopping, budget $55.",customer,start_grocery_order,1,2025-12-29
+SESSION-GROC-442,"Produce, dairy, pantry, or beverages first?",agent,category_inquiry,2,2025-12-29
+SESSION-GROC-442,Produce: apples and broccoli.,customer,request_items,3,2025-12-29
+SESSION-GROC-442,"Apples $1.99/lb, organic $3.49. Broccoli $1.79/lb, organic $2.99. Organic apples are Gala. Choices?",agent,offer_comparison_with_benefits,4,2025-12-29
+SESSION-GROC-442,"Organic apples, regular broccoli.",customer,select_items,5,2025-12-29
+SESSION-GROC-442,"Added $3.49 apples, $1.79 broccoli. Budget left: $49.72. Dairy next?",agent,confirm_items_and_budget,6,2025-12-29
+SESSION-GROC-442,Eggs and cheddar cheese.,customer,request_items,7,2025-12-29
+SESSION-GROC-442,"Eggs $3.49, organic $5.99. Cheddar $4.99, organic $6.49. Organic cheddar is grass-fed. Choices?",agent,offer_comparison_with_benefits,8,2025-12-29
+SESSION-GROC-442,"Organic eggs, regular cheddar.",customer,select_items,9,2025-12-29
+SESSION-GROC-442,"Added $5.99 eggs, $4.99 cheddar. Budget left: $44.04. Protein next?",agent,confirm_items_and_budget,10,2025-12-29
+SESSION-GROC-442,"Pork chops, 2 lbs.",customer,request_items_with_quantity,11,2025-12-29
+SESSION-GROC-442,"Pork chops $3.49/lb, organic $5.49/lb. Organic is antibiotic-free. Choice?",agent,offer_comparison_with_benefits,12,2025-12-29
+SESSION-GROC-442,"Regular, thanks.",customer,select_items,13,2025-12-29
+SESSION-GROC-442,Added $6.98. Budget left: $37.06. Pantry or beverages?,agent,confirm_items_and_budget,14,2025-12-29
+SESSION-GROC-442,Brown rice 2 lbs and orange juice 1 bottle.,customer,request_items_with_quantity,15,2025-12-29
+SESSION-GROC-442,"Brown rice $2.49/lb, juice $2.99. Budget left: $29.09. Pickup or delivery?",agent,final_budget_and_fulfillment,16,2025-12-29
+SESSION-GROC-442,"Delivery, please.",customer,select_fulfillment,17,2025-12-29
+SESSION-GROC-442,Delivery confirmed. Thanks for shopping!,agent,confirm_order,18,2025-12-29
+SESSION-GROC-443,"Hi, grocery shopping, budget $65.",customer,start_grocery_order,1,2025-12-30
+SESSION-GROC-443,"Produce, dairy, pantry, or beverages first?",agent,category_inquiry,2,2025-12-30
+SESSION-GROC-443,Produce: strawberries and zucchini.,customer,request_items,3,2025-12-30
+SESSION-GROC-443,"Strawberries $4.99/pint, organic $6.49. Zucchini $1.99/lb, organic $2.99. Organic strawberries are sweeter. Choices?",agent,offer_comparison_with_benefits,4,2025-12-30
+SESSION-GROC-443,"Organic strawberries, regular zucchini.",customer,select_items,5,2025-12-30
+SESSION-GROC-443,"Added $6.49 strawberries, $1.99 zucchini. Budget left: $56.52. Dairy next?",agent,confirm_items_and_budget,6,2025-12-30
+SESSION-GROC-443,Milk and cottage cheese.,customer,request_items,7,2025-12-30
+SESSION-GROC-443,"Milk $3.19, organic $4.99. Cottage cheese $4.49, organic $5.99. Organic cottage cheese is low-fat. Choices?",agent,offer_comparison_with_benefits,8,2025-12-30
+SESSION-GROC-443,"Regular milk, organic cottage cheese.",customer,select_items,9,2025-12-30
+SESSION-GROC-443,"Added $3.19 milk, $5.99 cottage cheese. Budget left: $46.34. Protein next?",agent,confirm_items_and_budget,10,2025-12-30
+SESSION-GROC-443,"Ground turkey, 2 lbs.",customer,request_items_with_quantity,11,2025-12-30
+SESSION-GROC-443,"Ground turkey $4.49/lb, organic $6.49/lb. Organic is antibiotic-free. Choice?",agent,offer_comparison_with_benefits,12,2025-12-30
+SESSION-GROC-443,"Regular, thanks.",customer,select_items,13,2025-12-30
+SESSION-GROC-443,Added $8.98. Budget left: $37.36. Pantry or beverages?,agent,confirm_items_and_budget,14,2025-12-30
+SESSION-GROC-443,Pasta 2 lbs and sparkling water 2 bottles.,customer,request_items_with_quantity,15,2025-12-30
+SESSION-GROC-443,"Pasta $2.49/lb, sparkling water $1.99 each. Added $4.98 pasta, $3.98 water. Budget left: $28.40. Pickup or delivery?",agent,final_budget_and_fulfillment,16,2025-12-30
+SESSION-GROC-443,"Pickup, please.",customer,select_fulfillment,17,2025-12-30
+SESSION-GROC-443,Pickup confirmed. Thanks for shopping!,agent,confirm_order,18,2025-12-30
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,"Hi, I need to order groceries, but I want to keep it under $30.",customer,start_grocery_order,1,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,Got it. I’ll keep the total under $30 and let you know if anything puts us over. What would you like to start with?,agent,acknowledge_budget,2,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,Produce first. I need bananas.,customer,request_item,3,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,How much would you like? Conventional bananas are $0.59 per pound. Organic bananas are $0.89 per pound and are grown without synthetic pesticides.,agent,offer_comparison_with_price,4,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,Two pounds of the cheaper ones.,customer,select_item_with_quantity,5,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,Added two pounds of conventional bananas for about $1.18. Your remaining budget is around $28.80. What’s next?,agent,confirm_item_and_budget_update,6,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,I need chicken for dinners.,customer,request_item,7,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,"We have bone-in chicken thighs at $1.99 per pound, boneless skinless chicken breast at $3.99 per pound, and organic chicken breast at $6.49 per pound. The organic option is antibiotic-free and air-chilled. Which would you like, and how much?",agent,offer_comparison_with_benefits,8,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,Let’s do the thighs. Three pounds.,customer,select_item_with_quantity,9,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,Added three pounds of chicken thighs for about $5.97. You’re still well within budget. Would you like a vegetable to go with that?,agent,suggest_complementary_item,10,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,"Yeah, broccoli.",customer,request_item,11,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,"Broccoli crowns are $1.49 each, or organic broccoli is $2.49 each. The organic option tends to be fresher this week due to a local farm delivery. How many would you like?",agent,offer_comparison_with_promotion,12,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,I’ll take two regular ones.,customer,select_item_with_quantity,13,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,No problem. That keeps your total lower. Your estimated total is about $10.10 so far. Would you like to add pantry items like rice or pasta?,agent,budget_status_and_continue,14,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,"Yes, rice.",customer,request_item,15,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,"We have store-brand white rice, 5-pound bag for $4.49, and jasmine rice for $7.99, which is more aromatic and less sticky. Which would you prefer?",agent,offer_comparison_with_benefits,16,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,Store brand is fine.,customer,select_item,17,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,"Added. Your total is now around $14.60, well under your $30 budget. Would you like delivery or pickup?",agent,order_summary_and_fulfillment,18,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,"Delivery, please.",customer,select_fulfillment,19,2025-11-29
+SESSION-GROCERY-BUDGET-QUANTITY-20251223,All set. Your groceries will arrive today. You stayed well within budget. Thanks for shopping with us.,agent,confirm_order,20,2025-11-29
+SESSION-GROCERY-PRICE-AWARE-20251223,"Hi, I want to order some groceries for today.",customer,start_grocery_order,1,2025-12-23
+SESSION-GROCERY-PRICE-AWARE-20251223,"Sure. What category would you like to start with? Produce, dairy, pantry, or beverages?",agent,category_inquiry,2,2025-12-23
+SESSION-GROCERY-PRICE-AWARE-20251223,Let’s start with produce. I need bananas.,customer,request_item,3,2025-12-23
+SESSION-GROCERY-PRICE-AWARE-20251223,"We have conventional bananas at $0.59 per pound, and organic bananas at $0.89 per pound. Organic bananas are grown without synthetic pesticides and tend to be slightly sweeter. Which would you like?",agent,offer_comparison,4,2025-12-23
+SESSION-GROCERY-PRICE-AWARE-20251223,I’ll go with the cheaper one.,customer,select_item,5,2025-12-23
+SESSION-GROCERY-PRICE-AWARE-20251223,Got it. Conventional bananas added. Anything else from produce?,agent,confirm_and_continue,6,2025-12-23
+SESSION-GROCERY-PRICE-AWARE-20251223,"Yes, I need tomatoes.",customer,request_item,7,2025-12-23
+SESSION-GROCERY-PRICE-AWARE-20251223,"We have Roma tomatoes at $1.29 per pound, vine-ripened tomatoes at $1.99 per pound, and organic heirloom tomatoes at $3.49 per pound. The vine-ripened tomatoes are juicier and work well for salads, while heirlooms have a richer flavor. Would you like one of these, or the lowest-priced option?",agent,offer_comparison_with_benefits,8,2025-12-23
+SESSION-GROCERY-PRICE-AWARE-20251223,I’ll take the Roma tomatoes.,customer,select_item,9,2025-12-23
+SESSION-GROCERY-PRICE-AWARE-20251223,Added. Would you like to move on to dairy?,agent,category_transition,10,2025-12-23
+SESSION-GROCERY-PRICE-AWARE-20251223,"Yes, I need milk.",customer,request_item,11,2025-12-23
+SESSION-GROCERY-PRICE-AWARE-20251223,"We have store-brand whole milk for $3.19 per gallon, name-brand whole milk for $3.79, and organic grass-fed milk for $5.49. The organic option comes from grass-fed cows and has no added hormones. Which one would you like?",agent,offer_comparison_with_benefits,12,2025-12-23
+SESSION-GROCERY-PRICE-AWARE-20251223,Store-brand is fine.,customer,select_item,13,2025-12-23
+SESSION-GROCERY-PRICE-AWARE-20251223,"All set. You have conventional bananas, Roma tomatoes, and store-brand whole milk. Would you like delivery or pickup?",agent,order_summary_and_fulfillment,14,2025-12-23
+SESSION-GROCERY-PRICE-AWARE-20251223,Delivery works.,customer,select_fulfillment,15,2025-12-23
+SESSION-GROCERY-PRICE-AWARE-20251223,Perfect. Your groceries will be delivered within two hours. Thanks for shopping with us.,agent,confirm_order,16,2025-12-23

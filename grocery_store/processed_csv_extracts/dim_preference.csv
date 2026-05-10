@@ -1,0 +1,3 @@
+session_id,customer_id,preference,_valid_from,_valid_to
+SESSION-GROCERY-PRICE-AWARE-20251223,CUST-77321,price_preference: lowest,2025-12-23,
+SESSION-GROCERY-PRICE-AWARE-20251223,CUST-77321,brand_preference: store_brand,2025-12-23,
